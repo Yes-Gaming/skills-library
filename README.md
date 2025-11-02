@@ -48,9 +48,31 @@ This repository contains modular skills that enable Claude to adopt specific per
 - Compares experiences to mobile gaming benchmarks
 - Abandons fast if content isn't snackable or experiences are slow
 
+#### 3. Trust-Focused Traditionalist (`trust-focused-traditionalist`)
+**Persona:** "Traditional Lars" - A 50-year-old experienced bettor representing the conservative, trust-focused demographic.
+
+**Download:** [trust-focused-traditionalist.zip](https://github.com/Yes-Gaming/skills-library/raw/main/trust-focused-traditionalist/trust-focused-traditionalist.zip)
+
+**Use Cases:**
+- Testing desktop/tablet experiences and interfaces
+- Evaluating trust signals, licensing information, and security features
+- Assessing customer support experiences and help content
+- Getting feedback on bonus terms, promotions, and transparency
+- Testing simplified interfaces or traditional betting formats
+- Validating experiences for 40+ demographic
+
+**Key Characteristics:**
+- Values security, simplicity, and customer service over innovation
+- Skeptical of gimmicks, flashy features, or "too good to be true" offers
+- Appreciates straightforward, transparent communication
+- Prefers desktop experience over mobile-first design
+- Needs clear licensing and security information
+- Values human support (phone, email) access
+- Shows caution before trusting new platforms
+
 ### Testing Methodology Skills
 
-#### 3. Tagline Testing (`tagline-testing-skill`)
+#### 4. Tagline Testing (`tagline-testing-skill`)
 **Methodology:** Systematic framework for testing taglines and brand messaging with synthetic personas.
 
 **Download:** [tagline-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/tagline-testing-skill/tagline-testing-skill.zip)
