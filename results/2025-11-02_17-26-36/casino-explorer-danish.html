@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Explorer - Danish Results | Tagline Testing</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="breadcrumb">
+                <a href="index.html">← Tilbage til Dashboard</a>
+            </div>
+            <h1>🎰 Casino Explorer - Danish Results</h1>
+            <div class="meta">
+                <span class="badge">Alder 20-30</span>
+                <span class="badge">Variation-søgende</span>
+                <span class="badge">Visuelt-orienteret</span>
+                <span class="badge">10 Runder</span>
+            </div>
+        </header>
+
+        <nav class="persona-nav">
+            <a href="casino-explorer-english.html">English</a>
+            <a href="casino-explorer-danish.html" class="active">Danish</a>
+        </nav>
+
+        <section class="persona-overview">
+            <div class="overview-card">
+                <h2>Persona Oversigt</h2>
+                <p><strong>The Casino Explorer</strong> er en 20-30 årig variation-søgende spiller som prioriterer visuel appel, spil diversitet, spændende grafik og udforskning over dyb strategi eller loyalitet til specifikke spil.</p>
+
+                <h3>Nøglekarakteristika:</h3>
+                <ul>
+                    <li>Tiltrukket af farverige, dynamiske interfaces</li>
+                    <li>Nyder at prøve nye spil og funktioner</li>
+                    <li>Værdsætter spænding og nyhed</li>
+                    <li>Påvirket af visuelt design kvalitet</li>
+                    <li>Foretrækker platforme med bred spilvalg</li>
+                </ul>
+            
+                <h3 style="margin-top: 2rem;">Questions Asked (10 Rounds)</h3>
+                <div class="reco-grid" style="margin-top: 1rem;">
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--primary);">
+                        <strong>Q1:</strong> Which tagline would you most likely click on?
+                    </div>
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--secondary);">
+                        <strong>Q2:</strong> Why did you choose that tagline?
+                    </div>
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--danger);">
+                        <strong>Q3:</strong> Which would you least likely click on?
+                    </div>
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--success);">
+                        <strong>Q4:</strong> Which suggests a trustworthy, premium platform?
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <h2>Test Resultater</h2>
+
+            <div class="cards">
+                <div class="card highlight">
+                    <h3>🏆 Top Præference</h3>
+                    <div class="winner-tag-small">Se og spil</div>
+                    <p class="stat">80%</p>
+                    <p class="stat-desc">Stærk dominans for aktiv, visuel besked</p>
+                </div>
+                <div class="card">
+                    <h3>🛡️ Tillids Vinder</h3>
+                    <div class="trust-tag">Casino og sport gjort nemt</div>
+                    <p class="stat">80%</p>
+                    <p class="stat-desc">Høj tillid trods kedelig perception</p>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3>Præference Fordeling (Q1: Mest Sandsynligt at Klikke)</h3>
+                <canvas id="preferenceChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Tillid/Premium Fordeling (Q4)</h3>
+                <canvas id="trustChart"></canvas>
+            </div>
+
+            <div class="results-table">
+                <h3>Runde-for-Runde Resultater</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tagline</th>
+                            <th>Præference (Q1)</th>
+                            <th>Tillid (Q4)</th>
+                            <th>Total Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="winner-row">
+                            <td><strong>Se og spil</strong></td>
+                            <td>8/10 (80%)</td>
+                            <td>2/10 (20%)</td>
+                            <td>10/20</td>
+                        </tr>
+                        <tr class="winner-row">
+                            <td><strong>Casino og sport gjort nemt</strong></td>
+                            <td>0/10 (0%)</td>
+                            <td>8/10 (80%)</td>
+                            <td>8/20</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Spillet er i gang</strong></td>
+                            <td>2/10 (20%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>2/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Spil og se</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Spil i gang</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Leg gjort nemt</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="insights-section">
+            <h2>Nøgleindsigter</h2>
+
+            <div class="insight-card appeal">
+                <h3>✅ Hvad Appellerer til Denne Persona</h3>
+                <div class="quote-box">
+                    <p>"Se og spil lyder meget mere spændende - som om du faktisk gør noget, ikke bare sidder passivt der"</p>
+                </div>
+                <ul>
+                    <li><strong>Se og spil:</strong> Foreslår aktiv engagement og multitasking</li>
+                    <li><strong>Visuel Implikation:</strong> "Se" implicerer streaming/grafik - appellerer til visuel orientering</li>
+                    <li><strong>Moderne & Dynamisk:</strong> Føles moderne og energisk</li>
+                    <li><strong>Bred Appel:</strong> Dækker både casino spil (spil) og sport (se)</li>
+                </ul>
+            </div>
+
+            <div class="insight-card reject">
+                <h3>❌ Hvad Denne Persona Afviser</h3>
+                <div class="quote-box">
+                    <p>"Leg gjort nemt er det værste - lyder som det er for folk der ikke ved hvordan man bruger en telefon"</p>
+                </div>
+                <ul>
+                    <li><strong>Leg gjort nemt:</strong> Føles nedladende og implicerer lav kvalitet/simpelhed</li>
+                    <li><strong>Spil i gang / Spillet er i gang:</strong> For generisk, kunne være alt fra brætspil til videospil</li>
+                    <li><strong>Statisk Besked:</strong> Taglines som ikke implicerer handling eller spænding</li>
+                    <li><strong>Mangel på Specificitet:</strong> Ikke klart hvad der gør platformen unik eller interessant</li>
+                </ul>
+            </div>
+
+            <div class="insight-card gap">
+                <h3>⚠️ Præference vs Tillid Gap</h3>
+                <p><strong>Kritisk Resultat:</strong> Denne persona viser den stærkeste opdeling mellem tiltrækning og tillid.</p>
+                <div class="gap-visual">
+                    <div class="gap-side">
+                        <h4>For Klik (80%)</h4>
+                        <p>Se og spil</p>
+                        <small>Spændende, aktivt, visuelt</small>
+                    </div>
+                    <div class="gap-arrow">→</div>
+                    <div class="gap-side">
+                        <h4>For Tillid (80%)</h4>
+                        <p>Casino og sport gjort nemt</p>
+                        <small>Klart, professionelt, gennemsigtigt</small>
+                    </div>
+                </div>
+                <p class="gap-quote">"Jeg ville sikkert klikke på Se og spil fordi det lyder sjovt, men Casino og sport gjort nemt fortæller mig faktisk hvad jeg kommer ind i, hvilket betyder noget når jeg putter penge ind."</p>
+            </div>
+        </section>
+
+        <section class="recommendations-section">
+            <h2>Anbefalinger for Denne Persona</h2>
+
+            <div class="reco-grid">
+                <div class="reco-card success">
+                    <h3>✅ For Opkøb (Klik)</h3>
+                    <div class="tagline-reco">Brug "Se og spil" (foretrukken rækkefølge)</div>
+                    <ul>
+                        <li>Leder med visuel engagement ("Se")</li>
+                        <li>Implicerer streaming og live action</li>
+                        <li>Foreslår diverse underholdningsmuligheder</li>
+                        <li>Moderne, dynamisk følelse</li>
+                    </ul>
+                </div>
+
+                <div class="reco-card info">
+                    <h3>🛡️ For Tillidsopbyggelse</h3>
+                    <div class="tagline-reco secondary">Brug "Casino og sport gjort nemt"</div>
+                    <ul>
+                        <li>Eksplicit om tilbud (reducerer usikkerhed)</li>
+                        <li>Professionel og legitim tone</li>
+                        <li>Opbygger tillid til første indbetaling</li>
+                        <li>Klar værdiforslag</li>
+                    </ul>
+                </div>
+
+                <div class="reco-card danger">
+                    <h3>❌ Undgå</h3>
+                    <ul>
+                        <li>"Leg gjort nemt" - Fornærmende for tech-kyndige brugere</li>
+                        <li>"Spil i gang" / "Spillet er i gang" - For vagt</li>
+                        <li>Generisk gaming sprog</li>
+                        <li>Besked der ikke fremhæver visuel variation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-section">
+            <h2>Relaterede Resultater</h2>
+            <div class="related-grid">
+                <a href="casino-explorer-english.html" class="related-card">
+                    <h3>🇬🇧 English Results</h3>
+                    <p>Se hvordan denne persona reagerer på engelske taglines</p>
+                </a>
+                <a href="casual-entertainer-danish.html" class="related-card">
+                    <h3>🎮 Casual Entertainer - Danish</h3>
+                    <p>Sammenlign med underholdnings-fokuseret persona</p>
+                </a>
+                <a href="cross-entertainment-engager-danish.html" class="related-card">
+                    <h3>🎬 Cross-Entertainment Engager - Danish</h3>
+                    <p>Sammenlign med unified experience søger</p>
+                </a>
+                <a href="markdown/casino-explorer_danish.md" class="related-card">
+                    <h3>📄 Fuld Rapport (Markdown)</h3>
+                    <p>Læs den komplette detaljerede analyse</p>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p><a href="index.html">← Tilbage til Main Dashboard</a> | <a href="markdown/summary.md">Executive Summary</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // Preference Chart
+        new Chart(document.getElementById('preferenceChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Se og spil', 'Spillet er i gang', 'Casino og sport\ngjort nemt', 'Spil og se', 'Spil i gang', 'Leg gjort nemt'],
+                datasets: [{
+                    label: 'Stemmer (ud af 10)',
+                    data: [8, 2, 0, 0, 0, 0],
+                    backgroundColor: [
+                        'rgba(37, 99, 235, 0.8)',
+                        'rgba(139, 92, 246, 0.8)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)'
+                    ],
+                    borderColor: ['rgb(37, 99, 235)', 'rgb(139, 92, 246)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)'],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, max: 10, ticks: { stepSize: 2 }, title: { display: true, text: 'Antal Stemmer' } },
+                    x: { ticks: { autoSkip: false, maxRotation: 45, minRotation: 45 } }
+                }
+            }
+        });
+
+        // Trust Chart
+        new Chart(document.getElementById('trustChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Casino og sport gjort nemt', 'Se og spil'],
+                datasets: [{
+                    data: [8, 2],
+                    backgroundColor: ['rgba(37, 99, 235, 0.8)', 'rgba(139, 92, 246, 0.8)'],
+                    borderColor: ['rgb(37, 99, 235)', 'rgb(139, 92, 246)'],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { padding: 20, font: { size: 12 } } }
+                }
+            }
+        });
+
+        document.querySelectorAll('.chart-container canvas').forEach(canvas => canvas.style.height = '350px');
+    </script>
+</body>
+</html>

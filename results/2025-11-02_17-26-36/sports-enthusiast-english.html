@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Enthusiast - English Results | Tagline Testing</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="breadcrumb">
+                <a href="index.html">← Back to Dashboard</a>
+            </div>
+            <h1>⚽ Sports Enthusiast - English Results</h1>
+            <div class="meta">
+                <span class="badge">Age 25-35</span>
+                <span class="badge">Live betting focused</span>
+                <span class="badge">Knowledgeable</span>
+                <span class="badge">10 Rounds</span>
+            </div>
+        </header>
+
+        <nav class="persona-nav">
+            <a href="sports-enthusiast-english.html" class="active">English</a>
+            <a href="sports-enthusiast-danish.html">Danish</a>
+        </nav>
+
+        <section class="persona-overview">
+            <div class="overview-card">
+                <h2>Persona Overview</h2>
+                <p><strong>The Sports Enthusiast</strong> is a 25-35 year old knowledgeable sports bettor who prioritizes live betting features, competitive odds, quick bet placement, and comprehensive sports coverage over casino games.</p>
+
+                <h3>Key Characteristics:</h3>
+                <ul>
+                    <li>Deep sports knowledge and follows multiple leagues</li>
+                    <li>Values speed and efficiency in bet placement</li>
+                    <li>Prefers live in-play betting during matches</li>
+                    <li>Compares odds across platforms</li>
+                    <li>Less interested in casino games or entertainment features</li>
+                </ul>
+            
+                <h3 style="margin-top: 2rem;">Questions Asked (10 Rounds)</h3>
+                <div class="reco-grid" style="margin-top: 1rem;">
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--primary);">
+                        <strong>Q1:</strong> Which tagline would you most likely click on?
+                    </div>
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--secondary);">
+                        <strong>Q2:</strong> Why did you choose that tagline?
+                    </div>
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--danger);">
+                        <strong>Q3:</strong> Which would you least likely click on?
+                    </div>
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--success);">
+                        <strong>Q4:</strong> Which suggests a trustworthy, premium platform?
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <h2>Test Results</h2>
+
+            <div class="cards">
+                <div class="card highlight">
+                    <h3>🏆 Top Preference</h3>
+                    <div class="winner-tag-small">Casino and Sports Made Easy</div>
+                    <p class="stat">100%</p>
+                    <p class="stat-desc">Unanimous preference for clarity and directness</p>
+                </div>
+                <div class="card">
+                    <h3>🛡️ Trust Winner</h3>
+                    <div class="trust-tag">Casino and Sports Made Easy</div>
+                    <p class="stat">100%</p>
+                    <p class="stat-desc">Complete alignment between preference and trust</p>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3>Preference Distribution (Q1: Most Likely to Click)</h3>
+                <canvas id="preferenceChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Trust/Premium Distribution (Q4)</h3>
+                <canvas id="trustChart"></canvas>
+            </div>
+
+            <div class="results-table">
+                <h3>Round-by-Round Results</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tagline</th>
+                            <th>Preference (Q1)</th>
+                            <th>Trust (Q4)</th>
+                            <th>Total Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="winner-row">
+                            <td><strong>Casino and Sports Made Easy</strong></td>
+                            <td>10/10 (100%)</td>
+                            <td>10/10 (100%)</td>
+                            <td>20/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Watch & Play</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Play & Watch</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>The Game is On</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Game On</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Play Made Easy</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="insights-section">
+            <h2>Key Insights</h2>
+
+            <div class="insight-card appeal">
+                <h3>✅ What Appeals to This Persona</h3>
+                <div class="quote-box">
+                    <p>"Casino and Sports Made Easy tells me exactly what I'm getting. No guessing, no gimmicks - just straight to the point."</p>
+                </div>
+                <ul>
+                    <li><strong>Explicit Messaging:</strong> "Casino and Sports" clearly states both offerings</li>
+                    <li><strong>Professional Tone:</strong> No-nonsense approach matches serious betting mindset</li>
+                    <li><strong>Made Easy:</strong> Implies efficient UX, which matters for live betting</li>
+                    <li><strong>Trust Through Transparency:</strong> Direct language builds confidence</li>
+                </ul>
+            </div>
+
+            <div class="insight-card reject">
+                <h3>❌ What This Persona Rejects</h3>
+                <div class="quote-box">
+                    <p>"Watch & Play sounds like a kids' app or something for casual fans. I'm here to bet, not be entertained."</p>
+                </div>
+                <ul>
+                    <li><strong>Watch & Play / Play & Watch:</strong> Too entertainment-focused, not serious enough</li>
+                    <li><strong>Vague Language:</strong> "Game On" / "The Game is On" don't specify sports betting</li>
+                    <li><strong>Play Made Easy:</strong> Condescending and doesn't communicate seriousness</li>
+                    <li><strong>Cute/Clever Taglines:</strong> Prioritizes style over substance</li>
+                </ul>
+            </div>
+
+            <div class="insight-card gap">
+                <h3>⚠️ NO Preference vs Trust Gap</h3>
+                <p><strong>Unique Finding:</strong> This is the ONLY persona with perfect alignment between preference and trust.</p>
+                <div class="gap-visual">
+                    <div class="gap-side">
+                        <h4>For Clicks (100%)</h4>
+                        <p>Casino and Sports Made Easy</p>
+                        <small>Clear, direct, professional</small>
+                    </div>
+                    <div class="gap-arrow">=</div>
+                    <div class="gap-side">
+                        <h4>For Trust (100%)</h4>
+                        <p>Casino and Sports Made Easy</p>
+                        <small>Clear, direct, professional</small>
+                    </div>
+                </div>
+                <p class="gap-quote">"This tagline works for me on every level - I'd click it, I trust it, and I know exactly what I'm getting. No need for separate marketing vs reality."</p>
+            </div>
+        </section>
+
+        <section class="recommendations-section">
+            <h2>Recommendations for This Persona</h2>
+
+            <div class="reco-grid">
+                <div class="reco-card success">
+                    <h3>✅ For All Touchpoints</h3>
+                    <div class="tagline-reco">Use "Casino and Sports Made Easy"</div>
+                    <ul>
+                        <li>100% preference AND 100% trust (no gap)</li>
+                        <li>Clearly communicates sports betting focus</li>
+                        <li>Professional tone matches serious betting</li>
+                        <li>Works across acquisition AND retention</li>
+                    </ul>
+                </div>
+
+                <div class="reco-card info">
+                    <h3>💡 Key Insight</h3>
+                    <div class="tagline-reco secondary">Don't overthink it for this segment</div>
+                    <ul>
+                        <li>No need for different acquisition vs trust messaging</li>
+                        <li>Sports bettors value clarity over creativity</li>
+                        <li>One tagline serves all purposes</li>
+                        <li>Focus product on odds, speed, and coverage instead</li>
+                    </ul>
+                </div>
+
+                <div class="reco-card danger">
+                    <h3>❌ Avoid</h3>
+                    <ul>
+                        <li>ALL other tested taglines (0% preference)</li>
+                        <li>"Watch & Play" - Too entertainment-focused</li>
+                        <li>"Game On" - Too vague and generic</li>
+                        <li>"Play Made Easy" - Wrong tone entirely</li>
+                        <li>Clever/cute messaging - prioritize substance</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-section">
+            <h2>Related Results</h2>
+            <div class="related-grid">
+                <a href="sports-enthusiast-danish.html" class="related-card">
+                    <h3>🇩🇰 Danish Results</h3>
+                    <p>See how this persona responds to Danish taglines</p>
+                </a>
+                <a href="trust-seeker-english.html" class="related-card">
+                    <h3>🛡️ Trust Seeker - English</h3>
+                    <p>Compare with security-conscious persona</p>
+                </a>
+                <a href="casual-entertainer-english.html" class="related-card">
+                    <h3>🎮 Casual Entertainer - English</h3>
+                    <p>See opposite preference patterns</p>
+                </a>
+                <a href="markdown/sports-enthusiast_english.md" class="related-card">
+                    <h3>📄 Full Report (Markdown)</h3>
+                    <p>Read the complete detailed analysis</p>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p><a href="index.html">← Back to Main Dashboard</a> | <a href="markdown/summary.md">Executive Summary</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // Preference Chart
+        new Chart(document.getElementById('preferenceChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Casino and Sports\nMade Easy', 'Watch & Play', 'Play & Watch', 'The Game is On', 'Game On', 'Play Made Easy'],
+                datasets: [{
+                    label: 'Votes (out of 10)',
+                    data: [10, 0, 0, 0, 0, 0],
+                    backgroundColor: [
+                        'rgba(37, 99, 235, 0.8)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)'
+                    ],
+                    borderColor: ['rgb(37, 99, 235)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)'],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, max: 10, ticks: { stepSize: 2 }, title: { display: true, text: 'Number of Votes' } },
+                    x: { ticks: { autoSkip: false, maxRotation: 45, minRotation: 45 } }
+                }
+            }
+        });
+
+        // Trust Chart
+        new Chart(document.getElementById('trustChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Casino and Sports Made Easy'],
+                datasets: [{
+                    data: [10],
+                    backgroundColor: ['rgba(37, 99, 235, 0.8)'],
+                    borderColor: ['rgb(37, 99, 235)'],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { padding: 20, font: { size: 12 } } }
+                }
+            }
+        });
+
+        document.querySelectorAll('.chart-container canvas').forEach(canvas => canvas.style.height = '350px');
+    </script>
+</body>
+</html>

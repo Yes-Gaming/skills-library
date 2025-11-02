@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Enthusiast - Danish Results | Tagline Testing</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="breadcrumb">
+                <a href="index.html">← Tilbage til Dashboard</a>
+            </div>
+            <h1>⚽ Sports Enthusiast - Danish Results</h1>
+            <div class="meta">
+                <span class="badge">Alder 25-35</span>
+                <span class="badge">Live betting fokuseret</span>
+                <span class="badge">Vidende</span>
+                <span class="badge">10 Runder</span>
+            </div>
+        </header>
+
+        <nav class="persona-nav">
+            <a href="sports-enthusiast-english.html">English</a>
+            <a href="sports-enthusiast-danish.html" class="active">Danish</a>
+        </nav>
+
+        <section class="persona-overview">
+            <div class="overview-card">
+                <h2>Persona Oversigt</h2>
+                <p><strong>The Sports Enthusiast</strong> er en 25-35 årig vidende sportsbetter som prioriterer live betting funktioner, konkurrencedygtige odds, hurtig bet placering og omfattende sportsdækning over casino spil.</p>
+
+                <h3>Nøglekarakteristika:</h3>
+                <ul>
+                    <li>Dyb sportsviden og følger flere ligaer</li>
+                    <li>Værdsætter hastighed og effektivitet i bet placering</li>
+                    <li>Foretrækker live in-play betting under kampe</li>
+                    <li>Sammenligner odds på tværs af platforme</li>
+                    <li>Mindre interesseret i casino spil eller underholdningsfunktioner</li>
+                </ul>
+            
+                <h3 style="margin-top: 2rem;">Questions Asked (10 Rounds)</h3>
+                <div class="reco-grid" style="margin-top: 1rem;">
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--primary);">
+                        <strong>Q1:</strong> Which tagline would you most likely click on?
+                    </div>
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--secondary);">
+                        <strong>Q2:</strong> Why did you choose that tagline?
+                    </div>
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--danger);">
+                        <strong>Q3:</strong> Which would you least likely click on?
+                    </div>
+                    <div style="background: var(--bg-main); padding: 1rem; border-radius: 0.5rem; border-left: 3px solid var(--success);">
+                        <strong>Q4:</strong> Which suggests a trustworthy, premium platform?
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <h2>Test Resultater</h2>
+
+            <div class="cards">
+                <div class="card highlight">
+                    <h3>🏆 Top Præference</h3>
+                    <div class="winner-tag-small">Casino og sport gjort nemt</div>
+                    <p class="stat">80%</p>
+                    <p class="stat-desc">Stærk præference for klarhed og direkthed</p>
+                </div>
+                <div class="card">
+                    <h3>🛡️ Tillids Vinder</h3>
+                    <div class="trust-tag">Casino og sport gjort nemt</div>
+                    <p class="stat">100%</p>
+                    <p class="stat-desc">Næsten fuld alignment mellem præference og tillid</p>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3>Præference Fordeling (Q1: Mest Sandsynligt at Klikke)</h3>
+                <canvas id="preferenceChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Tillid/Premium Fordeling (Q4)</h3>
+                <canvas id="trustChart"></canvas>
+            </div>
+
+            <div class="results-table">
+                <h3>Runde-for-Runde Resultater</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tagline</th>
+                            <th>Præference (Q1)</th>
+                            <th>Tillid (Q4)</th>
+                            <th>Total Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="winner-row">
+                            <td><strong>Casino og sport gjort nemt</strong></td>
+                            <td>8/10 (80%)</td>
+                            <td>10/10 (100%)</td>
+                            <td>18/20</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Spillet er i gang</strong></td>
+                            <td>2/10 (20%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>2/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Se og spil</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Spil og se</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Spil i gang</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Leg gjort nemt</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/10 (0%)</td>
+                            <td>0/20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="insights-section">
+            <h2>Nøgleindsigter</h2>
+
+            <div class="insight-card appeal">
+                <h3>✅ Hvad Appellerer til Denne Persona</h3>
+                <div class="quote-box">
+                    <p>"Casino og sport gjort nemt fortæller mig præcis hvad jeg får. Ingen gætværk, ingen gimmicks - bare lige til sagen."</p>
+                </div>
+                <ul>
+                    <li><strong>Eksplicit Besked:</strong> "Casino og sport" angiver klart begge tilbud</li>
+                    <li><strong>Professionel Tone:</strong> No-nonsense tilgang matcher seriøs betting tankegang</li>
+                    <li><strong>Gjort nemt:</strong> Implicerer effektiv UX, hvilket betyder noget for live betting</li>
+                    <li><strong>Tillid Gennem Gennemsigtighed:</strong> Direkte sprog opbygger tillid</li>
+                </ul>
+            </div>
+
+            <div class="insight-card reject">
+                <h3>❌ Hvad Denne Persona Afviser</h3>
+                <div class="quote-box">
+                    <p>"Se og spil lyder som en børne-app eller noget for casual fans. Jeg er her for at bette, ikke blive underholdt."</p>
+                </div>
+                <ul>
+                    <li><strong>Se og spil / Spil og se:</strong> For underholdnings-fokuseret, ikke seriøs nok</li>
+                    <li><strong>Vagt Sprog:</strong> "Spil i gang" / "Spillet er i gang" specificerer ikke sportsbetting</li>
+                    <li><strong>Leg gjort nemt:</strong> Nedladende og kommunikerer ikke seriøsitet</li>
+                    <li><strong>Søde/Smarte Taglines:</strong> Prioriterer stil over substans</li>
+                </ul>
+            </div>
+
+            <div class="insight-card gap">
+                <h3>⚠️ Minimal Præference vs Tillid Gap</h3>
+                <p><strong>Unikt Resultat:</strong> Denne persona viser næsten perfekt alignment mellem præference og tillid.</p>
+                <div class="gap-visual">
+                    <div class="gap-side">
+                        <h4>For Klik (80%)</h4>
+                        <p>Casino og sport gjort nemt</p>
+                        <small>Klar, direkte, professionel</small>
+                    </div>
+                    <div class="gap-arrow">≈</div>
+                    <div class="gap-side">
+                        <h4>For Tillid (100%)</h4>
+                        <p>Casino og sport gjort nemt</p>
+                        <small>Klar, direkte, professionel</small>
+                    </div>
+                </div>
+                <p class="gap-quote">"Denne tagline virker for mig på alle niveauer - jeg ville klikke på den, jeg stoler på den, og jeg ved præcis hvad jeg får. Ingen behov for separat marketing vs virkelighed."</p>
+            </div>
+        </section>
+
+        <section class="recommendations-section">
+            <h2>Anbefalinger for Denne Persona</h2>
+
+            <div class="reco-grid">
+                <div class="reco-card success">
+                    <h3>✅ For Alle Touchpoints</h3>
+                    <div class="tagline-reco">Brug "Casino og sport gjort nemt"</div>
+                    <ul>
+                        <li>80% præference OG 100% tillid (minimal gap)</li>
+                        <li>Kommunikerer klart sportsbetting fokus</li>
+                        <li>Professionel tone matcher seriøs betting</li>
+                        <li>Virker på tværs af opkøb OG retention</li>
+                    </ul>
+                </div>
+
+                <div class="reco-card info">
+                    <h3>💡 Nøgleindsigt</h3>
+                    <div class="tagline-reco secondary">Overtænk det ikke for dette segment</div>
+                    <ul>
+                        <li>Ingen behov for forskellige opkøb vs tillid beskeder</li>
+                        <li>Sportsbettere værdsætter klarhed over kreativitet</li>
+                        <li>En tagline tjener alle formål</li>
+                        <li>Fokuser produkt på odds, hastighed og dækning i stedet</li>
+                    </ul>
+                </div>
+
+                <div class="reco-card danger">
+                    <h3>❌ Undgå</h3>
+                    <ul>
+                        <li>ALLE andre testede taglines (0-20% præference)</li>
+                        <li>"Se og spil" - For underholdnings-fokuseret</li>
+                        <li>"Spil i gang" - For vagt og generisk</li>
+                        <li>"Leg gjort nemt" - Forkert tone helt</li>
+                        <li>Smart/sød besked - prioriter substans</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-section">
+            <h2>Relaterede Resultater</h2>
+            <div class="related-grid">
+                <a href="sports-enthusiast-english.html" class="related-card">
+                    <h3>🇬🇧 English Results</h3>
+                    <p>Se hvordan denne persona reagerer på engelske taglines</p>
+                </a>
+                <a href="trust-seeker-danish.html" class="related-card">
+                    <h3>🛡️ Trust Seeker - Danish</h3>
+                    <p>Sammenlign med sikkerheds-bevidst persona</p>
+                </a>
+                <a href="casual-entertainer-danish.html" class="related-card">
+                    <h3>🎮 Casual Entertainer - Danish</h3>
+                    <p>Se modsatte præference mønstre</p>
+                </a>
+                <a href="markdown/sports-enthusiast_danish.md" class="related-card">
+                    <h3>📄 Fuld Rapport (Markdown)</h3>
+                    <p>Læs den komplette detaljerede analyse</p>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p><a href="index.html">← Tilbage til Main Dashboard</a> | <a href="markdown/summary.md">Executive Summary</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // Preference Chart
+        new Chart(document.getElementById('preferenceChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Casino og sport\ngjort nemt', 'Spillet er i gang', 'Se og spil', 'Spil og se', 'Spil i gang', 'Leg gjort nemt'],
+                datasets: [{
+                    label: 'Stemmer (ud af 10)',
+                    data: [8, 2, 0, 0, 0, 0],
+                    backgroundColor: [
+                        'rgba(37, 99, 235, 0.8)',
+                        'rgba(139, 92, 246, 0.8)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)',
+                        'rgba(148, 163, 184, 0.3)'
+                    ],
+                    borderColor: ['rgb(37, 99, 235)', 'rgb(139, 92, 246)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)', 'rgb(148, 163, 184)'],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, max: 10, ticks: { stepSize: 2 }, title: { display: true, text: 'Antal Stemmer' } },
+                    x: { ticks: { autoSkip: false, maxRotation: 45, minRotation: 45 } }
+                }
+            }
+        });
+
+        // Trust Chart
+        new Chart(document.getElementById('trustChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Casino og sport gjort nemt'],
+                datasets: [{
+                    data: [10],
+                    backgroundColor: ['rgba(37, 99, 235, 0.8)'],
+                    borderColor: ['rgb(37, 99, 235)'],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { padding: 20, font: { size: 12 } } }
+                }
+            }
+        });
+
+        document.querySelectorAll('.chart-container canvas').forEach(canvas => canvas.style.height = '350px');
+    </script>
+</body>
+</html>

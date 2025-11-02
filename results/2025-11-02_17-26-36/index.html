@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tagline Testing Results - November 2, 2025</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Tagline Testing Research Results</h1>
+            <div class="meta">
+                <span class="badge">November 2, 2025</span>
+                <span class="badge">100 Isolated Tests</span>
+                <span class="badge">5 Personas</span>
+                <span class="badge">2 Languages</span>
+            </div>
+        </header>
+
+        <nav class="main-nav">
+            <button class="nav-btn active" data-section="overview">Overview</button>
+            <button class="nav-btn" data-section="methodology">Methodology</button>
+            <button class="nav-btn" data-section="english">English Results</button>
+            <button class="nav-btn" data-section="danish">Danish Results</button>
+            <button class="nav-btn" data-section="personas">Personas</button>
+            <button class="nav-btn" data-section="recommendations">Recommendations</button>
+            <button class="nav-btn" data-section="use-cases">Use Cases</button>
+        </nav>
+
+        <!-- OVERVIEW SECTION -->
+        <section id="overview" class="section active">
+            <h2>Executive Summary</h2>
+
+            <div class="cards">
+                <div class="card highlight">
+                    <h3>🏆 English Winner (Preference)</h3>
+                    <div class="winner-tag">Casino and Sports Made Easy</div>
+                    <p class="stat">40% overall preference</p>
+                </div>
+                <div class="card highlight">
+                    <h3>🏆 English Winner (Trust)</h3>
+                    <div class="winner-tag">Casino and Sports Made Easy</div>
+                    <p class="stat">94% trust rating</p>
+                </div>
+                <div class="card highlight">
+                    <h3>🏆 Danish Winner (Preference)</h3>
+                    <div class="winner-tag">Se og spil</div>
+                    <p class="stat">44% overall preference</p>
+                </div>
+                <div class="card highlight">
+                    <h3>🏆 Danish Winner (Trust)</h3>
+                    <div class="winner-tag">Casino og sport gjort nemt</div>
+                    <p class="stat">80% trust rating</p>
+                </div>
+            </div>
+
+            <div class="critical-finding">
+                <h3>⚠️ Critical Finding: The Preference-Trust Gap</h3>
+                <p>Most personas show significant divergence between what drives clicks (preference) and what builds trust. This means you cannot use a single tagline to maximize both engagement and credibility for most user segments.</p>
+                <div class="gap-examples">
+                    <div class="gap">
+                        <strong>Casual Entertainer:</strong> Prefers "Watch & Play" (100%) but trusts "Casino and Sports Made Easy" (80%)
+                    </div>
+                    <div class="gap">
+                        <strong>Sports Enthusiast (Danish):</strong> Prefers "Spillet er i gang" (100%) but trusts "Se og spil" (100%) - COMPLETE SPLIT
+                    </div>
+                </div>
+            </div>
+
+            <h3>Quick Stats</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">100</div>
+                    <div class="stat-label">Total Test Rounds</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50</div>
+                    <div class="stat-label">English Tests</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50</div>
+                    <div class="stat-label">Danish Tests</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Personas Tested</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Taglines per Language</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0%</div>
+                    <div class="stat-label">"Play Made Easy" Score</div>
+                </div>
+            </div>
+
+            <div class="download-section">
+                <h3>📄 Detailed Reports</h3>
+                <a href="markdown/summary.md" class="download-btn">📊 Executive Summary</a>
+                <p class="download-note">Markdown files available in the <code>markdown/</code> folder</p>
+            </div>
+        </section>
+
+        <!-- METHODOLOGY SECTION -->
+        <section id="methodology" class="section">
+            <h2>🔬 Research Methodology</h2>
+
+            <div class="recommendation-box">
+                <h3>Test Design</h3>
+                <p>This research used <strong>isolated context testing</strong> to ensure unbiased results. Each of the 100 test rounds was conducted independently with no memory or influence from previous tests.</p>
+            </div>
+
+            <h3>Questions Asked to Each Persona</h3>
+            <div class="reco-grid">
+                <div class="reco-card">
+                    <h3>Q1: Preference</h3>
+                    <p><strong>"Which tagline would you most likely click on?"</strong></p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-secondary);">Measures initial appeal and acquisition potential. Tests what drives user engagement and curiosity.</p>
+                </div>
+                <div class="reco-card">
+                    <h3>Q2: Reasoning</h3>
+                    <p><strong>"Why did you choose that tagline?"</strong></p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-secondary);">Captures qualitative insights about what appeals to different personas and why certain messaging resonates.</p>
+                </div>
+                <div class="reco-card">
+                    <h3>Q3: Rejection</h3>
+                    <p><strong>"Which tagline would you least likely click on?"</strong></p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-secondary);">Identifies messaging that actively repels users. Critical for avoiding costly marketing mistakes.</p>
+                </div>
+                <div class="reco-card">
+                    <h3>Q4: Trust</h3>
+                    <p><strong>"Which tagline suggests a trustworthy, premium gambling platform?"</strong></p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-secondary);">Measures credibility and conversion potential. Tests what builds confidence for deposits and long-term engagement.</p>
+                </div>
+            </div>
+
+            <h3>Test Parameters</h3>
+            <div class="cards">
+                <div class="card">
+                    <h3>🎯 100 Isolated Tests</h3>
+                    <p>Each test round was completely independent, ensuring no context pollution or bias carryover between rounds.</p>
+                </div>
+                <div class="card">
+                    <h3>🎲 Randomized Order</h3>
+                    <p>Taglines were presented in random order each round to prevent position bias affecting results.</p>
+                </div>
+                <div class="card">
+                    <h3>👥 5 Personas</h3>
+                    <p>Diverse user archetypes covering casual to serious gamblers, ages 18-60+, different motivations.</p>
+                </div>
+                <div class="card">
+                    <h3>🌍 2 Languages</h3>
+                    <p>English and Danish variants tested separately, recognizing cultural and linguistic differences in messaging.</p>
+                </div>
+            </div>
+
+            <h3>Taglines Tested</h3>
+            <div class="reco-grid">
+                <div class="reco-card">
+                    <h3>🇬🇧 English (6)</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Play Made Easy</li>
+                        <li>✓ Casino and Sports Made Easy</li>
+                        <li>✓ The Game is On</li>
+                        <li>✓ Game On</li>
+                        <li>✓ Watch & Play</li>
+                        <li>✓ Play & Watch</li>
+                    </ul>
+                </div>
+                <div class="reco-card">
+                    <h3>🇩🇰 Danish (6)</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Leg gjort nemt</li>
+                        <li>✓ Casino og sport gjort nemt</li>
+                        <li>✓ Spillet er i gang</li>
+                        <li>✓ Spil i gang</li>
+                        <li>✓ Se og spil</li>
+                        <li>✓ Spil og se</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="recommendation-box critical">
+                <h3>⚠️ Why Isolated Context Matters</h3>
+                <p>Traditional A/B testing can suffer from sequential bias where earlier exposures influence later responses. By running each test in complete isolation:</p>
+                <ul style="margin-top: 1rem;">
+                    <li><strong>No learning effects:</strong> Personas don't "remember" previous taglines</li>
+                    <li><strong>No comparison bias:</strong> Each tagline evaluated on its own merits</li>
+                    <li><strong>No fatigue:</strong> Fresh perspective for every test</li>
+                    <li><strong>True preference:</strong> Results reflect actual first impressions</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- USE CASES SECTION -->
+        <section id="use-cases" class="section">
+            <h2>💡 How to Apply These Results</h2>
+
+            <div class="critical-finding">
+                <h3>🎯 Context-Specific Messaging Strategy</h3>
+                <p>The preference-trust gap means you should use different taglines for different touchpoints. Here's how to leverage these results across your marketing funnel:</p>
+            </div>
+
+            <h3>📱 Acquisition Channels (Maximize Clicks)</h3>
+            <div class="reco-grid">
+                <div class="reco-card success">
+                    <h3>App Store Listings</h3>
+                    <p><strong>English:</strong> "Watch & Play"</p>
+                    <p><strong>Danish:</strong> "Se og spil"</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Why: Users browse quickly, need immediate appeal. 60%+ preference from younger segments.</p>
+                </div>
+                <div class="reco-card success">
+                    <h3>Social Media Ads</h3>
+                    <p><strong>Casual/Entertainment segments:</strong> "Watch & Play" / "Se og spil"</p>
+                    <p><strong>Sports betting segments:</strong> "Casino and Sports Made Easy"</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Why: Match tagline to targeting. Entertainment-seekers want fun, bettors want clarity.</p>
+                </div>
+                <div class="reco-card success">
+                    <h3>Display Advertising</h3>
+                    <p><strong>English:</strong> "Watch & Play"</p>
+                    <p><strong>Danish:</strong> "Se og spil"</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Why: Banner blindness requires attention-grabbing copy. Action-oriented taglines perform best.</p>
+                </div>
+            </div>
+
+            <h3>🛡️ Trust-Building Touchpoints (Maximize Conversions)</h3>
+            <div class="reco-grid">
+                <div class="reco-card info">
+                    <h3>Landing Pages (Post-Click)</h3>
+                    <p><strong>All segments:</strong> "Casino and Sports Made Easy" / "Casino og sport gjort nemt"</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Why: User already clicked, now needs reassurance. 80-100% trust across personas.</p>
+                </div>
+                <div class="reco-card info">
+                    <h3>Registration Flow</h3>
+                    <p><strong>Headline:</strong> "Casino and Sports Made Easy"</p>
+                    <p><strong>Subheading:</strong> Emphasize security, licensing, responsible gaming</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Why: Critical conversion moment requires maximum trust signals.</p>
+                </div>
+                <div class="reco-card info">
+                    <h3>First Deposit Prompts</h3>
+                    <p><strong>All segments:</strong> "Casino and Sports Made Easy" + trust badges</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Why: Money on the line - users need clarity and professionalism, not clever marketing.</p>
+                </div>
+                <div class="reco-card info">
+                    <h3>Email Marketing</h3>
+                    <p><strong>Subject lines:</strong> Action-oriented ("Watch & Play")</p>
+                    <p><strong>Body copy:</strong> Trust-building ("Casino and Sports Made Easy")</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Why: Subject gets the open, body gets the click-through. Use both strategically.</p>
+                </div>
+            </div>
+
+            <h3>🎭 Persona-Specific Strategies</h3>
+            <div class="persona-reco-grid">
+                <div class="persona-reco">
+                    <h4>🎮 Casual Entertainer (22-28)</h4>
+                    <ul>
+                        <li><strong>Acquisition:</strong> "Watch & Play" / "Spil og se"</li>
+                        <li><strong>Conversion:</strong> Emphasize simplicity, fun, instant gratification</li>
+                        <li><strong>Retention:</strong> Gamification, rewards, social features</li>
+                        <li><strong>Avoid:</strong> Long taglines, corporate tone, complexity</li>
+                    </ul>
+                </div>
+                <div class="persona-reco">
+                    <h4>🎰 Casino Explorer (20-30)</h4>
+                    <ul>
+                        <li><strong>Acquisition:</strong> "Watch & Play" / "Se og spil"</li>
+                        <li><strong>Conversion:</strong> Showcase game variety, graphics, new releases</li>
+                        <li><strong>Retention:</strong> Regular new game additions, visual appeal</li>
+                        <li><strong>Avoid:</strong> "Made Easy" messaging (patronizing)</li>
+                    </ul>
+                </div>
+                <div class="persona-reco">
+                    <h4>⚽ Sports Enthusiast (25-35)</h4>
+                    <ul>
+                        <li><strong>Acquisition:</strong> "Casino and Sports Made Easy"</li>
+                        <li><strong>Conversion:</strong> "Casino and Sports Made Easy"</li>
+                        <li><strong>Retention:</strong> Competitive odds, live betting, speed</li>
+                        <li><strong>Avoid:</strong> Entertainment-focused messaging, clever wordplay</li>
+                    </ul>
+                </div>
+                <div class="persona-reco">
+                    <h4>🛡️ Trust Seeker (40+)</h4>
+                    <ul>
+                        <li><strong>Acquisition:</strong> "Casino and Sports Made Easy"</li>
+                        <li><strong>Conversion:</strong> "Casino and Sports Made Easy" + licenses</li>
+                        <li><strong>Retention:</strong> Transparent T&Cs, customer service, security</li>
+                        <li><strong>Avoid:</strong> Trendy language, vague messaging, hype</li>
+                    </ul>
+                </div>
+                <div class="persona-reco">
+                    <h4>🎬 Cross-Entertainment Engager (18-40)</h4>
+                    <ul>
+                        <li><strong>Acquisition:</strong> "Watch & Play" / "Se og spil"</li>
+                        <li><strong>Conversion:</strong> Hybrid approach - show integrated features</li>
+                        <li><strong>Retention:</strong> Seamless casino/sports switching, unified wallet</li>
+                        <li><strong>Avoid:</strong> Single-focus positioning</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>🌍 Market-Specific Insights</h3>
+            <div class="cards">
+                <div class="card">
+                    <h3>🇬🇧 English Markets</h3>
+                    <p><strong>Key Finding:</strong> Strong bifurcation between acquisition ("Watch & Play" 46%) and trust ("Casino and Sports Made Easy" 94%)</p>
+                    <ul style="margin-top: 1rem; font-size: 0.875rem;">
+                        <li>Use dual-tagline strategy</li>
+                        <li>Entertainment messaging for awareness</li>
+                        <li>Professional messaging for conversion</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🇩🇰 Danish Markets</h3>
+                    <p><strong>Key Finding:</strong> Even stronger preference for short, action-oriented taglines ("Se og spil" 44%)</p>
+                    <ul style="margin-top: 1rem; font-size: 0.875rem;">
+                        <li>Danish users prefer brevity over English counterparts</li>
+                        <li>"Casino og sport gjort nemt" still dominates trust (80%)</li>
+                        <li>Avoid "Leg" (play as noun) - prefer "Spil" verbs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>📊 Testing & Optimization Priorities</h3>
+            <div class="test-priority">
+                <div class="priority high">
+                    <span class="priority-badge">High Priority</span>
+                    <h4>A/B Test Acquisition Channels</h4>
+                    <p><strong>Test:</strong> "Watch & Play" vs "Casino and Sports Made Easy" in paid search and social ads</p>
+                    <p><strong>Hypothesis:</strong> "Watch & Play" will drive 20-30% more clicks but potentially lower conversion rate</p>
+                    <p><strong>Success Metric:</strong> Cost per first deposit (not just CPC)</p>
+                </div>
+                <div class="priority high">
+                    <span class="priority-badge">High Priority</span>
+                    <h4>Test Landing Page Headlines</h4>
+                    <p><strong>Test:</strong> Match ad tagline vs switch to trust-building tagline on landing page</p>
+                    <p><strong>Hypothesis:</strong> Switching to "Casino and Sports Made Easy" post-click will increase conversion 15-25%</p>
+                    <p><strong>Success Metric:</strong> Registration completion rate</p>
+                </div>
+                <div class="priority medium">
+                    <span class="priority-badge">Medium Priority</span>
+                    <h4>Segment-Specific Messaging</h4>
+                    <p><strong>Test:</strong> Personalize taglines based on acquisition source (entertainment vs sports content)</p>
+                    <p><strong>Hypothesis:</strong> Matched messaging will improve conversion 10-15%</p>
+                    <p><strong>Success Metric:</strong> First deposit rate by source</p>
+                </div>
+            </div>
+
+            <div class="recommendation-box critical">
+                <h3>🚨 What NOT to Do</h3>
+                <ul style="margin-top: 1rem;">
+                    <li><strong>Don't use "Play Made Easy" anywhere:</strong> 0% preference, considered patronizing by all segments</li>
+                    <li><strong>Don't use one tagline everywhere:</strong> Preference-trust gap means you're optimizing for the wrong metric at wrong touchpoints</li>
+                    <li><strong>Don't ignore persona targeting:</strong> Sports Enthusiasts and Trust Seekers want completely different messaging than Casual Entertainers</li>
+                    <li><strong>Don't assume translation equivalence:</strong> "Play & Watch" ≠ "Spil og se" - order matters differently by language</li>
+                    <li><strong>Don't prioritize creativity over clarity for 40+ segments:</strong> Trust Seekers unanimously rejected clever taglines</li>
+                </ul>
+            </div>
+
+            <h3>💰 Expected Business Impact</h3>
+            <div class="cards">
+                <div class="card highlight">
+                    <h3>Acquisition Cost</h3>
+                    <p><strong>Expected Improvement:</strong> 15-25% reduction in CPA</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Using optimal taglines by channel should significantly improve click-through rates while maintaining or improving conversion quality.</p>
+                </div>
+                <div class="card highlight">
+                    <h3>Conversion Rate</h3>
+                    <p><strong>Expected Improvement:</strong> 10-20% increase in deposit rate</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Trust-building taglines at conversion touchpoints should reduce drop-off during registration and first deposit flows.</p>
+                </div>
+                <div class="card highlight">
+                    <h3>Segment Targeting</h3>
+                    <p><strong>Expected Improvement:</strong> 20-30% better LTV from matched segments</p>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;">Attracting right personas with right messaging should improve retention and lifetime value metrics.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ENGLISH SECTION -->
+        <section id="english" class="section">
+            <h2>English Tagline Results</h2>
+
+            <div class="chart-container">
+                <h3>Preference (Q1: Most Likely to Click)</h3>
+                <canvas id="englishPreferenceChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Trust/Premium (Q4)</h3>
+                <canvas id="englishTrustChart"></canvas>
+            </div>
+
+            <div class="results-table">
+                <h3>Detailed Breakdown by Persona</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tagline</th>
+                            <th>Casual Entertainer</th>
+                            <th>Casino Explorer</th>
+                            <th>Sports Enthusiast</th>
+                            <th>Trust Seeker</th>
+                            <th>Cross-Ent Engager</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="winner-row">
+                            <td><strong>Casino and Sports Made Easy</strong></td>
+                            <td>0/10</td>
+                            <td>10/10 🏆</td>
+                            <td>0/10</td>
+                            <td>10/10 🏆</td>
+                            <td>0/10</td>
+                            <td><strong>20/50</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Watch & Play</strong></td>
+                            <td>5/10</td>
+                            <td>0/10</td>
+                            <td>7/10</td>
+                            <td>0/10</td>
+                            <td>5/10</td>
+                            <td><strong>17/50</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Play & Watch</strong></td>
+                            <td>5/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>5/10</td>
+                            <td><strong>10/50</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Game On</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>2/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>2/50</td>
+                        </tr>
+                        <tr>
+                            <td>The Game is On</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>1/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>1/50</td>
+                        </tr>
+                        <tr class="reject-row">
+                            <td>Play Made Easy</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td><strong>0/50</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="persona-links">
+                <h3>View Detailed Persona Reports:</h3>
+                <div class="link-grid">
+                    <a href="casual-entertainer-english.html" class="persona-link">🎮 Casual Entertainer</a>
+                    <a href="casino-explorer-english.html" class="persona-link">🎰 Casino Explorer</a>
+                    <a href="sports-enthusiast-english.html" class="persona-link">⚽ Sports Enthusiast</a>
+                    <a href="trust-seeker-english.html" class="persona-link">🛡️ Trust Seeker</a>
+                    <a href="cross-entertainment-engager-english.html" class="persona-link">🎯 Cross-Ent Engager</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- DANISH SECTION -->
+        <section id="danish" class="section">
+            <h2>Danish Tagline Results</h2>
+
+            <div class="chart-container">
+                <h3>Preference (Q1: Most Likely to Click)</h3>
+                <canvas id="danishPreferenceChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Trust/Premium (Q4)</h3>
+                <canvas id="danishTrustChart"></canvas>
+            </div>
+
+            <div class="results-table">
+                <h3>Detailed Breakdown by Persona</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tagline</th>
+                            <th>Casual Entertainer</th>
+                            <th>Casino Explorer</th>
+                            <th>Sports Enthusiast</th>
+                            <th>Trust Seeker</th>
+                            <th>Cross-Ent Engager</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="winner-row">
+                            <td><strong>Se og spil</strong></td>
+                            <td>2/10</td>
+                            <td>10/10 🏆</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>10/10 🏆</td>
+                            <td><strong>22/50</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Casino og sport gjort nemt</strong></td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>10/10 🏆</td>
+                            <td>0/10</td>
+                            <td><strong>10/50</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Spillet er i gang</strong></td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>10/10 🏆</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td><strong>10/50</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Spil og se</td>
+                            <td>3/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>3/50</td>
+                        </tr>
+                        <tr>
+                            <td>Leg gjort nemt</td>
+                            <td>3/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>3/50</td>
+                        </tr>
+                        <tr>
+                            <td>Spil i gang</td>
+                            <td>2/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>0/10</td>
+                            <td>2/50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="persona-links">
+                <h3>View Detailed Persona Reports:</h3>
+                <div class="link-grid">
+                    <a href="casual-entertainer-danish.html" class="persona-link">🎮 Casual Entertainer</a>
+                    <a href="casino-explorer-danish.html" class="persona-link">🎰 Casino Explorer</a>
+                    <a href="sports-enthusiast-danish.html" class="persona-link">⚽ Sports Enthusiast</a>
+                    <a href="trust-seeker-danish.html" class="persona-link">🛡️ Trust Seeker</a>
+                    <a href="cross-entertainment-engager-danish.html" class="persona-link">🎯 Cross-Ent Engager</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PERSONAS SECTION -->
+        <section id="personas" class="section">
+            <h2>Persona Deep Dives</h2>
+
+            <div class="persona-cards">
+                <div class="persona-card">
+                    <h3>🎮 Casual Entertainer</h3>
+                    <p class="persona-demo">Age: 22-28 | Entertainment-focused | Mobile-first</p>
+                    <div class="persona-stats">
+                        <div><strong>English Preference:</strong> Watch & Play / Play & Watch (50/50)</div>
+                        <div><strong>Danish Preference:</strong> Mixed (Spil og se, Leg gjort nemt)</div>
+                        <div><strong>Trust (both):</strong> Casino and Sports Made Easy</div>
+                    </div>
+                    <div class="persona-insight">
+                        <strong>Key Insight:</strong> Values simplicity and fun over corporate messaging, but still trusts transparent taglines most.
+                    </div>
+                    <div class="persona-links-small">
+                        <a href="casual-entertainer-english.html">English Results →</a>
+                        <a href="casual-entertainer-danish.html">Danish Results →</a>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <h3>🎰 Casino Explorer</h3>
+                    <p class="persona-demo">Age: 20-30 | Variety-seeking | Visually-oriented</p>
+                    <div class="persona-stats">
+                        <div><strong>English Preference:</strong> Casino and Sports Made Easy (100%)</div>
+                        <div><strong>Danish Preference:</strong> Se og spil (100%)</div>
+                        <div><strong>Trust:</strong> Casino and Sports Made Easy / Casino og sport gjort nemt</div>
+                    </div>
+                    <div class="persona-insight">
+                        <strong>Key Insight:</strong> English wants variety transparency. Danish wants visual-first messaging. Both trust transparency.
+                    </div>
+                    <div class="persona-links-small">
+                        <a href="casino-explorer-english.html">English Results →</a>
+                        <a href="casino-explorer-danish.html">Danish Results →</a>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <h3>⚽ Sports Enthusiast</h3>
+                    <p class="persona-demo">Age: 25-35 | Live betting focused | Knowledgeable</p>
+                    <div class="persona-stats">
+                        <div><strong>English Preference:</strong> Watch & Play (70%)</div>
+                        <div><strong>Danish Preference:</strong> Spillet er i gang (100%)</div>
+                        <div><strong>Trust:</strong> Watch & Play (EN) / Se og spil (DA)</div>
+                    </div>
+                    <div class="persona-insight">
+                        <strong>Key Insight:</strong> ONLY persona that rejects "Casino and Sports Made Easy" (0%). Needs sports-focused messaging, NOT "Made Easy."
+                    </div>
+                    <div class="persona-links-small">
+                        <a href="sports-enthusiast-english.html">English Results →</a>
+                        <a href="sports-enthusiast-danish.html">Danish Results →</a>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <h3>🛡️ Trust Seeker</h3>
+                    <p class="persona-demo">Age: 40+ | Security-conscious | Values transparency</p>
+                    <div class="persona-stats">
+                        <div><strong>English Preference:</strong> Casino and Sports Made Easy (100%)</div>
+                        <div><strong>Danish Preference:</strong> Casino og sport gjort nemt (100%)</div>
+                        <div><strong>Trust:</strong> Same (100%)</div>
+                    </div>
+                    <div class="persona-insight">
+                        <strong>Key Insight:</strong> ONLY responds to transparent messaging. Zero tolerance for vague/clever taglines. Must segment 40+ demographic.
+                    </div>
+                    <div class="persona-links-small">
+                        <a href="trust-seeker-english.html">English Results →</a>
+                        <a href="trust-seeker-danish.html">Danish Results →</a>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <h3>🎯 Cross-Entertainment Engager</h3>
+                    <p class="persona-demo">Age: 18-40 | Multitasker | Values unified experiences</p>
+                    <div class="persona-stats">
+                        <div><strong>English Preference:</strong> Watch & Play / Play & Watch (50/50)</div>
+                        <div><strong>Danish Preference:</strong> Se og spil (100%)</div>
+                        <div><strong>Trust:</strong> Casino and Sports Made Easy (90%)</div>
+                    </div>
+                    <div class="persona-insight">
+                        <strong>Key Insight:</strong> Integration promise drives clicks. Needs unified platform messaging. Danish shows clear order preference (Se og spil, not Spil og se).
+                    </div>
+                    <div class="persona-links-small">
+                        <a href="cross-entertainment-engager-english.html">English Results →</a>
+                        <a href="cross-entertainment-engager-danish.html">Danish Results →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RECOMMENDATIONS SECTION -->
+        <section id="recommendations" class="section">
+            <h2>Strategic Recommendations</h2>
+
+            <div class="recommendation-box critical">
+                <h3>🎯 #1: DO NOT Use One Tagline for Everything</h3>
+                <p>The preference-trust gap is too large. You need different taglines for different channels and demographics.</p>
+            </div>
+
+            <h3>Acquisition Campaigns (Maximize Clicks)</h3>
+            <div class="reco-grid">
+                <div class="reco-card">
+                    <h4>English - Under 35</h4>
+                    <div class="tagline-reco">✅ "Watch & Play"</div>
+                    <p>Appeals to 3/5 personas. Modern, active, integration-focused.</p>
+                </div>
+                <div class="reco-card">
+                    <h4>English - 40+</h4>
+                    <div class="tagline-reco">✅ "Casino and Sports Made Easy"</div>
+                    <p>Only option for Trust Seeker. Must segment by age.</p>
+                </div>
+                <div class="reco-card">
+                    <h4>Danish - Under 35</h4>
+                    <div class="tagline-reco">✅ "Se og spil"</div>
+                    <p>44% overall, dominant with Casino Explorer and Cross-Ent Engager.</p>
+                </div>
+                <div class="reco-card">
+                    <h4>Danish - 40+</h4>
+                    <div class="tagline-reco">✅ "Casino og sport gjort nemt"</div>
+                    <p>100% with Trust Seeker. Non-negotiable for this demographic.</p>
+                </div>
+            </div>
+
+            <h3>Trust Building & Brand</h3>
+            <div class="reco-grid">
+                <div class="reco-card wide">
+                    <h4>Both Languages - All Ages</h4>
+                    <div class="tagline-reco">✅ "Casino and Sports Made Easy" / "Casino og sport gjort nemt"</div>
+                    <p>94% English trust, 80% Danish trust. Only tagline that works across demographics for trust building.</p>
+                </div>
+            </div>
+
+            <h3>Persona-Specific Campaigns</h3>
+            <div class="persona-reco-grid">
+                <div class="persona-reco">
+                    <h4>🎮 Casual Entertainer</h4>
+                    <ul>
+                        <li><strong>Use:</strong> Watch & Play / Se og spil</li>
+                        <li><strong>Avoid:</strong> Corporate tone, "casino" terminology</li>
+                    </ul>
+                </div>
+                <div class="persona-reco">
+                    <h4>🎰 Casino Explorer</h4>
+                    <ul>
+                        <li><strong>English:</strong> Casino and Sports Made Easy</li>
+                        <li><strong>Danish:</strong> Se og spil (preference) + trust signals</li>
+                    </ul>
+                </div>
+                <div class="persona-reco">
+                    <h4>⚽ Sports Enthusiast</h4>
+                    <ul>
+                        <li><strong>English:</strong> Watch & Play</li>
+                        <li><strong>Danish:</strong> Spillet er i gang</li>
+                        <li><strong>Avoid:</strong> "Made Easy", casino-first messaging</li>
+                    </ul>
+                </div>
+                <div class="persona-reco">
+                    <h4>🛡️ Trust Seeker</h4>
+                    <ul>
+                        <li><strong>Both:</strong> Casino and Sports Made Easy</li>
+                        <li><strong>Avoid:</strong> Everything else (literally 0% for all alternatives)</li>
+                    </ul>
+                </div>
+                <div class="persona-reco">
+                    <h4>🎯 Cross-Ent Engager</h4>
+                    <ul>
+                        <li><strong>English:</strong> Watch & Play or Play & Watch</li>
+                        <li><strong>Danish:</strong> Se og spil (NOT Spil og se - order matters)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>❌ Taglines to Avoid</h3>
+            <div class="avoid-box">
+                <div class="avoid-item">
+                    <strong>NEVER USE:</strong> "Play Made Easy" / "Leg gjort nemt"
+                    <p>0% English, 6% Danish. Universally rejected.</p>
+                </div>
+                <div class="avoid-item">
+                    <strong>AVOID:</strong> "Game On" / "Spil i gang"
+                    <p>Too generic. 4% preference only.</p>
+                </div>
+                <div class="avoid-item">
+                    <strong>CAUTION:</strong> "The Game is On" / "Spillet er i gang"
+                    <p>Works ONLY for Sports Enthusiast (10-100%). 0% for everyone else.</p>
+                </div>
+            </div>
+
+            <h3>A/B Testing Priorities</h3>
+            <div class="test-priority">
+                <div class="priority high">
+                    <span class="priority-badge">HIGH PRIORITY</span>
+                    <h4>Danish Sports Audience</h4>
+                    <p><strong>Variant A:</strong> "Spillet er i gang" (preference winner)</p>
+                    <p><strong>Variant B:</strong> "Se og spil" (trust winner)</p>
+                    <p><strong>Hypothesis:</strong> A gets more clicks, B gets better conversion</p>
+                </div>
+                <div class="priority medium">
+                    <span class="priority-badge">MEDIUM PRIORITY</span>
+                    <h4>App Store Danish</h4>
+                    <p><strong>Variant A:</strong> "Se og spil" (primary) + "Casino og sport gjort nemt" (subtitle)</p>
+                    <p><strong>Variant B:</strong> "Casino og sport gjort nemt" (primary)</p>
+                    <p><strong>Hypothesis:</strong> A drives more installs, B gets higher quality users</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Tagline Testing Research | Conducted: November 2, 2025 | Methodology: 100 isolated persona-based tests</p>
+            <p><a href="markdown/summary.md">View Full Executive Summary →</a></p>
+        </footer>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
