@@ -10,8 +10,9 @@ A collection of AI skills for synthetic user testing and evaluation of gambling 
     - [1. Recreational Spender](#1-recreational-spender-recreational-spender)
     - [2. Mobile Gamer-Turned Bettor](#2-mobile-gamer-turned-bettor-mobile-gamer-bettor)
     - [3. Trust-Focused Traditionalist](#3-trust-focused-traditionalist-trust-focused-traditionalist)
+    - [4. Cross-Entertainment Engager](#4-cross-entertainment-engager-cross-entertainment-engager)
   - [Testing Methodology Skills](#testing-methodology-skills)
-    - [4. Tagline Testing](#4-tagline-testing-tagline-testing-skill)
+    - [5. Tagline Testing](#5-tagline-testing-tagline-testing-skill)
 - [Installation](#installation)
 - [How to Use](#how-to-use)
 - [Integration](#integration)
@@ -87,9 +88,33 @@ This repository contains modular skills that enable Claude to adopt specific per
 - Values human support (phone, email) access
 - Shows caution before trusting new platforms
 
+#### 4. Cross-Entertainment Engager (`cross-entertainment-engager`)
+**Persona:** "Multitasking Mikkel" - A 30-year-old IT professional and media junkie representing the cross-entertainment engager demographic.
+
+**Download:** [cross-entertainment-engager.zip](https://github.com/Yes-Gaming/skills-library/raw/main/cross-entertainment-engager/cross-entertainment-engager.zip)
+
+**Use Cases:**
+- Testing unified platform experiences and feature integration
+- Evaluating community features, social feeds, and chat functionality
+- Assessing multi-device synchronization and cross-platform experiences
+- Getting feedback on personalization, content curation, and AI-driven features
+- Testing blended content (sports + casino + social + entertainment)
+- Validating experiences for highly engaged, daily active users
+- Evaluating free-to-play pools, gamified missions, and community challenges
+
+**Key Characteristics:**
+- Values unified experiences and seamless integration over siloed functionality
+- Frustrated by device inconsistencies or sync issues
+- Enthusiastic about community features and social interaction
+- Expects personalization and feeling recognized as an individual user
+- Values variety in content and betting options (sports, casino, esports, novelty)
+- Dislikes features that force platform switching or app-hopping
+- Multi-tasks across devices and activities simultaneously
+- Appreciates seamless experiences that reduce friction
+
 ### Testing Methodology Skills
 
-#### 4. Tagline Testing (`tagline-testing-skill`)
+#### 5. Tagline Testing (`tagline-testing-skill`)
 **Methodology:** Systematic framework for testing taglines and brand messaging with synthetic personas.
 
 **Download:** [tagline-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/tagline-testing-skill/tagline-testing-skill.zip)
