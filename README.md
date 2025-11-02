@@ -139,4 +139,6 @@ To add new skills to this library:
 
 ## License
 
-[Add license information as appropriate]
+These skills are proprietary and licensed exclusively for use by Yes.com and related business purposes. Unauthorized use, reproduction, or distribution is prohibited.
+
+Copyright © Yes.com. All rights reserved.
