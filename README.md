@@ -2,6 +2,23 @@
 
 A collection of AI skills for synthetic user testing and evaluation of gambling platform content, features, and user experiences.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Available Skills](#available-skills)
+  - [User Persona Skills](#user-persona-skills)
+    - [1. Recreational Spender](#1-recreational-spender-recreational-spender)
+    - [2. Mobile Gamer-Turned Bettor](#2-mobile-gamer-turned-bettor-mobile-gamer-bettor)
+    - [3. Trust-Focused Traditionalist](#3-trust-focused-traditionalist-trust-focused-traditionalist)
+  - [Testing Methodology Skills](#testing-methodology-skills)
+    - [4. Tagline Testing](#4-tagline-testing-tagline-testing-skill)
+- [Installation](#installation)
+- [How to Use](#how-to-use)
+- [Integration](#integration)
+- [Notes on Synthetic Testing](#notes-on-synthetic-testing)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Overview
 
 This repository contains modular skills that enable Claude to adopt specific personas and testing methodologies for evaluating gambling platform materials. Each skill provides structured prompts, context filtering guidelines, and response principles to ensure consistent, authentic synthetic testing.
