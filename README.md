@@ -1,18 +1,20 @@
 # Skills Library
 
-A collection of AI skills for synthetic user testing and evaluation of gambling platform content, features, and user experiences.
+A collection of AI skills for synthetic user testing and evaluation of gambling platform content, features, and user experiences, specifically designed for the Danish market.
 
 ## Table of Contents
 
 - [Overview](#overview)
+- [Target Audience](#target-audience)
 - [Available Skills](#available-skills)
   - [User Persona Skills](#user-persona-skills)
-    - [1. Recreational Spender](#1-recreational-spender-recreational-spender)
-    - [2. Mobile Gamer-Turned Bettor](#2-mobile-gamer-turned-bettor-mobile-gamer-bettor)
-    - [3. Trust-Focused Traditionalist](#3-trust-focused-traditionalist-trust-focused-traditionalist)
-    - [4. Cross-Entertainment Engager](#4-cross-entertainment-engager-cross-entertainment-engager)
+    - [1. The Casual Entertainer](#1-the-casual-entertainer-casual-entertainer)
+    - [2. The Sports Enthusiast](#2-the-sports-enthusiast-sports-enthusiast)
+    - [3. The Casino Explorer](#3-the-casino-explorer-casino-explorer)
+    - [4. The Trust Seeker](#4-the-trust-seeker-trust-seeker)
+    - [5. The Cross-Entertainment Engager](#5-the-cross-entertainment-engager-cross-entertainment-engager)
   - [Testing Methodology Skills](#testing-methodology-skills)
-    - [5. Tagline Testing](#5-tagline-testing-tagline-testing-skill)
+    - [6. Tagline Testing](#6-tagline-testing-tagline-testing-skill)
 - [Installation](#installation)
 - [How to Use](#how-to-use)
 - [Integration](#integration)
@@ -24,97 +26,135 @@ A collection of AI skills for synthetic user testing and evaluation of gambling 
 
 This repository contains modular skills that enable Claude to adopt specific personas and testing methodologies for evaluating gambling platform materials. Each skill provides structured prompts, context filtering guidelines, and response principles to ensure consistent, authentic synthetic testing.
 
+All personas are grounded in real Danish gambling market data (2024-2025), regulatory environment, and user behavior patterns to provide realistic, actionable insights for testing and validation.
+
+## Target Audience
+
+- **Primary**: Young adults (18–35) in Denmark
+- **Secondary**: Adults 35–50 seeking safe, trusted brands
+- **Behavior**: Mobile-first, social-media native, blends betting with gaming/streaming; trust-oriented segments still value desktop/tablet use
+- **Needs**: Fast, transparent, gamified entertainment with social features; safe deposits/withdrawals; clear T&Cs; Danish-language support; visible responsible gambling
+
 ## Available Skills
 
 ### User Persona Skills
 
-#### 1. Recreational Spender (`recreational-spender`)
-**Persona:** "Casual Kasper" - A 28-year-old recreational bettor representing the core casual gambling demographic.
+#### 1. The Casual Entertainer (`casual-entertainer`)
+**Profile:** Age 22-28, occasional bettor treating gambling as lighthearted mobile entertainment alongside TikTok and mobile games.
 
-**Download:** [recreational-spender.zip](https://github.com/Yes-Gaming/skills-library/raw/main/recreational-spender/recreational-spender.zip)
-
-**Use Cases:**
-- Testing copy, content, and messaging for gambling platforms
-- Evaluating feature designs and user journeys
-- Getting feedback on mobile experiences
-- Assessing social and gamification features
-- Validating "fun-first" positioning
-
-**Key Characteristics:**
-- Values mobile-first experiences and quick entertainment
-- Motivated by social sharing and casual fun over serious gambling
-- Abandons easily when faced with friction or complexity
-- Prefers entertainment focus over "too serious" messaging
-
-#### 2. Mobile Gamer-Turned Bettor (`mobile-gamer-bettor`)
-**Persona:** "Mobile Mette" - A 22-year-old Gen-Z mobile gamer who transitioned into betting.
-
-**Download:** [mobile-gamer-bettor.zip](https://github.com/Yes-Gaming/skills-library/raw/main/mobile-gamer-bettor/mobile-gamer-bettor.zip)
+**Download:** [casual-entertainer.zip](https://github.com/Yes-Gaming/skills-library/raw/main/casual-entertainer/casual-entertainer.zip)
 
 **Use Cases:**
-- Testing mobile-first features and UI/UX
-- Evaluating gamification elements (badges, levels, leaderboards)
-- Assessing social features and sharing functionality
-- Getting feedback on push notifications and engagement mechanics
-- Testing video-first or short-form content
-- Validating experiences for Gen-Z audiences
+- Testing quick-play features, instant-win formats, or casual gaming experiences
+- Evaluating gamified reward systems, loyalty programs, or achievement mechanics
+- Assessing mobile-first interfaces and fast-flow user experiences
+- Getting feedback on slot games, lottery features, or simple sports betting
+- Testing registration flows, deposit processes, or onboarding experiences
+- Validating experiences for 18-28 demographic focused on entertainment
 
 **Key Characteristics:**
-- Expects mobile gaming standards in betting apps
-- Values speed, social features, and constant novelty
-- Quick to flag boredom or lack of interactivity
-- Compares experiences to mobile gaming benchmarks
-- Abandons fast if content isn't snackable or experiences are slow
+- Values instant gratification, quick thrills, and zero friction
+- Mobile-only mindset with near-zero tolerance for complexity
+- Motivated by small wins, gamification, and social sharing moments
+- Abandons immediately if experience feels slow, complex, or boring
+- Competes with TikTok, streaming, and mobile games for attention
+- Typical spend: DKK 50-200/month sporadically
 
-#### 3. Trust-Focused Traditionalist (`trust-focused-traditionalist`)
-**Persona:** "Traditional Lars" - A 50-year-old experienced bettor representing the conservative, trust-focused demographic.
+#### 2. The Sports Enthusiast (`sports-enthusiast`)
+**Profile:** Age 25-35, regular sports bettor with deep football knowledge who lives for live betting during matches.
 
-**Download:** [trust-focused-traditionalist.zip](https://github.com/Yes-Gaming/skills-library/raw/main/trust-focused-traditionalist/trust-focused-traditionalist.zip)
+**Download:** [sports-enthusiast.zip](https://github.com/Yes-Gaming/skills-library/raw/main/sports-enthusiast/sports-enthusiast.zip)
 
 **Use Cases:**
-- Testing desktop/tablet experiences and interfaces
-- Evaluating trust signals, licensing information, and security features
-- Assessing customer support experiences and help content
-- Getting feedback on bonus terms, promotions, and transparency
-- Testing simplified interfaces or traditional betting formats
-- Validating experiences for 40+ demographic
+- Testing sports betting features, live betting interfaces, or in-play functionality
+- Evaluating market depth, odds displays, or betting slip complexity
+- Assessing real-time statistics, live scores, or match tracking features
+- Getting feedback on mobile betting UX during live matches
+- Testing pre-match vs. live betting experiences
+- Validating sports content, match previews, or statistical tools
 
 **Key Characteristics:**
-- Values security, simplicity, and customer service over innovation
-- Skeptical of gimmicks, flashy features, or "too good to be true" offers
-- Appreciates straightforward, transparent communication
-- Prefers desktop experience over mobile-first design
-- Needs clear licensing and security information
-- Values human support (phone, email) access
-- Shows caution before trusting new platforms
+- Demands professional-grade speed and reliability (especially live betting)
+- Frustrated by limited markets or shallow betting depth
+- Motivated by proving sports knowledge through betting success
+- Expects comprehensive statistics and real-time data
+- Mobile-focused during matches but uses desktop for research
+- Zero tolerance for technical issues during live matches
+- Typical spend: DKK 500-1,500/month strategically
 
-#### 4. Cross-Entertainment Engager (`cross-entertainment-engager`)
-**Persona:** "Multitasking Mikkel" - A 30-year-old IT professional and media junkie representing the cross-entertainment engager demographic.
+#### 3. The Casino Explorer (`casino-explorer`)
+**Profile:** Age 20-30, variety-seeking casino player driven by visual quality, game discovery, and the thrill of exploring new slots and live dealer games.
+
+**Download:** [casino-explorer.zip](https://github.com/Yes-Gaming/skills-library/raw/main/casino-explorer/casino-explorer.zip)
+
+**Use Cases:**
+- Testing slot games, game libraries, or game discovery features
+- Evaluating game categorization, search, filtering, or recommendation systems
+- Assessing visual quality, animations, themes, and game presentation
+- Getting feedback on jackpot displays, progressive slots, or big win celebrations
+- Testing live dealer games, game shows, or interactive casino experiences
+- Validating personalized offers, promotions, or loyalty programs
+- Evaluating payout processes, withdrawal speeds, or RTP transparency
+
+**Key Characteristics:**
+- Motivated by discovery, novelty, and visual excellence
+- Needs excellent game discovery to navigate large libraries
+- Responds strongly to beautiful, well-designed, themed games
+- Frustrated by technical issues, slow loads, or poor performance
+- Values transparency in RTPs and fair play
+- Variety-seeker who gets bored easily without fresh content
+- Typical spend: DKK 200-600/month across varied sessions
+
+#### 4. The Trust Seeker (`trust-seeker`)
+**Profile:** Age 40+, experienced but cautious gambler who values security, transparency, simplicity, and reliable customer service over innovation or flashy features.
+
+**Download:** [trust-seeker.zip](https://github.com/Yes-Gaming/skills-library/raw/main/trust-seeker/trust-seeker.zip)
+
+**Use Cases:**
+- Testing trust signals, security features, or licensing information displays
+- Evaluating terms and conditions clarity, bonus term transparency
+- Assessing customer support experiences (live chat, email, phone)
+- Getting feedback on desktop or tablet interfaces
+- Testing simplified UX, traditional betting formats, or classic games
+- Validating responsible gambling tools and messaging
+- Evaluating loyalty programs for steady, long-term players
+
+**Key Characteristics:**
+- Security and protection above all else
+- Skeptical of "too good to be true" offers or flashy gimmicks
+- Appreciates clear, straightforward, transparent communication
+- Values human customer support (phone, email) over chatbots
+- Prefers desktop/tablet (40-50% of usage) but uses mobile too
+- Loyal once trust is earned but impossible to win back if betrayed
+- Typical spend: DKK 300-800/month consistently
+
+#### 5. The Cross-Entertainment Engager (`cross-entertainment-engager`)
+**Profile:** Age 18-40, digitally-native multitasker who blends sports watching, esports, casino gaming, and social interaction simultaneously, demanding unified platform experiences.
 
 **Download:** [cross-entertainment-engager.zip](https://github.com/Yes-Gaming/skills-library/raw/main/cross-entertainment-engager/cross-entertainment-engager.zip)
 
 **Use Cases:**
-- Testing unified platform experiences and feature integration
-- Evaluating community features, social feeds, and chat functionality
-- Assessing multi-device synchronization and cross-platform experiences
-- Getting feedback on personalization, content curation, and AI-driven features
-- Testing blended content (sports + casino + social + entertainment)
-- Validating experiences for highly engaged, daily active users
-- Evaluating free-to-play pools, gamified missions, and community challenges
+- Testing unified platform experiences that blend multiple entertainment types
+- Evaluating social features (chat, sharing, community feeds, friend activity)
+- Assessing in-app streaming, multi-view experiences, or integrated video content
+- Getting feedback on prediction contests, free-to-play pools, or community challenges
+- Testing multi-device synchronization and cross-platform consistency
+- Validating shareable bet-slips, social proof features, or collaborative betting
+- Evaluating experiences for highly engaged, daily active users
 
 **Key Characteristics:**
-- Values unified experiences and seamless integration over siloed functionality
-- Frustrated by device inconsistencies or sync issues
-- Enthusiastic about community features and social interaction
-- Expects personalization and feeling recognized as an individual user
-- Values variety in content and betting options (sports, casino, esports, novelty)
-- Dislikes features that force platform switching or app-hopping
-- Multi-tasks across devices and activities simultaneously
-- Appreciates seamless experiences that reduce friction
+- Needs integrated, unified experiences above everything else
+- Motivated by social features, community, and shared experiences
+- Frustrated by fragmentation, silos, and app-switching requirements
+- Expects flawless multi-device synchronization
+- Values variety across entertainment types (sports, casino, esports, novelty)
+- Wants personalization and to feel recognized by the platform
+- Power user who drives organic growth through social amplification
+- Typical spend: DKK 300-600/month with high engagement depth
 
 ### Testing Methodology Skills
 
-#### 5. Tagline Testing (`tagline-testing-skill`)
+#### 6. Tagline Testing (`tagline-testing-skill`)
 **Methodology:** Systematic framework for testing taglines and brand messaging with synthetic personas.
 
 **Download:** [tagline-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/tagline-testing-skill/tagline-testing-skill.zip)
@@ -180,6 +220,7 @@ Skills can be used individually or in combination:
 - Use **persona skills** for qualitative feedback and authentic user perspectives
 - Use **tagline testing** methodology with any persona skill for structured preference testing
 - Combine multiple persona skills to test how different user segments respond to the same materials
+- Layer personas to understand cross-segment appeal and optimization opportunities
 
 ## Notes on Synthetic Testing
 
@@ -188,8 +229,18 @@ These skills provide synthetic user testing capabilities that are valuable for:
 - Identifying potential issues before real testing
 - Generating hypotheses for user research
 - Rapid iteration and exploration
+- Understanding different segment perspectives simultaneously
 
 **Important:** This is not a replacement for actual user testing with real people. Use these skills to supplement and inform your research, not replace it.
+
+### Danish Market Grounding (2024-2025 Data)
+
+All personas are based on:
+- Real Danish gambling market data and trends
+- Spillemyndigheden regulatory requirements
+- Actual user behavior patterns (mobile usage, session patterns, demographics)
+- Danish consumer preferences and expectations
+- Market growth patterns and segment characteristics
 
 ## Contributing
 
@@ -199,7 +250,12 @@ To add new skills to this library:
 2. Include a `SKILL.md` file with the skill definition
 3. Add any supporting materials in a `references/` subdirectory
 4. Follow the established format for consistency
-5. Update this README with the new skill details
+5. Ground personas in real market data and research
+6. Update this README with the new skill details
+
+## Archived Personas
+
+Previous versions of personas have been moved to the `/archived` folder for reference. The current skills represent a complete redesign grounded in 2024-2025 Danish market data and free from platform-specific bias.
 
 ## License
 
