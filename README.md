@@ -14,7 +14,10 @@ A collection of AI skills for synthetic user testing and evaluation of gambling 
     - [4. The Trust Seeker](#4-the-trust-seeker-trust-seeker)
     - [5. The Cross-Entertainment Engager](#5-the-cross-entertainment-engager-cross-entertainment-engager)
   - [Testing Methodology Skills](#testing-methodology-skills)
-    - [6. Tagline Testing](#6-tagline-testing-tagline-testing-skill)
+    - [6. Synthetic Simulation Execution](#6-synthetic-simulation-execution-synthetic-simulation-execution)
+    - [7. CTA Testing](#7-cta-testing-cta-testing-skill)
+    - [8. Tagline Testing](#8-tagline-testing-tagline-testing-skill)
+    - [9. Logo Testing](#9-logo-testing-logo-testing-skill)
 - [Installation](#installation)
 - [How to Use](#how-to-use)
 - [Integration](#integration)
@@ -265,6 +268,54 @@ See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
 - Statistical validity guidelines for synthetic testing
 
 **Note:** The `synthetic-simulation-execution` skill supersedes this for large-scale testing with automated documentation.
+
+#### 9. Logo Testing (`logo-testing-skill`)
+**Methodology:** Systematic methodology for testing logos, brand marks, and visual identity assets with synthetic personas using multimodal AI analysis.
+
+**Download:** [logo-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/logo-testing-skill/logo-testing-skill.zip)
+
+**Use Cases:**
+- Evaluating multiple logo design concepts
+- Making rebrand vs. iteration decisions
+- Testing logo variations (colors, layouts, sizes)
+- Assessing app icon effectiveness
+- Understanding brand perception through visual analysis
+- Comparing competitive differentiation
+- Testing logo scalability (favicon to billboard)
+- Validating visual identity before launch
+
+**Key Features:**
+- **Multimodal AI Analysis:** Leverages Claude's vision capabilities to analyze actual image files
+- **Preference-Trust-Memory Triangle:** Three key metrics for comprehensive logo evaluation
+- **6-Question Framework:** First impression, visual elements, brand perception, trust/quality, recognition, context fit
+- **Context-Specific Testing:** App icon, website header, favicon, social media, competitive landscape
+- **Visual Element Analysis:** Colors, shapes, symbols, typography, attention hierarchy
+- **Brand Perception Assessment:** Intended vs. actual positioning insights
+- **Critical Trust Focus:** Especially important for gambling platforms (Q4 is most critical)
+
+**Key Metrics:**
+- **Preference (Q1):** First impression appeal (3-5 second reaction)
+- **Trust (Q4):** Professional, trustworthy perception ⭐ MOST CRITICAL
+- **Memory (Q5):** Recognition and recall strength
+
+**Multimodal Capabilities:**
+- ✅ View actual image files (PNG, JPG)
+- ✅ Analyze visual elements (colors, shapes, typography)
+- ✅ Professional design critique
+- ✅ Simulate contexts (app store, website, competitive)
+- ✅ Comparative side-by-side evaluation
+- ✅ Cultural awareness (symbol meanings, color associations)
+
+**Testing Contexts:**
+- App store icon ⭐ CRITICAL (must work at 60-120px)
+- Website header (desktop/mobile)
+- Favicon (16x16 or 32x32 pixels)
+- Social media profile (circular crop)
+- Competitive landscape (side-by-side with competitors)
+
+**Critical for Gambling:** Trust (Q4) is the most important metric because users deposit real money and credibility drives conversion. Older demographics (40+) prioritize trust over "cool" visual appeal.
+
+**Note:** Works seamlessly with `synthetic-simulation-execution` for automated large-scale logo testing with complete visual analysis documentation.
 
 ## Installation
 
