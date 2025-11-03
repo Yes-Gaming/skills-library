@@ -1,3 +1,8 @@
+---
+name: synthetic-simulation-execution
+description: Orchestration meta-skill for running large-scale isolated synthetic user testing with persona variations and complete documentation. Use when executing comprehensive testing simulations with 100+ isolated tests across multiple personas and test subjects.
+---
+
 # Synthetic Simulation Execution Skill
 
 ## Purpose
