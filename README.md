@@ -154,7 +154,60 @@ All personas are grounded in real Danish gambling market data (2024-2025), regul
 
 ### Testing Methodology Skills
 
-#### 6. Tagline Testing (`tagline-testing-skill`)
+#### 6. Synthetic Simulation Execution (`synthetic-simulation-execution`)
+**Methodology:** Comprehensive meta-skill for orchestrating isolated synthetic user testing with persona variations and complete documentation.
+
+**Download:** [synthetic-simulation-execution.zip](https://github.com/Yes-Gaming/skills-library/raw/main/synthetic-simulation-execution/synthetic-simulation-execution.zip)
+
+**Use Cases:**
+- Running large-scale synthetic simulations (100+ isolated tests)
+- Testing any user-facing material (taglines, CTAs, visuals, UX flows, features)
+- Generating 10 unique variations per persona for diversity analysis
+- Creating professional HTML/Markdown documentation with interactive charts
+- Multi-persona comparative analysis with strategic recommendations
+- A/B testing prioritization and business impact projections
+
+**Key Features:**
+- **Complete Context Isolation:** Each test runs in separate agent instance (no pollution)
+- **Persona Variation Generation:** Creates 10 unique individuals per base persona
+- **Flexible Testing Framework:** Adapts to taglines, CTAs, visuals, UX flows, features, etc.
+- **Running Documentation:** Tracks results incrementally during execution
+- **Professional Output:** Interactive HTML dashboards with Chart.js visualizations
+- **Strategic Recommendations:** Actionable insights by channel, demographic, and persona
+- **Timestamped Results:** Each simulation saves to dated subfolder
+- **Markdown + HTML:** Complete documentation in both formats
+
+**What Gets Generated:**
+```
+results/YYYY-MM-DD_HH-MM-SS/
+├── index.html              # Interactive dashboard
+├── summary.html            # Executive summary
+├── [persona]-[type].html   # Individual persona pages
+├── assets/
+│   ├── styles.css
+│   └── script.js
+└── markdown/
+    ├── summary.md
+    └── [persona]_results.md
+```
+
+**Testing Capabilities:**
+- **Taglines** - Brand messaging and positioning
+- **CTAs** - Call-to-action button copy
+- **Visual Assets** - Images, designs, layouts
+- **UX Flows** - User experience sequences
+- **Product Features** - Functionality descriptions
+- **Landing Pages** - Complete page concepts
+- **Any user-facing materials**
+
+**Example Results:**
+See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
+- 100 isolated tests across 5 personas
+- Interactive charts showing preference vs trust gaps
+- Strategic recommendations by use case
+- Individual persona deep-dives with charts
+
+#### 7. Tagline Testing (`tagline-testing-skill`)
 **Methodology:** Systematic framework for testing taglines and brand messaging with synthetic personas.
 
 **Download:** [tagline-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/tagline-testing-skill/tagline-testing-skill.zip)
@@ -172,6 +225,8 @@ All personas are grounded in real Danish gambling market data (2024-2025), regul
 - Mix of forced-choice and open-ended questions
 - Quantitative and qualitative analysis framework
 - Statistical validity guidelines for synthetic testing
+
+**Note:** The `synthetic-simulation-execution` skill supersedes this for large-scale testing with automated documentation.
 
 ## Installation
 
