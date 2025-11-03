@@ -2,6 +2,16 @@
 
 A collection of AI skills for synthetic user testing and evaluation of gambling platform content, features, and user experiences, specifically designed for the Danish market.
 
+## Folder Structure
+
+```
+skills-library/
+├── persona-skills/          # User persona profiles
+├── testing-skills/          # Testing methodologies (taglines, CTAs, logos)
+├── orchestration-skills/    # Meta-skills for running simulations
+└── results/                 # Test results and documentation
+```
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -13,8 +23,9 @@ A collection of AI skills for synthetic user testing and evaluation of gambling 
     - [3. The Casino Explorer](#3-the-casino-explorer-casino-explorer)
     - [4. The Trust Seeker](#4-the-trust-seeker-trust-seeker)
     - [5. The Cross-Entertainment Engager](#5-the-cross-entertainment-engager-cross-entertainment-engager)
-  - [Testing Methodology Skills](#testing-methodology-skills)
+  - [Orchestration Skills](#orchestration-skills)
     - [6. Synthetic Simulation Execution](#6-synthetic-simulation-execution-synthetic-simulation-execution)
+  - [Testing Methodology Skills](#testing-methodology-skills)
     - [7. CTA Testing](#7-cta-testing-cta-testing-skill)
     - [8. Tagline Testing](#8-tagline-testing-tagline-testing-skill)
     - [9. Logo Testing](#9-logo-testing-logo-testing-skill)
@@ -45,7 +56,7 @@ All personas are grounded in real Danish gambling market data (2024-2025), regul
 #### 1. The Casual Entertainer (`casual-entertainer`)
 **Profile:** Age 22-28, occasional bettor treating gambling as lighthearted mobile entertainment alongside TikTok and mobile games.
 
-**Download:** [casual-entertainer.zip](https://github.com/Yes-Gaming/skills-library/raw/main/casual-entertainer/casual-entertainer.zip)
+**Download:** [casual-entertainer.zip](https://github.com/Yes-Gaming/skills-library/raw/main/persona-skills/casual-entertainer/casual-entertainer.zip)
 
 **Use Cases:**
 - Testing quick-play features, instant-win formats, or casual gaming experiences
@@ -66,7 +77,7 @@ All personas are grounded in real Danish gambling market data (2024-2025), regul
 #### 2. The Sports Enthusiast (`sports-enthusiast`)
 **Profile:** Age 25-35, regular sports bettor with deep football knowledge who lives for live betting during matches.
 
-**Download:** [sports-enthusiast.zip](https://github.com/Yes-Gaming/skills-library/raw/main/sports-enthusiast/sports-enthusiast.zip)
+**Download:** [sports-enthusiast.zip](https://github.com/Yes-Gaming/skills-library/raw/main/persona-skills/sports-enthusiast/sports-enthusiast.zip)
 
 **Use Cases:**
 - Testing sports betting features, live betting interfaces, or in-play functionality
@@ -88,7 +99,7 @@ All personas are grounded in real Danish gambling market data (2024-2025), regul
 #### 3. The Casino Explorer (`casino-explorer`)
 **Profile:** Age 20-30, variety-seeking casino player driven by visual quality, game discovery, and the thrill of exploring new slots and live dealer games.
 
-**Download:** [casino-explorer.zip](https://github.com/Yes-Gaming/skills-library/raw/main/casino-explorer/casino-explorer.zip)
+**Download:** [casino-explorer.zip](https://github.com/Yes-Gaming/skills-library/raw/main/persona-skills/casino-explorer/casino-explorer.zip)
 
 **Use Cases:**
 - Testing slot games, game libraries, or game discovery features
@@ -111,7 +122,7 @@ All personas are grounded in real Danish gambling market data (2024-2025), regul
 #### 4. The Trust Seeker (`trust-seeker`)
 **Profile:** Age 40+, experienced but cautious gambler who values security, transparency, simplicity, and reliable customer service over innovation or flashy features.
 
-**Download:** [trust-seeker.zip](https://github.com/Yes-Gaming/skills-library/raw/main/trust-seeker/trust-seeker.zip)
+**Download:** [trust-seeker.zip](https://github.com/Yes-Gaming/skills-library/raw/main/persona-skills/trust-seeker/trust-seeker.zip)
 
 **Use Cases:**
 - Testing trust signals, security features, or licensing information displays
@@ -134,7 +145,7 @@ All personas are grounded in real Danish gambling market data (2024-2025), regul
 #### 5. The Cross-Entertainment Engager (`cross-entertainment-engager`)
 **Profile:** Age 18-40, digitally-native multitasker who blends sports watching, esports, casino gaming, and social interaction simultaneously, demanding unified platform experiences.
 
-**Download:** [cross-entertainment-engager.zip](https://github.com/Yes-Gaming/skills-library/raw/main/cross-entertainment-engager/cross-entertainment-engager.zip)
+**Download:** [cross-entertainment-engager.zip](https://github.com/Yes-Gaming/skills-library/raw/main/persona-skills/cross-entertainment-engager/cross-entertainment-engager.zip)
 
 **Use Cases:**
 - Testing unified platform experiences that blend multiple entertainment types
@@ -155,12 +166,12 @@ All personas are grounded in real Danish gambling market data (2024-2025), regul
 - Power user who drives organic growth through social amplification
 - Typical spend: DKK 300-600/month with high engagement depth
 
-### Testing Methodology Skills
+### Orchestration Skills
 
 #### 6. Synthetic Simulation Execution (`synthetic-simulation-execution`)
-**Methodology:** Comprehensive meta-skill for orchestrating isolated synthetic user testing with persona variations and complete documentation.
+**Methodology:** Comprehensive orchestration skill for running isolated synthetic user testing with persona variations and complete documentation. Works with any personas and test types.
 
-**Download:** [synthetic-simulation-execution.zip](https://github.com/Yes-Gaming/skills-library/raw/main/synthetic-simulation-execution/synthetic-simulation-execution.zip)
+**Download:** [synthetic-simulation-execution.zip](https://github.com/Yes-Gaming/skills-library/raw/main/orchestration-skills/synthetic-simulation-execution/synthetic-simulation-execution.zip)
 
 **Use Cases:**
 - Running large-scale synthetic simulations (100+ isolated tests)
@@ -172,8 +183,10 @@ All personas are grounded in real Danish gambling market data (2024-2025), regul
 
 **Key Features:**
 - **Complete Context Isolation:** Each test runs in separate agent instance (no pollution)
+- **Persona Agnostic:** Works with any personas from `persona-skills/` folder or custom personas
+- **Test Type Agnostic:** Adapts to any testing subject (taglines, CTAs, visuals, UX flows, features, etc.)
+- **Flexible Integration:** References specialized methodologies from `testing-skills/` folder when needed
 - **Persona Variation Generation:** Creates 10 unique individuals per base persona
-- **Flexible Testing Framework:** Adapts to taglines, CTAs, visuals, UX flows, features, etc.
 - **Running Documentation:** Tracks results incrementally during execution
 - **Professional Output:** Interactive HTML dashboards with Chart.js visualizations
 - **Strategic Recommendations:** Actionable insights by channel, demographic, and persona
@@ -210,10 +223,12 @@ See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
 - Strategic recommendations by use case
 - Individual persona deep-dives with charts
 
+### Testing Methodology Skills
+
 #### 7. CTA Testing (`cta-testing-skill`)
 **Methodology:** Systematic framework for testing call-to-action (CTA) copy and button text with synthetic personas, focusing on conversion optimization.
 
-**Download:** [cta-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/cta-testing-skill/cta-testing-skill.zip)
+**Download:** [cta-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/testing-skills/cta-testing-skill/cta-testing-skill.zip)
 
 **Use Cases:**
 - Running A/B or A/B/C CTA button text comparisons
@@ -251,7 +266,7 @@ See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
 #### 8. Tagline Testing (`tagline-testing-skill`)
 **Methodology:** Systematic framework for testing taglines and brand messaging with synthetic personas.
 
-**Download:** [tagline-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/tagline-testing-skill/tagline-testing-skill.zip)
+**Download:** [tagline-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/testing-skills/tagline-testing-skill/tagline-testing-skill.zip)
 
 **Use Cases:**
 - Running A/B or A/B/C tagline comparisons
@@ -272,7 +287,7 @@ See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
 #### 9. Logo Testing (`logo-testing-skill`)
 **Methodology:** Systematic methodology for testing logos, brand marks, and visual identity assets with synthetic personas using multimodal AI analysis.
 
-**Download:** [logo-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/logo-testing-skill/logo-testing-skill.zip)
+**Download:** [logo-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/testing-skills/logo-testing-skill/logo-testing-skill.zip)
 
 **Use Cases:**
 - Evaluating multiple logo design concepts
@@ -359,12 +374,30 @@ All persona skills include guidelines for filtering what information to provide:
 
 ## Integration
 
-Skills can be used individually or in combination:
+Skills are organized into three categories and can be used individually or in combination:
 
-- Use **persona skills** for qualitative feedback and authentic user perspectives
-- Use **tagline testing** methodology with any persona skill for structured preference testing
-- Combine multiple persona skills to test how different user segments respond to the same materials
-- Layer personas to understand cross-segment appeal and optimization opportunities
+**Persona Skills** (`persona-skills/` folder)
+- Use for qualitative feedback and authentic user perspectives
+- Can be combined to test how different user segments respond to the same materials
+- Works with any testing methodology
+
+**Testing Skills** (`testing-skills/` folder)
+- Specialized methodologies for specific test types
+- Provides question frameworks, contexts, and best practices
+- Can be used standalone or with orchestration skill
+
+**Orchestration Skills** (`orchestration-skills/` folder)
+- Meta-skills that coordinate personas and testing methodologies
+- `synthetic-simulation-execution` automates large-scale isolated testing
+- Generates professional documentation and visualizations
+
+**Integration Pattern:**
+```
+orchestration-skills/synthetic-simulation-execution
+  └─ Uses personas from: persona-skills/
+  └─ Uses methodologies from: testing-skills/ (optional)
+  └─ Generates results in: results/
+```
 
 ## Notes on Synthetic Testing
 

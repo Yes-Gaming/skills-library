@@ -47,14 +47,11 @@ Execute comprehensive synthetic user testing by generating multiple isolated per
    - Note any language requirements (English, Danish, etc.)
 
 3. **Personas to Use:**
-   - Identify which base personas from skills library
-   - Available personas:
-     - `casual-entertainer` (22-28, entertainment-focused)
-     - `casino-explorer` (20-30, variety-seeking)
-     - `sports-enthusiast` (25-35, betting-focused)
-     - `trust-seeker` (40+, security-conscious)
-     - `cross-entertainment-engager` (18-40, integrated experience)
-   - User can select subset or all personas
+   - Identify which base personas from `persona-skills/` folder
+   - Load any available persona skills from the library
+   - User can provide their own custom personas
+   - User can select subset or all available personas
+   - Each persona should have clear demographic and behavioral characteristics
 
 4. **Test Parameters:**
    - Number of rounds per persona variation (default: 10)
@@ -97,52 +94,48 @@ Generate 10 unique synthetic individuals by varying:
 
 **Example Variation Template:**
 ```
-Base Persona: Casual Entertainer
+Base Persona: [Any persona from persona-skills/ folder]
 Variation #3:
-- Name: "Emma, 24"
-- Location: Copenhagen
-- Occupation: Marketing coordinator
-- Income: 35,000 DKK/month
-- Device: iPhone 13
-- Gambling: 2-3 times/month, slots and live casino
-- Motivation: "I play when I'm bored on weekends, not about winning big"
-- Concern: "Don't want to spend more than 200 DKK per session"
-- Discovery: "Saw ads on Instagram, tried it during COVID lockdown"
+- Name: "[Name, Age]"
+- Location: [Relevant location]
+- Occupation: [Job/role]
+- Income: [Income level]
+- Device: [Device preference]
+- Relevant Behavior: [Frequency, preferences, patterns]
+- Motivation: "[Core motivational quote]"
+- Concern: "[Key concern or priority]"
+- Discovery: "[How they discovered the product/service]"
 ```
 
 ### Phase 3: Question Framework Design
 
 **Adapt questions based on testing subject type:**
 
-#### For Taglines/Messaging:
-1. **Q1 (Preference):** "Which [tagline/message] would you most likely click on?"
-2. **Q2 (Reasoning):** "Why did you choose that one?"
-3. **Q3 (Rejection):** "Which would you least likely click on and why?"
-4. **Q4 (Trust):** "Which suggests a trustworthy, premium [platform/product]?"
+**Note:** Specific testing methodologies are available in the `testing-skills/` folder. Reference these for detailed question frameworks and context scenarios:
+- `testing-skills/tagline-testing-skill/` - For brand messaging
+- `testing-skills/cta-testing-skill/` - For call-to-action copy with context frameworks
+- `testing-skills/logo-testing-skill/` - For visual identity and logo testing
+- Custom testing frameworks can be created following the same pattern
 
-#### For CTAs:
-1. **Q1 (Preference):** "Which call-to-action would you most likely tap/click?"
-2. **Q2 (Reasoning):** "What about it makes you want to take action?"
-3. **Q3 (Rejection):** "Which CTA would you ignore or distrust?"
-4. **Q4 (Urgency):** "Which creates the strongest sense of urgency or value?"
+**Generic 4-Question Framework (adaptable to any test type):**
 
-#### For Visual Assets:
-1. **Q1 (Preference):** "Which design/visual appeals to you most?"
-2. **Q2 (Reasoning):** "What specific elements attract you?"
-3. **Q3 (Rejection):** "Which design turns you off or feels wrong?"
-4. **Q4 (Trust):** "Which looks most professional and trustworthy?"
+1. **Q1 (Preference):** "Which [option] would you most likely [choose/click/use]?"
+   - Captures initial appeal and preference
+   - Forced choice to prevent "all are good" responses
 
-#### For UX Flows:
-1. **Q1 (Preference):** "Which flow feels most intuitive to you?"
-2. **Q2 (Reasoning):** "What makes it easy or natural?"
-3. **Q3 (Friction):** "Where do you feel confused or frustrated?"
-4. **Q4 (Completion):** "Which flow would you most likely complete?"
+2. **Q2 (Reasoning):** "Why did you choose that one? / What appeals to you about it?"
+   - Open-ended to capture qualitative insights
+   - Reveals motivational drivers and decision factors
 
-#### For Product Features:
-1. **Q1 (Value):** "Which feature would you use most often?"
-2. **Q2 (Reasoning):** "Why does this feature matter to you?"
-3. **Q3 (Rejection):** "Which feature seems unnecessary or annoying?"
-4. **Q4 (Premium):** "Which feature would make you consider a premium subscription?"
+3. **Q3 (Rejection):** "Which [option] would you [avoid/ignore/distrust] and why?"
+   - Identifies friction points and turn-offs
+   - Reveals what repels or creates barriers
+
+4. **Q4 (Secondary Metric):** "Which [option] [builds trust/creates urgency/suggests quality/etc.]?"
+   - Adapt based on what matters most for the test subject
+   - Often reveals preference vs. conversion gaps
+
+**For specific test types, consult the relevant testing skill in `testing-skills/` for optimized question frameworks and context scenarios.**
 
 ### Phase 4: Test Execution
 
@@ -202,20 +195,20 @@ Maintain in-memory tally showing:
 For each completed test, document:
 ```markdown
 ## Test #47
-**Persona:** Casual Entertainer - Variation 7 (Emma, 24, Copenhagen)
+**Persona:** [Persona Name] - Variation 7 ([Name, Age, Location])
 **Timestamp:** 2025-11-03 14:23:15
 **Materials Presented (Order):** [3, 1, 5, 2, 4, 6]
 
 ### Responses:
-**Q1:** Choice: #3 ("Watch & Play")
-**Q2:** "I like that it's short and tells me I can do both things at once"
-**Q3:** Choice: #6 ("Play Made Easy") - "Sounds boring and like it's for old people"
-**Q4:** Choice: #1 ("Casino and Sports Made Easy") - "This one sounds legit and professional"
+**Q1:** Choice: #3 ("[Option text]")
+**Q2:** "[Reasoning quote]"
+**Q3:** Choice: #6 ("[Option text]") - "[Rejection reasoning]"
+**Q4:** Choice: #1 ("[Option text]") - "[Secondary metric reasoning]"
 
 ### Insights:
-- Strong preference for brevity
-- Rejects patronizing language
-- Trust diverges from initial appeal
+- [Key insight 1]
+- [Key insight 2]
+- [Notable pattern or gap]
 ```
 
 #### 3. Aggregate Results Tables
@@ -226,15 +219,16 @@ For each completed test, document:
 | Option 2 | 45/100 | 45% | 12/100 | 12% | -33% |
 
 **By Persona (Base):**
-| Persona | Top Preference | % | Top Trust | % |
+| Persona | Top Preference | % | Top Secondary Metric | % |
 |---------|---------------|---|-----------|---|
-| Casual Entertainer | Option 2 | 60% | Option 1 | 80% |
+| [Persona 1] | Option 2 | 60% | Option 1 | 80% |
+| [Persona 2] | Option 3 | 45% | Option 3 | 50% |
 
 **By Variation (showing diversity within persona):**
 | Persona | Variation Range | Notes |
 |---------|----------------|-------|
-| Casual Entertainer | 7/10 picked same top choice | High consistency |
-| Sports Enthusiast | 5/10 split between two | More variation |
+| [Persona 1] | 7/10 picked same top choice | High consistency |
+| [Persona 2] | 5/10 split between two | More variation |
 
 #### 4. Qualitative Insights
 Extract patterns from Q2 responses:
@@ -450,30 +444,32 @@ After each simulation:
 ## Integration with Existing Skills
 
 ### Persona Skills (Required)
-This skill orchestrates and uses:
-- `casual-entertainer` skill for persona profiles
-- `casino-explorer` skill for persona profiles
-- `sports-enthusiast` skill for persona profiles
-- `trust-seeker` skill for persona profiles
-- `cross-entertainment-engager` skill for persona profiles
+This skill orchestrates and uses persona skills from:
+- **`persona-skills/` folder** - Contains all available persona profiles
+- Load any personas from this folder
+- Custom personas can be added by user
+- Each persona should define clear demographic, behavioral, and psychographic characteristics
 
 ### Testing Methodology Skills (Optional but Recommended)
-Can be used in conjunction with:
-- `tagline-testing-skill` - For detailed tagline testing methodology
-- `cta-testing-skill` - For detailed CTA testing methodology with context frameworks
-- Results documentation patterns from previous research
+Can be used in conjunction with testing skills from:
+- **`testing-skills/` folder** - Contains specialized testing methodologies
+  - `tagline-testing-skill/` - For brand messaging
+  - `cta-testing-skill/` - For call-to-action copy with context frameworks
+  - `logo-testing-skill/` - For visual identity testing
+  - Custom testing methodologies can be added following the same pattern
 
 ### How Integration Works:
-1. **Load this meta-skill** for orchestration and automation
-2. **Reference specific testing skill** (tagline-testing or cta-testing) for methodology details
-3. **Load persona skills** as needed for variation generation
+1. **Load this orchestration skill** for simulation automation
+2. **Reference specific testing skill** from `testing-skills/` for methodology details (optional)
+3. **Load persona skills** from `persona-skills/` for variation generation
 4. **Execute simulation** with appropriate question frameworks
 5. **Generate documentation** using established patterns
 
 **Example:**
 ```
-Use synthetic-simulation-execution skill with cta-testing methodology
-to test 4 CTAs across 3 personas in landing page context.
+Use orchestration-skills/synthetic-simulation-execution with
+testing-skills/cta-testing-skill methodology to test 4 CTAs
+across 3 personas from persona-skills/ folder.
 
 CTAs:
 1. "Start Playing Free"
@@ -481,8 +477,8 @@ CTAs:
 3. "Claim Bonus"
 4. "Get Started"
 
-Personas: Casual Entertainer, Sports Enthusiast, Trust Seeker
-Context: Landing page hero, mobile, new visitor
+Personas: [Any 3 personas from persona-skills/ folder]
+Context: [Specify test context from testing skill]
 ```
 
 ## Success Criteria
@@ -499,7 +495,8 @@ A successful simulation delivers:
 
 ---
 
-**Skill Version:** 1.0.0
+**Skill Version:** 2.0.0
 **Created:** November 2025
-**For:** Yes.com gambling platform testing
+**Updated:** November 2025 - Made agnostic of specific personas and test types
+**For:** General purpose synthetic user testing (optimized for Yes.com)
 **License:** Proprietary - Yes.com exclusive use
