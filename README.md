@@ -207,7 +207,45 @@ See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
 - Strategic recommendations by use case
 - Individual persona deep-dives with charts
 
-#### 7. Tagline Testing (`tagline-testing-skill`)
+#### 7. CTA Testing (`cta-testing-skill`)
+**Methodology:** Systematic framework for testing call-to-action (CTA) copy and button text with synthetic personas, focusing on conversion optimization.
+
+**Download:** [cta-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/cta-testing-skill/cta-testing-skill.zip)
+
+**Use Cases:**
+- Running A/B or A/B/C CTA button text comparisons
+- Optimizing landing page CTAs, registration flows, deposit prompts
+- Testing primary vs secondary action copy
+- Evaluating conversion messaging across personas
+- Testing urgency-driven vs value-driven CTAs
+- Multi-context CTA optimization (landing page, email, in-app)
+
+**Key Features:**
+- **Context-Specific Testing:** CTAs tested in realistic usage scenarios
+- **4-Question Framework:** Action intent, motivation, friction, value perception
+- **Intent-to-Value Analysis:** Identifies clicks vs conversion gaps
+- **Friction Detection:** Surfaces conversion barriers and hesitation factors
+- **Context Versatility Scoring:** Universal vs specialized CTA recommendations
+- **Device-Specific Testing:** Mobile vs desktop optimization
+- **A/B Testing Roadmap:** Prioritized tests with hypotheses and metrics
+
+**Key Metrics:**
+- Action Intent (who would click)
+- Motivation Drivers (why they'd click)
+- Friction Coefficient (what stops them)
+- Value Perception (what converts)
+
+**Contexts Covered:**
+- Landing page hero CTAs
+- Registration flow CTAs
+- First deposit prompts
+- Promotional email CTAs
+- Re-engagement messaging
+- Mobile in-app CTAs
+
+**Note:** Works seamlessly with `synthetic-simulation-execution` for automated large-scale CTA testing.
+
+#### 8. Tagline Testing (`tagline-testing-skill`)
 **Methodology:** Systematic framework for testing taglines and brand messaging with synthetic personas.
 
 **Download:** [tagline-testing-skill.zip](https://github.com/Yes-Gaming/skills-library/raw/main/tagline-testing-skill/tagline-testing-skill.zip)

@@ -449,13 +449,41 @@ After each simulation:
 
 ## Integration with Existing Skills
 
+### Persona Skills (Required)
 This skill orchestrates and uses:
 - `casual-entertainer` skill for persona profiles
 - `casino-explorer` skill for persona profiles
 - `sports-enthusiast` skill for persona profiles
 - `trust-seeker` skill for persona profiles
 - `cross-entertainment-engager` skill for persona profiles
-- Results documentation patterns from previous tagline testing
+
+### Testing Methodology Skills (Optional but Recommended)
+Can be used in conjunction with:
+- `tagline-testing-skill` - For detailed tagline testing methodology
+- `cta-testing-skill` - For detailed CTA testing methodology with context frameworks
+- Results documentation patterns from previous research
+
+### How Integration Works:
+1. **Load this meta-skill** for orchestration and automation
+2. **Reference specific testing skill** (tagline-testing or cta-testing) for methodology details
+3. **Load persona skills** as needed for variation generation
+4. **Execute simulation** with appropriate question frameworks
+5. **Generate documentation** using established patterns
+
+**Example:**
+```
+Use synthetic-simulation-execution skill with cta-testing methodology
+to test 4 CTAs across 3 personas in landing page context.
+
+CTAs:
+1. "Start Playing Free"
+2. "Join Now"
+3. "Claim Bonus"
+4. "Get Started"
+
+Personas: Casual Entertainer, Sports Enthusiast, Trust Seeker
+Context: Landing page hero, mobile, new visitor
+```
 
 ## Success Criteria
 

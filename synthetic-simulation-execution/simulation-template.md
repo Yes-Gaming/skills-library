@@ -10,7 +10,7 @@ Use this template to quickly configure and run a new synthetic simulation.
 
 ## Testing Materials
 
-**Language:** [English / Danish / Both / Other]
+**Language:** [English / Danish / Romanian / Finnish / Multiple / Other]
 
 **Materials to Test:**
 1. [Material 1 - exact copy or description]
