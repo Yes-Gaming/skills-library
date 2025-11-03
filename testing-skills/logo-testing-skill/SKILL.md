@@ -32,6 +32,16 @@ Unlike text-based testing (taglines, CTAs), logo testing involves:
 - **Memorability** - Can users recall and recognize it?
 - **Differentiation** - Does it stand out in competitive landscape?
 
+## Example Output
+
+See `references/example_test_output.md` for a complete sample test report showing:
+- Quantitative results across Preference-Trust-Memory Triangle
+- Qualitative insights on visual elements and brand perception
+- Context testing results (app icon, favicon, website header)
+- Trust analysis (critical for gambling platforms)
+- Why certain design approaches fail or succeed
+- Visual identity system recommendations
+
 ## Testing Methodology
 
 ### Standard Test Structure

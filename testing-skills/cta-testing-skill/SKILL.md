@@ -19,6 +19,15 @@ Activate this testing framework when:
 - Testing urgency-driven vs value-driven messaging
 - Need to control for order bias and presentation effects
 
+## Example Output
+
+See `references/example_test_output.md` for a complete sample test report showing:
+- Quantitative results with Intent-to-Value Gap analysis
+- Qualitative insights on what drives clicks vs. conversions
+- Friction coefficient analysis
+- Context-specific recommendations
+- A/B testing strategy based on funnel stage
+
 ## Testing Methodology
 
 ### Standard Test Structure

@@ -18,6 +18,16 @@ Activate this testing framework when:
 - Gathering quantitative preference data with qualitative context
 - Need to control for order bias and presentation effects
 
+## Example Output
+
+See `references/example_test_output.md` for a complete sample test report showing:
+- Quantitative results (preference and trust ratings)
+- Qualitative insights on why taglines succeed or fail
+- Order bias analysis
+- Key themes and representative quotes
+- Clear recommendations with rationale
+- Follow-up testing suggestions
+
 ## Testing Methodology
 
 ### Standard Test Structure
