@@ -316,6 +316,8 @@ See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
 - Comparing competitive differentiation
 - Testing logo scalability (favicon to billboard)
 - Validating visual identity before launch
+- **NEW:** Testing logos across demographic segments (males/females, age groups, 50:50 splits)
+- **NEW:** Comparing multiple logo options across different demographics in comparable settings
 
 **Key Features:**
 - **Multimodal AI Analysis:** Leverages Claude's vision capabilities to analyze actual image files
@@ -325,11 +327,18 @@ See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
 - **Visual Element Analysis:** Colors, shapes, symbols, typography, attention hierarchy
 - **Brand Perception Assessment:** Intended vs. actual positioning insights
 - **Critical Trust Focus:** Especially important for gambling platforms (Q4 is most critical)
+- **NEW: Demographic Testing Methodologies:**
+  - Single logo across demographics (10-question framework)
+  - Multiple logos demographic comparison (15-question framework)
+  - Gender preference patterns and trust signal variations
+  - Age/generational design language differences
+  - Context-demographic performance matrices
 
 **Key Metrics:**
 - **Preference (Q1):** First impression appeal (3-5 second reaction)
 - **Trust (Q4):** Professional, trustworthy perception ⭐ MOST CRITICAL
 - **Memory (Q5):** Recognition and recall strength
+- **NEW: Demographic Alignment:** Logo performance across gender, age, and audience segments
 
 **Multimodal Capabilities:**
 - ✅ View actual image files (PNG, JPG)
@@ -346,7 +355,29 @@ See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
 - Social media profile (circular crop)
 - Competitive landscape (side-by-side with competitors)
 
-**Critical for Gambling:** Trust (Q4) is the most important metric because users deposit real money and credibility drives conversion. Older demographics (40+) prioritize trust over "cool" visual appeal.
+**Demographic Testing Configurations:**
+- **Males only:** Identify male-specific visual preferences and trust signals
+- **Females only:** Understand female-targeted design effectiveness
+- **50:50 gender split:** Balanced demographic validation
+- **As per audience demographics:** Custom demographic distributions
+- **Age segmentation:** 18-30, 31-45, 46-55+ generational testing
+- **Cross-demographic analysis:** Identify universal appeal vs. polarizing elements
+
+**What Demographic Testing Reveals:**
+- Gender preference patterns (colors, shapes, symbols)
+- Age-based trust signal variations (modern vs. traditional)
+- Perceived demographic targeting vs. actual appeal
+- Context effectiveness differences by segment
+- Preference-trust gaps by demographic
+- High-value segment performance (critical for ROI)
+- Strategic segmentation opportunities
+
+**Example Outputs:**
+- `example_test_output.md` - Complete single-persona logo test
+- `example_demographic_single_logo.md` - Single logo tested across demographics (27 pages)
+- `example_demographic_multiple_logos.md` - Multiple logos compared across demographics (40 pages)
+
+**Critical for Gambling:** Trust (Q4) is the most important metric because users deposit real money and credibility drives conversion. Older demographics (40+) prioritize trust over "cool" visual appeal and represent highest lifetime value users.
 
 **Note:** Works seamlessly with `synthetic-simulation-execution` for automated large-scale logo testing with complete visual analysis documentation.
 
