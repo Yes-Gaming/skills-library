@@ -235,11 +235,14 @@ results/YYYY-MM-DD_HH-MM-SS/
 - **Any user-facing materials**
 
 **Example Results:**
-See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
-- 100 isolated tests across 5 personas
-- Interactive charts showing preference vs trust gaps
-- Strategic recommendations by use case
-- Individual persona deep-dives with charts
+- `results/2025-11-02_17-26-36/` - Complete tagline testing with 100 isolated tests
+- `results/2025-11-04_20-46-08/` - Complete logo testing (Phase 1 + Phase 2) with 150 tests
+  - Phase 1: 50 personas tested 7 logos individually
+  - Phase 2A: 50 personas compared all 7 logos side-by-side
+  - Phase 2B: 50 personas tested top 3 finalists head-to-head
+  - Final winner: Logo 2 (72% final vote, 9/10 confidence)
+  - Trust Seeker anomaly identified and mitigation strategy provided
+  - Interactive HTML reports and comprehensive markdown analysis
 
 ### Testing Methodology Skills
 
@@ -376,6 +379,12 @@ See `results/2025-11-02_17-26-36/` for complete tagline testing example with:
 - `example_test_output.md` - Complete single-persona logo test
 - `example_demographic_single_logo.md` - Single logo tested across demographics (27 pages)
 - `example_demographic_multiple_logos.md` - Multiple logos compared across demographics (40 pages)
+- `results/2025-11-04_20-46-08/` - Real-world complete logo testing project:
+  - 150 synthetic user tests across 3 testing phases
+  - 7 logo variations evaluated (winnowed to top 3, then final winner)
+  - Complete demographic analysis with Trust Seeker (40+) anomaly discovery
+  - Professional HTML reports and comprehensive strategic recommendations
+  - Final decision: Logo 2 selected with 72% preference and 9/10 confidence
 
 **Critical for Gambling:** Trust (Q4) is the most important metric because users deposit real money and credibility drives conversion. Older demographics (40+) prioritize trust over "cool" visual appeal and represent highest lifetime value users.
 
