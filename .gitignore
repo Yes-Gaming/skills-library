@@ -1,0 +1,13 @@
+# Temporary logo testing assets
+logo-testing-assets/
+
+# Test results (already tracked, but ignore future test runs if needed)
+# results/
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
