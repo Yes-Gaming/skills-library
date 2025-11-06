@@ -246,6 +246,13 @@
             border-bottom: 1px solid #e0e0e0;
         }
 
+        .data-table .logo-icon {
+            width: 80px;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+        }
+
         .data-table tbody tr:hover {
             background: #f8f9fa;
         }
@@ -323,8 +330,16 @@
         .vote-bar .label {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             margin-bottom: 8px;
             font-weight: 600;
+        }
+
+        .vote-bar .label .logo-mini {
+            width: 50px;
+            height: auto;
+            margin-right: 8px;
+            border-radius: 3px;
         }
 
         .vote-bar .bar {
@@ -432,6 +447,15 @@
         .logo-card h3 {
             font-size: 1.6em;
             margin-bottom: 10px;
+        }
+
+        .logo-card .card-logo-image {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            margin: 15px auto;
+            display: block;
+            border-radius: 6px;
         }
 
         .logo-card .logo-number {
@@ -724,6 +748,24 @@
             height: auto;
             display: block;
         }
+
+        .inline-logo {
+            width: 120px;
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 10px;
+            border-radius: 4px;
+        }
+
+        .decision-logo {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -940,6 +982,7 @@
                 <thead>
                     <tr>
                         <th>Rank</th>
+                        <th></th>
                         <th>Logo</th>
                         <th>Phase 1 Trust</th>
                         <th>Phase 1 Modernity</th>
@@ -952,6 +995,7 @@
                 <tbody>
                     <tr class="winner-row">
                         <td><strong>1</strong></td>
+                        <td><img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" alt="Logo 2" class="logo-icon"></td>
                         <td><strong>Logo 2: Lowercase refined</strong></td>
                         <td class="score-high">4.1/5</td>
                         <td class="score-high">4.9/5</td>
@@ -962,6 +1006,7 @@
                     </tr>
                     <tr>
                         <td><strong>2</strong></td>
+                        <td><img src="https://yescdn.site/api/file/c094af0d-159a-4d65-b558-3e8fdba80c8e.png" alt="Logo 4" class="logo-icon"></td>
                         <td><strong>Logo 4: Bold shadow</strong></td>
                         <td class="score-medium">3.4/5</td>
                         <td class="score-medium">3.1/5</td>
@@ -972,6 +1017,7 @@
                     </tr>
                     <tr>
                         <td><strong>3</strong></td>
+                        <td><img src="https://yescdn.site/api/file/68828273-cf5e-455c-97e0-464ea5c1224d.png" alt="Logo 1" class="logo-icon"></td>
                         <td><strong>Logo 1: Tilted stamp</strong></td>
                         <td class="score-medium">3.0/5</td>
                         <td class="score-medium">3.8/5</td>
@@ -982,6 +1028,7 @@
                     </tr>
                     <tr class="eliminated-row">
                         <td>4</td>
+                        <td><img src="https://yescdn.site/api/file/d627e632-59bd-4ace-abd3-ff75167ffe2b.png" alt="Logo 5" class="logo-icon"></td>
                         <td>Logo 5: Bold outline</td>
                         <td>3.3/5</td>
                         <td>4.0/5</td>
@@ -991,6 +1038,7 @@
                     </tr>
                     <tr class="eliminated-row">
                         <td>5</td>
+                        <td><img src="https://yescdn.site/api/file/2e6768e9-d31e-4037-a17c-4926bbea53c9.png" alt="Logo 7" class="logo-icon"></td>
                         <td>Logo 7: Y monogram</td>
                         <td>2.0/5</td>
                         <td>4.1/5</td>
@@ -1000,6 +1048,7 @@
                     </tr>
                     <tr class="eliminated-row">
                         <td>6</td>
+                        <td><img src="https://yescdn.site/api/file/a75f202f-ee19-4b65-aa57-8ab1329302e2.png" alt="Logo 3" class="logo-icon"></td>
                         <td>Logo 3: Script</td>
                         <td>2.2/5</td>
                         <td>3.1/5</td>
@@ -1009,6 +1058,7 @@
                     </tr>
                     <tr class="eliminated-row">
                         <td>7</td>
+                        <td><img src="https://yescdn.site/api/file/c10a689e-277b-44f6-94c2-4f1ee7dd64bc.png" alt="Logo 6" class="logo-icon"></td>
                         <td>Logo 6: Rounded script</td>
                         <td>1.8/5</td>
                         <td>2.8/5</td>
@@ -1046,7 +1096,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 2</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" class="logo-mini" alt="Logo 2">
+                                Logo 2
+                            </span>
                             <span>80% (8 votes)</span>
                         </div>
                         <div class="bar">
@@ -1056,7 +1109,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 1</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/68828273-cf5e-455c-97e0-464ea5c1224d.png" class="logo-mini" alt="Logo 1">
+                                Logo 1
+                            </span>
                             <span>20% (2 votes)</span>
                         </div>
                         <div class="bar">
@@ -1066,7 +1122,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 4</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/c094af0d-159a-4d65-b558-3e8fdba80c8e.png" class="logo-mini" alt="Logo 4">
+                                Logo 4
+                            </span>
                             <span>0% (0 votes)</span>
                         </div>
                         <div class="bar">
@@ -1086,7 +1145,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 4</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/c094af0d-159a-4d65-b558-3e8fdba80c8e.png" class="logo-mini" alt="Logo 4">
+                                Logo 4
+                            </span>
                             <span>50% (5 votes)</span>
                         </div>
                         <div class="bar">
@@ -1096,7 +1158,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 2</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" class="logo-mini" alt="Logo 2">
+                                Logo 2
+                            </span>
                             <span>40% (4 votes)</span>
                         </div>
                         <div class="bar">
@@ -1106,7 +1171,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 1</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/68828273-cf5e-455c-97e0-464ea5c1224d.png" class="logo-mini" alt="Logo 1">
+                                Logo 1
+                            </span>
                             <span>10% (1 vote)</span>
                         </div>
                         <div class="bar">
@@ -1126,7 +1194,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 2</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" class="logo-mini" alt="Logo 2">
+                                Logo 2
+                            </span>
                             <span>70% (7 votes)</span>
                         </div>
                         <div class="bar">
@@ -1136,7 +1207,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 1</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/68828273-cf5e-455c-97e0-464ea5c1224d.png" class="logo-mini" alt="Logo 1">
+                                Logo 1
+                            </span>
                             <span>20% (2 votes)</span>
                         </div>
                         <div class="bar">
@@ -1146,7 +1220,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 4</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/c094af0d-159a-4d65-b558-3e8fdba80c8e.png" class="logo-mini" alt="Logo 4">
+                                Logo 4
+                            </span>
                             <span>10% (1 vote)</span>
                         </div>
                         <div class="bar">
@@ -1166,7 +1243,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 4</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/c094af0d-159a-4d65-b558-3e8fdba80c8e.png" class="logo-mini" alt="Logo 4">
+                                Logo 4
+                            </span>
                             <span>90% (9 votes)</span>
                         </div>
                         <div class="bar">
@@ -1176,7 +1256,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 2</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" class="logo-mini" alt="Logo 2">
+                                Logo 2
+                            </span>
                             <span>10% (1 vote)</span>
                         </div>
                         <div class="bar">
@@ -1186,7 +1269,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 1</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/68828273-cf5e-455c-97e0-464ea5c1224d.png" class="logo-mini" alt="Logo 1">
+                                Logo 1
+                            </span>
                             <span>0% (0 votes)</span>
                         </div>
                         <div class="bar">
@@ -1206,7 +1292,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 2</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" class="logo-mini" alt="Logo 2">
+                                Logo 2
+                            </span>
                             <span>100% (10 votes)</span>
                         </div>
                         <div class="bar">
@@ -1216,7 +1305,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 4</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/c094af0d-159a-4d65-b558-3e8fdba80c8e.png" class="logo-mini" alt="Logo 4">
+                                Logo 4
+                            </span>
                             <span>0% (0 votes)</span>
                         </div>
                         <div class="bar">
@@ -1226,7 +1318,10 @@
 
                     <div class="vote-bar">
                         <div class="label">
-                            <span>Logo 1</span>
+                            <span style="display: flex; align-items: center;">
+                                <img src="https://yescdn.site/api/file/68828273-cf5e-455c-97e0-464ea5c1224d.png" class="logo-mini" alt="Logo 1">
+                                Logo 1
+                            </span>
                             <span>0% (0 votes)</span>
                         </div>
                         <div class="bar">
@@ -1322,6 +1417,7 @@
             <div class="logo-analysis-grid">
                 <div class="logo-card winner">
                     <div class="logo-number">WINNER</div>
+                    <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" alt="Logo 2" class="card-logo-image">
                     <h3>Logo 2: Lowercase "yes" Refined</h3>
 
                     <div class="performance-indicators">
@@ -1360,6 +1456,7 @@
 
                 <div class="logo-card alternative">
                     <div class="logo-number">STRONG SECOND</div>
+                    <img src="https://yescdn.site/api/file/c094af0d-159a-4d65-b558-3e8fdba80c8e.png" alt="Logo 4" class="card-logo-image">
                     <h3>Logo 4: Bold "YES" with Shadow</h3>
 
                     <div class="performance-indicators">
@@ -1404,6 +1501,7 @@
 
                 <div class="logo-card">
                     <div class="logo-number">THIRD</div>
+                    <img src="https://yescdn.site/api/file/68828273-cf5e-455c-97e0-464ea5c1224d.png" alt="Logo 1" class="card-logo-image">
                     <h3>Logo 1: Tilted Rectangular Stamp</h3>
 
                     <div class="performance-indicators">
@@ -1441,6 +1539,7 @@
 
                 <div class="logo-card eliminated">
                     <div class="logo-number">ELIMINATED</div>
+                    <img src="https://yescdn.site/api/file/d627e632-59bd-4ace-abd3-ff75167ffe2b.png" alt="Logo 5" class="card-logo-image">
                     <h3>Logo 5: Bold "Yes" with Black Outline</h3>
 
                     <div class="performance-indicators">
@@ -1466,6 +1565,7 @@
 
                 <div class="logo-card eliminated">
                     <div class="logo-number">ELIMINATED</div>
+                    <img src="https://yescdn.site/api/file/2e6768e9-d31e-4037-a17c-4926bbea53c9.png" alt="Logo 7" class="card-logo-image">
                     <h3>Logo 7: Y Monogram</h3>
 
                     <div class="performance-indicators">
@@ -1491,6 +1591,7 @@
 
                 <div class="logo-card eliminated">
                     <div class="logo-number">ELIMINATED</div>
+                    <img src="https://yescdn.site/api/file/a75f202f-ee19-4b65-aa57-8ab1329302e2.png" alt="Logo 3" class="card-logo-image">
                     <h3>Logos 3 & 6: Script Variations</h3>
 
                     <div class="performance-indicators">
@@ -1524,6 +1625,7 @@
 
             <div class="recommendation-box">
                 <h3>Primary Recommendation: Logo 2</h3>
+                <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" alt="Logo 2" class="inline-logo" style="background: white; padding: 15px; border-radius: 8px; display: block; margin: 20px auto;">
                 <p style="font-size: 1.15em; margin-bottom: 20px;">
                     <strong>Selected Logo:</strong> Logo 2 (Refined lowercase "yes")<br>
                     <strong>Confidence Level:</strong> <span class="confidence-badge">Very High (9/10)</span>
@@ -1595,6 +1697,11 @@
 
             <div class="alert-box mt-30">
                 <h3>Why Logo 2 Over Logo 4</h3>
+                <div style="display: flex; justify-content: center; gap: 30px; margin: 20px 0; flex-wrap: wrap;">
+                    <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" alt="Logo 2" class="inline-logo" style="background: white; padding: 10px; border-radius: 6px; border: 3px solid #2ecc71;">
+                    <span style="font-size: 2em; align-self: center;">vs</span>
+                    <img src="https://yescdn.site/api/file/c094af0d-159a-4d65-b558-3e8fdba80c8e.png" alt="Logo 4" class="inline-logo" style="background: white; padding: 10px; border-radius: 6px; border: 3px solid #3498db;">
+                </div>
                 <p style="font-size: 1.1em; margin-bottom: 15px;">
                     While Logo 4 dominates Trust Seekers (90% preference) and wins visibility (100% recognition),
                     Logo 2 is the superior strategic choice because:
@@ -1620,6 +1727,7 @@
             <div style="text-align: center; margin: 40px 0;">
                 <div style="display: inline-block; background: white; padding: 40px 60px; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.15);">
                     <h3 style="font-size: 2.5em; color: #2ecc71; margin-bottom: 20px;">SELECTED LOGO: LOGO 2</h3>
+                    <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" alt="Logo 2" class="decision-logo">
                     <p style="font-size: 1.8em; color: #2c3e50; margin-bottom: 15px;">Refined lowercase "yes"</p>
                     <div class="confidence-badge" style="font-size: 1.3em; padding: 12px 30px;">
                         Confidence Level: Very High (9/10)
