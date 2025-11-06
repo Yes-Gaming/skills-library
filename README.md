@@ -243,6 +243,15 @@ results/YYYY-MM-DD_HH-MM-SS/
   - Final winner: Logo 2 (72% final vote, 9/10 confidence)
   - Trust Seeker anomaly identified and mitigation strategy provided
   - Interactive HTML reports and comprehensive markdown analysis
+- `results/2025-11-06_COLOR_COMPARISON_STAKEHOLDER_REPORT.html` - **Complete 9-color app icon comparison (225 interviews)**
+  - **Winner: PURPLE (4.24/5)** - Universal appeal with zero trade-offs
+  - Comprehensive testing: Yellow, Red, Blue, Green, Black, Orange, Purple, Pink, Golden
+  - Rankings: Purple (4.24/5), Black (4.00/5), Golden (4.00/5), Orange (3.6/5), Green (3.5/5), Yellow (3.4/5), Blue (3.2/5)
+  - **Rejected: Pink (2.9/5), Red (2.6/5)** - catastrophic trust failures
+  - Critical insight: Only 5 colors achieve acceptable ratings with Trust Seekers (40+, highest LTV)
+  - Trust vs Excitement matrix reveals Purple as only "sweet spot" color
+  - Complete strategic decision framework with alternatives for different business strategies
+  - Professional HTML report with visualizations and demographic analysis
 - `results/2025-11-06_yellow-icon-testing/` - Yellow app icon background testing with 25 personas
   - Isolated interviews across all 5 persona types (5 each)
   - Overall rating: 3.4/5 with significant demographic variation

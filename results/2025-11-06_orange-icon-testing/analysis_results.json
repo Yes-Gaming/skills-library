@@ -1,0 +1,302 @@
+{
+  "test_metadata": {
+    "test_date": "2025-11-06",
+    "test_color": "ORANGE",
+    "total_interviews": 25,
+    "methodology": "Isolated agent interviews with 25 unique personas across 5 persona types"
+  },
+  "overall_results": {
+    "overall_rating": 3.6,
+    "rating_distribution": {
+      "5_stars": 4,
+      "4_stars": 11,
+      "3_stars": 6,
+      "2_stars": 4,
+      "1_star": 0
+    }
+  },
+  "persona_breakdown": {
+    "Casual Entertainer": {
+      "count": 5,
+      "ratings": [
+        3.0,
+        4,
+        2.0,
+        5.0,
+        4
+      ],
+      "average_rating": 3.6
+    },
+    "Sports Enthusiast": {
+      "count": 5,
+      "ratings": [
+        4.0,
+        4.0,
+        2.0,
+        5.0,
+        4
+      ],
+      "average_rating": 3.8
+    },
+    "Casino Explorer": {
+      "count": 5,
+      "ratings": [
+        4.0,
+        4.0,
+        2.0,
+        5.0,
+        4
+      ],
+      "average_rating": 3.8
+    },
+    "Trust Seeker": {
+      "count": 5,
+      "ratings": [
+        3.0,
+        3,
+        2.0,
+        3.0,
+        3
+      ],
+      "average_rating": 2.8
+    },
+    "Cross-Entertainment": {
+      "count": 5,
+      "ratings": [
+        4.0,
+        4.0,
+        3.0,
+        5.0,
+        4
+      ],
+      "average_rating": 4.0
+    }
+  },
+  "trust_seeker_analysis": {
+    "respondents": [
+      "Jens",
+      "Hanne",
+      "Lars",
+      "Kirsten",
+      "Søren"
+    ],
+    "average_rating": 2.8,
+    "key_concerns": [
+      {
+        "persona": "Jens",
+        "quote": "Orange feels more playful than trustworthy. I'm not sure that's what I want from a betting platform."
+      },
+      {
+        "persona": "Jens",
+        "quote": "I'd find it easily. But does it look like something I trust? That matters more."
+      },
+      {
+        "persona": "Jens",
+        "quote": "Energy and fun, yes. Trust and security? Not so much. That's my concern."
+      },
+      {
+        "persona": "Jens",
+        "quote": "3. Visible and energetic, but doesn't feel trustworthy enough. I need trust."
+      },
+      {
+        "persona": "Jens",
+        "quote": "I'd need to see how it's executed. The color concerns me on trust, but maybe strong design can fix that."
+      },
+      {
+        "persona": "Hanne",
+        "quote": "The reason I'm uncertain about orange is because when you consider traditional gambling and gaming colors, orange isn't commonly associated with trust or security. Red and gold are traditional, green ..."
+      },
+      {
+        "persona": "Hanne",
+        "quote": "When you consider how color affects trust perception, orange is energizing but not security-conveying. Green, blue, and even dark red feel more established and trustworthy. Orange feels newer, less pr..."
+      },
+      {
+        "persona": "Hanne",
+        "quote": "Recognition is one factor, but when you consider the full user journey, trust and credibility matter more than pure visibility. Orange achieves visibility but I'm uncertain about trust."
+      },
+      {
+        "persona": "Hanne",
+        "quote": "The associations I get from orange are: energy, friendliness, approachability, but also: commercial, sales-oriented, less established. For a gambling platform where I'm trusting them with money, those..."
+      },
+      {
+        "persona": "Hanne",
+        "quote": "The reason I'd give it 2.5, rounding to 3, is because while orange achieves visibility (4) and energy (4), it significantly underperforms on trust (2) and security perception (2). When you consider th..."
+      },
+      {
+        "persona": "Hanne",
+        "quote": "My final thought is this: orange CAN work for a gambling platform, but only if every other element screams trust, security, and professionalism. The color is working against trust, so the design, mess..."
+      },
+      {
+        "persona": "Lars",
+        "quote": "Security-wise, orange doesn't convey trust to me. It feels more commercial, more sales-oriented. I'm concerned it might signal a less serious platform."
+      },
+      {
+        "persona": "Lars",
+        "quote": "Orange doesn't convey security to me. It feels commercial and sales-focused rather than professional and secure. This concerns me for a financial transaction platform."
+      },
+      {
+        "persona": "Lars",
+        "quote": "Yes, I'd find it. But high visibility can also mean high profile for a gambling app, which raises privacy concerns. Do I want my gambling app to be the most visible icon on my screen?"
+      },
+      {
+        "persona": "Lars",
+        "quote": "Commercial. Consumer-facing. Retail. Telecommunications. Not financial services. Not security. Not trust. Those associations are concerning for a gambling platform."
+      },
+      {
+        "persona": "Lars",
+        "quote": "2. Security and trust concerns override any visibility benefits. Orange doesn't convey the professionalism and security I need."
+      },
+      {
+        "persona": "Lars",
+        "quote": "Orange is concerning for trust and security perception. In cybersecurity and financial services, this choice would be questioned. I'd personally be more hesitant to trust a platform with orange brandi..."
+      },
+      {
+        "persona": "Kirsten",
+        "quote": "Orange is bright and fun! But trust is key - does orange feel trustworthy? I need to see it feel safe too."
+      },
+      {
+        "persona": "Kirsten",
+        "quote": "I'd find it easily, and that's good! But recognition and trust need to go together. Orange is certainly recognizable."
+      },
+      {
+        "persona": "Kirsten",
+        "quote": "Fun and friendly associations, which I like! But trust is the KEY association I need, and orange doesn't strongly convey that."
+      },
+      {
+        "persona": "Kirsten",
+        "quote": "3. Love the fun energy (4), but only if trust is there (2). The average is 3. Trust is KEY!"
+      },
+      {
+        "persona": "Kirsten",
+        "quote": "I want to love it because it's fun and energetic! But they MUST pair it with clear trust signals. If they do, it could work. If they don't, the fun won't overcome my trust concerns."
+      },
+      {
+        "persona": "Søren",
+        "quote": "Compared to other platforms that use darker, more conservative colors to convey trust and professionalism, orange is unconventional. The data on color psychology suggests orange is energizing but not ..."
+      },
+      {
+        "persona": "Søren",
+        "quote": "Analysis shows orange is associated with friendliness and energy, but trust metrics are lower compared to blue or green. For a financial services platform, which gambling essentially is, that's a conc..."
+      },
+      {
+        "persona": "Søren",
+        "quote": "Association analysis: Energy (88%), Fun (85%), Commercial (75%), Trust (42%), Security (38%), Premium (35%). Compared to trust-critical platforms, orange significantly underperforms on security and re..."
+      },
+      {
+        "persona": "Søren",
+        "quote": "Analysis-based rating: Visibility (5), Energy (5), Trust (2), Security (2), Premium (3). Weighted by trust-seeker priorities (trust>energy), overall: 2.8, round to 3. Compared to trust-optimized color..."
+      },
+      {
+        "persona": "Søren",
+        "quote": "Final analysis: Orange represents a calculated risk. High reward in terms of differentiation and energy, but significant trust deficit. For Trust Seeker segments (40+, high lifetime value), this is su..."
+      }
+    ],
+    "trust_score": 56.0
+  },
+  "key_associations": {
+    "top_positive": [
+      [
+        "energy",
+        18
+      ],
+      [
+        "fun",
+        13
+      ],
+      [
+        "creativity",
+        6
+      ],
+      [
+        "modern",
+        6
+      ],
+      [
+        "premium",
+        4
+      ]
+    ],
+    "top_negative": [
+      [
+        "commercial",
+        7
+      ],
+      [
+        "low_trust",
+        7
+      ],
+      [
+        "not_premium",
+        6
+      ],
+      [
+        "cheap",
+        3
+      ],
+      [
+        "too_intense",
+        2
+      ]
+    ]
+  },
+  "notable_quotes": {
+    "enthusiastic": [
+      {
+        "persona": "Mikkel (Casual Entertainer)",
+        "quote": "Oh wow, orange! That's bold! I love how it pops! Very energetic and fun!"
+      },
+      {
+        "persona": "Morten (Sports Enthusiast)",
+        "quote": "ORANGE! That's awesome! Super energetic! Love how it stands out - perfect for getting pumped about betting!"
+      },
+      {
+        "persona": "Oliver (Casino Explorer)",
+        "quote": "ORANGE IS FIRE! Love it! So bright and eye-catching! Epic choice!"
+      },
+      {
+        "persona": "Alexander (Cross-Entertainment)",
+        "quote": "ORANGE! Amazing! Love how bold it is! Perfect for streaming content - super visible and energetic!"
+      }
+    ],
+    "critical": [
+      {
+        "persona": "Sofie (Casual Entertainer)",
+        "quote": "Orange feels very marketing-heavy to me. Like it's trying too hard to get attention. Makes me think of cheap telecom brands or budget airlines."
+      },
+      {
+        "persona": "Kasper (Sports Enthusiast)",
+        "quote": "Orange immediately makes me think of budget brands. Telecom companies use orange. I'm skeptical it conveys the right premium or trustworthy image for gambling."
+      },
+      {
+        "persona": "Katrine (Casino Explorer)",
+        "quote": "Orange feels manipulative to me. It's the color of urgency and 'act now' marketing tactics. I'm suspicious of why they'd choose something so psychologically activating."
+      },
+      {
+        "persona": "Lars (Trust Seeker)",
+        "quote": "Security-wise, orange doesn't convey trust to me. It feels more commercial, more sales-oriented. I'm concerned it might signal a less serious platform."
+      }
+    ],
+    "trust_concerns": [
+      {
+        "persona": "Jens",
+        "quote": "I'd need to see how it's executed. The color concerns me on trust, but maybe strong design can fix that."
+      },
+      {
+        "persona": "Hanne",
+        "quote": "My final thought is this: orange CAN work for a gambling platform, but only if every other element screams trust, security, and professionalism. The color is working against trust, so the design, messaging, licensing visibility, and responsible gambl..."
+      },
+      {
+        "persona": "Lars",
+        "quote": "Orange is concerning for trust and security perception. In cybersecurity and financial services, this choice would be questioned. I'd personally be more hesitant to trust a platform with orange branding unless other trust signals were exceptionally s..."
+      },
+      {
+        "persona": "Kirsten",
+        "quote": "I want to love it because it's fun and energetic! But they MUST pair it with clear trust signals. If they do, it could work. If they don't, the fun won't overcome my trust concerns."
+      },
+      {
+        "persona": "Søren",
+        "quote": "Final analysis: Orange represents a calculated risk. High reward in terms of differentiation and energy, but significant trust deficit. For Trust Seeker segments (40+, high lifetime value), this is suboptimal. Would recommend testing alternative colo..."
+      }
+    ]
+  }
+}

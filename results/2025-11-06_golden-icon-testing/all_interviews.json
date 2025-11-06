@@ -1,0 +1,152 @@
+[
+  {
+    "persona_id": "casual_1",
+    "persona_name": "Emma",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "casual_2",
+    "persona_name": "Lucas",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "casual_3",
+    "persona_name": "Sofie",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "casual_4",
+    "persona_name": "Mikkel",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "casual_5",
+    "persona_name": "Marie",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "sports_1",
+    "persona_name": "Thomas",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "sports_2",
+    "persona_name": "Peter",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "sports_3",
+    "persona_name": "Kasper",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "sports_4",
+    "persona_name": "Morten",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "sports_5",
+    "persona_name": "Nikolaj",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "casino_1",
+    "persona_name": "Anna",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "casino_2",
+    "persona_name": "Viktor",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "casino_3",
+    "persona_name": "Katrine",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "casino_4",
+    "persona_name": "Oliver",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "casino_5",
+    "persona_name": "Caroline",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "trust_1",
+    "persona_name": "Jens",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "trust_2",
+    "persona_name": "Hanne",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "trust_3",
+    "persona_name": "Lars",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "trust_4",
+    "persona_name": "Kirsten",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "trust_5",
+    "persona_name": "S\u00f8ren",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "cross_1",
+    "persona_name": "Marcus",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "cross_2",
+    "persona_name": "Sebastian",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "cross_3",
+    "persona_name": "Nanna",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "cross_4",
+    "persona_name": "Alexander",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  },
+  {
+    "persona_id": "cross_5",
+    "persona_name": "Ida",
+    "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+    "success": false
+  }
+]

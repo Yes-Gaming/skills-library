@@ -1,0 +1,327 @@
+[
+  {
+    "persona_id": "emma",
+    "persona_type": "Casual Entertainer",
+    "profile": "Emma, 24, Copenhagen, Retail supervisor, Brief/Direct style",
+    "interview": {
+      "q1_first_reaction": "It's okay. Green stands out but doesn't scream 'fun' like I'd expect.",
+      "q2_feeling": "Green feels... safe? Like permission or go ahead. Not really exciting for games though.",
+      "q3_recognition": "Yeah, I'd find it. Green's pretty visible on my screen.",
+      "q4_associations": "Money. Nature. Also that 'go' signal feeling. Maybe eco-friendly?",
+      "q5_rating": 3,
+      "q6_other_thoughts": "It's fine. Not my first choice for gaming but it works."
+    }
+  },
+  {
+    "persona_id": "lucas",
+    "persona_type": "Casual Entertainer",
+    "profile": "Lucas, 27, Aarhus, UX designer, Detailed/Explanatory style",
+    "interview": {
+      "q1_first_reaction": "Well, I think my first reaction is that it's unexpected but refreshing. Green isn't a typical gambling color, which could work in your favor from a differentiation perspective. When you look at the competitive landscape, most apps use reds, golds, or darks, so green immediately stands out. However, I'm questioning whether it communicates the right emotional trigger for the category.",
+      "q2_feeling": "The reason green is interesting is because it has dual associations. On one hand, there's the positive 'go' signal, growth, freshness - which could align with a modern, forward-thinking platform. On the other hand, green doesn't naturally evoke excitement or adrenaline the way warmer colors do. In gaming contexts, I'd expect more energetic colors. Green feels more calm, which might be intentional if you're going for responsible gambling positioning, but it could also read as less thrilling.",
+      "q3_recognition": "Absolutely yes for recognition. Because when you scan a phone screen, color is the first visual hierarchy element your eye catches. Green would create excellent contrast against most wallpapers and other app icons. From a pure findability standpoint, this scores very high - maybe 9/10. The question isn't whether I'd find it, it's whether I'd want to open it based on what the color signals.",
+      "q4_associations": "The associations are complex. Primarily: money and financial transactions, which is relevant for gambling. Also: nature, health, eco-consciousness, safety (green light), permission (go ahead), growth. But notably absent: excitement, risk, thrill, fun. There's also a potential association with luck (four-leaf clover, green as lucky color in some contexts), but that's more cultural and less universal.",
+      "q5_rating": 3.5,
+      "q6_other_thoughts": "I think the success of green depends entirely on execution. If you go with a vibrant, neon green with strong contrast, you might capture some of that energy. If it's a muted or forest green, it could feel too conservative. The typography, shading, and overall design system need to compensate for green's naturally calmer energy. I'd also be curious about the target demographic - younger users might find it fresh and different, while older users might not associate it with gambling at all."
+    }
+  },
+  {
+    "persona_id": "sofie",
+    "persona_type": "Casual Entertainer",
+    "profile": "Sofie, 23, Copenhagen, Marketing student, Skeptical/Critical style",
+    "interview": {
+      "q1_first_reaction": "This feels like greenwashing but for gambling? Like you're trying to make it seem healthier or more responsible than it is.",
+      "q2_feeling": "Green makes me think you're trying to look legitimate and trustworthy. It's the color of regulation, safety, 'approved.' Which feels manipulative because gambling is still gambling, and wrapping it in green doesn't make it safer. It's like those 'organic' labels on junk food.",
+      "q3_recognition": "Yeah, I'd find it. But would I trust it? Green screams 'we want you to feel safe' which makes me immediately suspicious about what you're actually doing with my data or money.",
+      "q4_associations": "Money, obviously. But also: permission, eco-friendly (which is irrelevant here), health (ironic for gambling), trust signals, regulation. It feels calculated to trigger safety responses.",
+      "q5_rating": 2,
+      "q6_other_thoughts": "I don't trust this because it feels like you're using color psychology to make people feel safer than they should. Green is the color of 'approved' and 'healthy' - using that for gambling feels dishonest. I'd rather see an honest brand color that doesn't pretend to be something it's not."
+    }
+  },
+  {
+    "persona_id": "mikkel",
+    "persona_type": "Casual Entertainer",
+    "profile": "Mikkel, 22, Odense, Bartender, Enthusiastic/Emotional style",
+    "interview": {
+      "q1_first_reaction": "Green? Interesting! It's different, I'll give you that!",
+      "q2_feeling": "Green feels fresh! Like money, like winning, like GO! It's got that energy of 'let's do this!' I like it better than I thought I would!",
+      "q3_recognition": "Oh yeah, totally! Green pops on my screen. I'd see it right away!",
+      "q4_associations": "Money! Cash! Also luck - like lucky green, you know? And that green light feeling like GO GO GO! It's actually pretty cool for gambling!",
+      "q5_rating": 4,
+      "q6_other_thoughts": "I actually love this! It's bold and different! Not what I expected for a casino app but it works! Makes me think of winning money which is the whole point!"
+    }
+  },
+  {
+    "persona_id": "marie",
+    "persona_type": "Casual Entertainer",
+    "profile": "Marie, 26, Copenhagen, Data analyst, Analytical/Comparative style",
+    "interview": {
+      "q1_first_reaction": "If we compare this to the competitive set, green is an outlier choice. The data from app store analysis shows most gambling apps cluster around red-gold-black color schemes. Green represents approximately 3% of the category, which creates differentiation but also raises questions about category convention adherence.",
+      "q2_feeling": "Looking at color psychology research, green triggers associations with growth, safety, and permission. In gaming contexts, this presents a paradox: the positive 'go' signal could encourage engagement, but the calming effect might reduce the excitement factor that drives gambling behavior. The data suggests green performs well for financial and health apps (75% of fintech uses blue-green spectrum), but underperforms in entertainment categories.",
+      "q3_recognition": "From a visibility standpoint, the contrast ratio data supports strong recognition. Green offers 8.2/10 average contrast against common wallpaper types (measured against 1000 popular backgrounds). Compared to red (7.8/10) and yellow (9.1/10), it's competitive for findability.",
+      "q4_associations": "Statistical analysis of color associations shows green correlates with: money/financial (87% association rate), nature/environment (92%), safety/permission (78%), health/wellness (71%), luck (34% - culturally variable). Notably low correlation with: excitement (12%), risk (8%), premium quality (23%).",
+      "q5_rating": 3,
+      "q6_other_thoughts": "If we analyze this from a strategic perspective, green optimizes for trust and differentiation but sacrifices excitement and premium perception. The value proposition depends on your target demographic's priorities. For risk-averse users seeking responsible platforms, green scores high. For thrill-seekers, it underperforms versus traditional gambling colors."
+    }
+  },
+  {
+    "persona_id": "thomas",
+    "persona_type": "Sports Enthusiast",
+    "profile": "Thomas, 29, Copenhagen, Personal trainer, Brief/Direct style",
+    "interview": {
+      "q1_first_reaction": "Green. Odd choice for betting but I'd notice it.",
+      "q2_feeling": "Green feels like 'go' - like placing a bet, green light to bet. Works okay.",
+      "q3_recognition": "Yeah, I'd find it fast. Green stands out.",
+      "q4_associations": "Money. The pitch. Go signal. Winning.",
+      "q5_rating": 3,
+      "q6_other_thoughts": "Not bad. Different. Works for quick recognition during match time."
+    }
+  },
+  {
+    "persona_id": "peter",
+    "persona_type": "Sports Enthusiast",
+    "profile": "Peter, 32, Aarhus, Software developer, Detailed/Explanatory style",
+    "interview": {
+      "q1_first_reaction": "The way I see it, green is a strategic choice that signals something different from the typical betting platform. Because if you analyze the market, everyone's fighting for attention with aggressive reds and golds. Green says 'we're different' which could appeal to a more analytical bettor who wants a platform that doesn't feel predatory. However, it also risks not feeling exciting enough for casual bettors.",
+      "q2_feeling": "Green in a betting context makes me think of the pitch, the field - which is directly relevant for sports betting. There's that natural connection to the sport itself. It also has the 'go' signal association which feels appropriate for placing bets. But when you compare it to the adrenaline of red or the premium feel of gold, green feels more neutral and calm. For someone like me who bets strategically, that's not necessarily bad - I don't want to be emotionally manipulated. But for others, it might feel less engaging.",
+      "q3_recognition": "Absolutely, because the color contrast would be strong. When you're trying to get a bet in during live play, every second counts. Green would be immediately visible on any screen layout. From a practical usability standpoint, it's excellent. The question is more about brand perception than findability.",
+      "q4_associations": "The associations that come to mind: the football pitch (positive for sports betting), money/profit, green light to bet, go ahead/permission, also environmental or responsible (which could be a good thing if you're emphasizing responsible gambling). Less common associations: luck (green as lucky color), freshness/new approach.",
+      "q5_rating": 3.5,
+      "q6_other_thoughts": "I think for sports betting specifically, green works better than for casino gaming. The connection to the pitch/field is meaningful. But you'd need to back it up with a platform that actually delivers on whatever green is promising - whether that's transparency, responsibility, or innovation. The color creates expectations."
+    }
+  },
+  {
+    "persona_id": "kasper",
+    "persona_type": "Sports Enthusiast",
+    "profile": "Kasper, 27, Copenhagen, Sports journalist, Skeptical/Critical style",
+    "interview": {
+      "q1_first_reaction": "Most betting apps use aggressive colors to trigger betting impulses, but this one's going with green? I'm skeptical about the intention here.",
+      "q2_feeling": "Green feels like it's trying to position the platform as 'responsible' or 'trustworthy' - which immediately makes me question whether that's genuine or just marketing. In my experience covering the gambling industry, when companies try too hard to look safe, there's usually a reason. Green says 'we're not like the others' but I'd need to see operational evidence to believe it.",
+      "q3_recognition": "Yeah, I'd find it quickly. Green's distinctive. But recognition isn't the issue - trust is.",
+      "q4_associations": "I'm suspicious of the associations they're trying to trigger: safety, permission, money, legitimacy. It feels calculated to make bettors feel more comfortable placing bets, which is classic behavioral nudging. Also green = go, which encourages action. It's subtle manipulation through color.",
+      "q5_rating": 2.5,
+      "q6_other_thoughts": "Green could work if it's backed by genuine responsible gambling practices and transparency. But if it's just greenwashing (or 'green-gambling-washing'?), it'll backfire when people realize it's the same predatory practices in a calmer color package. I need to see the substance behind the branding."
+    }
+  },
+  {
+    "persona_id": "morten",
+    "persona_type": "Sports Enthusiast",
+    "profile": "Morten, 26, Aalborg, Sports coach, Enthusiastic/Emotional style",
+    "interview": {
+      "q1_first_reaction": "GREEN! Like the pitch! I love it! That's brilliant!",
+      "q2_feeling": "Green makes me think of football, the field, the game! It's got that energy of match day! And money, winning bets! YES!",
+      "q3_recognition": "Absolutely! Green would pop right out on my screen! Perfect for finding it fast when the match is starting!",
+      "q4_associations": "The PITCH! Football! Also money, winning, go go go! Green light means BET! It's perfect for sports!",
+      "q5_rating": 4.5,
+      "q6_other_thoughts": "This is amazing for sports betting! The connection to the field is genius! Every time I see green I think football! Love it!"
+    }
+  },
+  {
+    "persona_id": "nikolaj",
+    "persona_type": "Sports Enthusiast",
+    "profile": "Nikolaj, 34, Copenhagen, Financial analyst, Analytical/Comparative style",
+    "interview": {
+      "q1_first_reaction": "Compared to Platform X, Y, and Z which all use red or gold, green represents a differentiation play. The metrics would suggest this is targeting a different psychological profile - less impulsive, more calculated bettors.",
+      "q2_feeling": "The data on color psychology indicates green triggers lower arousal and higher calm compared to warm colors. For betting platforms, this is counterintuitive unless you're specifically targeting analytical bettors like me who prefer platforms that don't feel manipulative. Green signals permission and safety, which could reduce betting friction, but it also reduces excitement which drives casual betting volume.",
+      "q3_recognition": "Visibility metrics would be high. Contrast analysis shows green performs well for recognition. The question isn't findability, it's positioning.",
+      "q4_associations": "Compared to other colors: green = money (positive), safety/regulation (positive for trust), permission/go (positive for conversion), but low excitement (negative for engagement). The numbers suggest this targets quality over quantity of users.",
+      "q5_rating": 3,
+      "q6_other_thoughts": "The analysis shows green optimizes for a specific segment: analytical, responsible bettors who value trust over thrills. If that's your target demographic, the metrics support this choice. If you're targeting casual high-frequency bettors, red or yellow would perform better. It's a strategic trade-off that depends on your user acquisition and LTV model."
+    }
+  },
+  {
+    "persona_id": "anna",
+    "persona_type": "Casino Explorer",
+    "profile": "Anna, 25, Copenhagen, Graphic designer, Brief/Direct style",
+    "interview": {
+      "q1_first_reaction": "Green? Unusual. Not typical for casino.",
+      "q2_feeling": "Green feels calm. Not exciting enough for gaming.",
+      "q3_recognition": "Yeah, I'd spot it. Green stands out.",
+      "q4_associations": "Money. Nature. Eco stuff. Not really casino vibes.",
+      "q5_rating": 2.5,
+      "q6_other_thoughts": "Doesn't match the energy I want from a casino app. Too calm."
+    }
+  },
+  {
+    "persona_id": "viktor",
+    "persona_type": "Casino Explorer",
+    "profile": "Viktor, 28, Aarhus, Game developer, Detailed/Explanatory style",
+    "interview": {
+      "q1_first_reaction": "The reason this is interesting from a game design perspective is because it completely subverts category conventions. Because technically, when you look at casino game design, the entire visual language is built around golds, purples, reds - colors that signal luxury and excitement. Green is the absence of that language, which could either be brilliant differentiation or a category mismatch.",
+      "q2_feeling": "From a psychological design standpoint, green triggers calm and safety rather than excitement and risk - which is the opposite of what casino games are designed to evoke. The dopamine triggers in slot games rely heavily on warm colors, flashing lights, and visual intensity. Green works against that fundamental design principle. However, if you're building a platform that emphasizes responsible gaming or skill-based games rather than pure luck, green could signal that different approach.",
+      "q3_recognition": "Technically, yes - the contrast would make it highly visible. Color recognition isn't the issue. The issue is expectation setting. When users see green, what gameplay experience are they expecting? If the app delivers traditional casino games with typical high-intensity design, there's a disconnect between the icon and the experience.",
+      "q4_associations": "The associations are problematic for traditional casino: money (positive), nature/organic (neutral), calm/safety (negative for excitement-driven gaming), permission/go (neutral), eco-friendly (irrelevant). Missing associations: luxury, premium, excitement, risk, thrill - all core to casino appeal.",
+      "q5_rating": 2.5,
+      "q6_other_thoughts": "From a professional perspective, green could work if you're building a genuinely different type of gaming platform - maybe one that emphasizes skill over luck, or one that's positioned around responsible gaming. But if you're offering standard slots and casino games, green creates a brand promise that the experience won't deliver on. The color has to match the product."
+    }
+  },
+  {
+    "persona_id": "katrine",
+    "persona_type": "Casino Explorer",
+    "profile": "Katrine, 24, Copenhagen, Psychology student, Skeptical/Critical style",
+    "interview": {
+      "q1_first_reaction": "This seems designed to make gambling feel safer and more legitimate than it is. Green is the color of permission and safety.",
+      "q2_feeling": "Green makes me think you're using color psychology to reduce people's natural caution around gambling. It's like putting a healthy-looking green label on addictive behavior. I'm suspicious of the intent.",
+      "q3_recognition": "Yeah, I'd find it. But I'd also be asking myself why you're using the color of 'go ahead, it's safe' for something that's inherently risky.",
+      "q4_associations": "I'm suspicious of these associations: safety, permission, health, trust, legitimacy. Using green for gambling feels like behavioral manipulation - reducing psychological barriers to betting by making it feel more acceptable.",
+      "q5_rating": 2,
+      "q6_other_thoughts": "From a psychology perspective, this is transparent manipulation. Green signals 'this is okay, this is safe, you're permitted to do this' - which encourages more frequent gambling behavior by reducing the natural caution people should have. It's clever but ethically questionable."
+    }
+  },
+  {
+    "persona_id": "oliver",
+    "persona_type": "Casino Explorer",
+    "profile": "Oliver, 22, Odense, Esports content creator, Enthusiastic/Emotional style",
+    "interview": {
+      "q1_first_reaction": "Green? That's... different! Not what I expected but kinda cool!",
+      "q2_feeling": "Green feels fresh! Like money! Like WINNING! It's not the typical casino color but that makes it interesting!",
+      "q3_recognition": "For sure! Green would pop on my screen! Easy to find!",
+      "q4_associations": "Money money money! Also like gaming stuff - Xbox had green! Also that GO feeling! Let's goooo!",
+      "q5_rating": 3.5,
+      "q6_other_thoughts": "It's different which is cool! Not the same old gold and red! Fresh take! Could work if the games are fire!"
+    }
+  },
+  {
+    "persona_id": "caroline",
+    "persona_type": "Casino Explorer",
+    "profile": "Caroline, 29, Copenhagen, Mathematics teacher, Analytical/Comparative style",
+    "interview": {
+      "q1_first_reaction": "Statistically speaking, green is an outlier in the casino app category. When I compare the color distribution across the top 50 gambling apps, less than 5% use green as their primary brand color. This creates differentiation but also raises questions about why the conventional wisdom favors warmer colors.",
+      "q2_feeling": "The numbers show green is associated with lower arousal states and higher trust perception compared to red or gold. For casino gaming, where the business model relies on sustained engagement and excitement, green works against the psychological triggers that drive play behavior. However, if you're targeting mathematically-minded players who want transparency and fair odds, green could signal that different approach.",
+      "q3_recognition": "From a pure visibility standpoint, yes. Contrast analysis shows green performs well. But recognition and preference are different metrics.",
+      "q4_associations": "Statistically, green correlates with: money (82%), trust (73%), nature (89%), safety (71%). Low correlation with: excitement (15%), luxury (18%), risk (9%). For RTP-focused players like me, the trust association is valuable. For casual players seeking entertainment, it might not trigger the right emotions.",
+      "q5_rating": 3,
+      "q6_other_thoughts": "Compared to conventional casino colors, green optimizes for trust and money association but sacrifices excitement and premium perception. It depends on whether you're targeting analytical players who value fair odds or casual players who want thrilling visuals."
+    }
+  },
+  {
+    "persona_id": "jens",
+    "persona_type": "Trust Seeker",
+    "profile": "Jens, 47, Aarhus, Small business owner, Brief/Direct style",
+    "interview": {
+      "q1_first_reaction": "Green looks legitimate. Professional.",
+      "q2_feeling": "Green feels trustworthy. Like it's regulated and safe.",
+      "q3_recognition": "Yes. Easy to find. Clear.",
+      "q4_associations": "Trust. Security. Licensed. Official. Also money.",
+      "q5_rating": 4,
+      "q6_other_thoughts": "I like it. Green feels honest and professional. Better than flashy red."
+    }
+  },
+  {
+    "persona_id": "hanne",
+    "persona_type": "Trust Seeker",
+    "profile": "Hanne, 52, Copenhagen, Senior accountant, Detailed/Explanatory style",
+    "interview": {
+      "q1_first_reaction": "The reason I trust this more than other color choices is because when you consider the regulatory environment in Denmark, green is the color of Spillemyndigheden approval stamps, the color of security certificates, the color of verified status. So my immediate association is 'this looks officially sanctioned' which creates a foundation of trust before I even open the app.",
+      "q2_feeling": "Green makes me feel that this platform takes compliance and responsible gambling seriously. Because when you look at the visual language of regulation and consumer protection, green is consistently used to signal 'verified,' 'approved,' 'safe to proceed.' In a gambling context where trust is paramount, especially for someone my age who's seen platforms fail or scam users, green communicates legitimacy in a way that gold or red simply doesn't.",
+      "q3_recognition": "Absolutely, because the color contrast ensures visibility. But more importantly, the green color would signal to me 'this is the trustworthy gambling app' versus the flashy, potentially predatory ones. So it's not just about finding it - it's about choosing it over alternatives that look less regulated.",
+      "q4_associations": "The primary associations are overwhelmingly positive from a trust perspective: regulatory approval, security certification, financial legitimacy, permission to proceed with confidence, responsible business practices. It also suggests transparency and accountability - green is the color of 'nothing to hide.' For someone like me who needs visible trust signals before committing my money, green delivers exactly what I need to see.",
+      "q5_rating": 4.5,
+      "q6_other_thoughts": "I think green is an excellent strategic choice for attracting users like me who prioritize trust over flashiness. The color itself communicates that you understand your responsibility as a gambling platform to protect users and operate ethically. That said, the color is only as trustworthy as the operational practices behind it. If the app uses green branding but fails to deliver on transparency, licensing visibility, and responsible gambling tools, it would feel dishonest. But if green is backed by genuine commitment to user safety, it's a powerful trust signal."
+    }
+  },
+  {
+    "persona_id": "lars",
+    "persona_type": "Trust Seeker",
+    "profile": "Lars, 44, Odense, IT security consultant, Skeptical/Critical style",
+    "interview": {
+      "q1_first_reaction": "This concerns me because green is being used as a trust signal, and I need to verify whether that trust is earned or manipulated.",
+      "q2_feeling": "Green makes me think of security certificates and SSL verification - which is appropriate for a platform handling financial transactions. But I'm immediately skeptical about whether the platform's actual security practices match the color promise. Security-wise, green is often used to indicate 'verified' or 'secure' status, so using it as a brand color could be borrowing credibility it hasn't earned.",
+      "q3_recognition": "Yes, high visibility. But that's not the question I'm asking. I'm asking: is this green icon backed by actual security infrastructure, proper data encryption, verified licensing, and transparent terms? Or is it using green to look trustworthy while cutting corners?",
+      "q4_associations": "I don't trust color associations alone, but green typically signals: security verification, encrypted connection, regulatory compliance, safe to proceed. In a security context, green means 'validated.' But for a gambling app, I'd need to audit the actual security measures, not just trust the color choice.",
+      "q5_rating": 3,
+      "q6_other_thoughts": "Green can work IF and only IF it's backed by genuine security and transparency. Show me the Spillemyndigheden license prominently. Show me your data encryption standards. Show me your responsible gambling tools. Show me your audit reports. If green is just a facade for standard industry practices, I'll see through it immediately. But if you're actually building the most secure, transparent gambling platform in Denmark and using green to communicate that, then it's appropriate."
+    }
+  },
+  {
+    "persona_id": "kirsten",
+    "persona_type": "Trust Seeker",
+    "profile": "Kirsten, 49, Aalborg, Kindergarten director, Enthusiastic but Trust-Conscious style",
+    "interview": {
+      "q1_first_reaction": "Oh I love it! Green feels safe and trustworthy! Much better than those aggressive red casino colors!",
+      "q2_feeling": "Green makes me feel comfortable and safe! It's like seeing a green checkmark or a safety seal! I feel like this would be a responsible platform that cares about players! But only if it actually is - trust is earned, not just colored!",
+      "q3_recognition": "Absolutely! I'd find it right away! And I'd feel good about opening it because green feels legitimate!",
+      "q4_associations": "Trust! Safety! Official approval! Also money and success! And that green light feeling of 'it's okay to proceed!' I love that it doesn't look predatory!",
+      "q5_rating": 4.5,
+      "q6_other_thoughts": "I think green is wonderful for building trust! But trust is everything - so the platform must actually deliver on what green promises! Show me the responsible gambling tools, show me the license, show me that you care! If you do that, green is perfect!"
+    }
+  },
+  {
+    "persona_id": "soren",
+    "persona_type": "Trust Seeker",
+    "profile": "Søren, 51, Copenhagen, Financial advisor, Analytical/Comparative style",
+    "interview": {
+      "q1_first_reaction": "Compared to other platforms which use red (37%), gold (28%), or black (22%), green (approximately 4% market share) positions this as a trust-first rather than excitement-first platform. The data indicates this targets risk-averse users who prioritize platform credibility.",
+      "q2_feeling": "The data on color perception shows green scores highest for trust (8.7/10) and lowest for excitement (3.2/10) among major color options. In gambling contexts, this represents a strategic trade-off: you gain credibility with high-value, risk-averse users but potentially sacrifice appeal to thrill-seeking segments. For someone like me analyzing platform trustworthiness, green immediately signals regulatory compliance and financial legitimacy.",
+      "q3_recognition": "Visibility analysis shows green offers strong contrast (8.4/10 average). Recognition isn't the constraint - the constraint is whether recognition translates to trust validation or merely attention.",
+      "q4_associations": "Analysis shows green correlates with: financial legitimacy (87%), regulatory compliance (82%), security (79%), permission to proceed (76%), sustainable/responsible business (71%). Notably low correlation with: excitement (14%), premium luxury (19%), risk-taking (11%). For a trust-focused platform, these associations are optimal.",
+      "q5_rating": 4,
+      "q6_other_thoughts": "Compared to alternative color strategies, green optimizes for lifetime value over acquisition volume. The analysis indicates this will appeal strongly to high-value users (40+ demographic, higher income, strategic players) while potentially underperforming with casual entertainment seekers. If your business model prioritizes user quality and retention over rapid growth, the metrics support green as the optimal choice. The color aligns with responsible gambling positioning and regulatory credibility - both critical for high-LTV user segments."
+    }
+  },
+  {
+    "persona_id": "marcus",
+    "persona_type": "Cross-Entertainment",
+    "profile": "Marcus, 25, Copenhagen, Graphic designer, Brief/Direct style",
+    "interview": {
+      "q1_first_reaction": "Green's clean. Modern. Works for all-in-one platform.",
+      "q2_feeling": "Green feels unified. Like everything's connected. Good choice.",
+      "q3_recognition": "Yeah, easy to spot. Clear visibility.",
+      "q4_associations": "Integration. All-in-one. Also money and go signal.",
+      "q5_rating": 3.5,
+      "q6_other_thoughts": "Works well. Professional but still accessible."
+    }
+  },
+  {
+    "persona_id": "sebastian",
+    "persona_type": "Cross-Entertainment",
+    "profile": "Sebastian, 32, Aarhus, Product manager, Detailed/Explanatory style",
+    "interview": {
+      "q1_first_reaction": "The way it should work is this: because users need a unified platform that integrates sports, casino, and social features, the brand color should communicate cohesion and trust rather than category-specific excitement. Green actually works for this because it's neutral enough to span multiple entertainment types without feeling locked into one vertical. When you look at platforms trying to be everything, they often struggle with visual identity that works for both sports betting and casino - green solves that by being versatile.",
+      "q2_feeling": "In a cross-entertainment context, green signals permission and integration. It's the 'go' signal that works across multiple activities. For sports, it connects to the pitch. For casino, it represents money. For the overall platform, it suggests a safe, unified space where everything's connected. The feeling is less about excitement for one activity and more about confidence in the entire ecosystem.",
+      "q3_recognition": "Absolutely, because unified platforms need strong brand recognition across multiple usage contexts. Whether I'm opening it for live betting, casino games, or checking my account, the green icon becomes a trusted access point. The consistency is valuable.",
+      "q4_associations": "From a product perspective, green associates with: platform integration, financial transactions, permission to engage across verticals, trust in the ecosystem, growth and evolution. It's less about single-purpose excitement and more about comprehensive, reliable service.",
+      "q5_rating": 4,
+      "q6_other_thoughts": "For a unified platform, green is actually a smart choice because it avoids pigeonholing the brand into one entertainment vertical. Red might work for casino but feel aggressive for sports analysis. Gold might work for premium casino but feel mismatched for esports. Green works across the entire portfolio while building trust - which is exactly what a cross-entertainment platform needs."
+    }
+  },
+  {
+    "persona_id": "nanna",
+    "persona_type": "Cross-Entertainment",
+    "profile": "Nanna, 28, Copenhagen, UX researcher, Skeptical/Critical style",
+    "interview": {
+      "q1_first_reaction": "This claims to be unified but I'm skeptical about whether green actually solves the integration challenge or just masks it with branding.",
+      "q2_feeling": "Green feels like it's trying to communicate 'trust us, everything's integrated and safe' but I've seen too many platforms with nice branding and fragmented experiences. The color can't compensate for poor product integration. I'm questioning whether green is substance or just surface.",
+      "q3_recognition": "Yes, visibility is fine. But that's not the UX problem for unified platforms. The problem is whether the experience inside matches the promise outside.",
+      "q4_associations": "I'm skeptical of integration because green is being used to signal trustworthiness and cohesion. But does the actual product deliver unified account management, consistent design patterns, and seamless transitions between verticals? Or is it separate products with a green coat of paint?",
+      "q5_rating": 2.5,
+      "q6_other_thoughts": "From a UX perspective, green could work for a genuinely unified platform, but only if the integration is real. If it's just separate sports betting and casino products under one icon, green feels dishonest because it's promising cohesion that doesn't exist. The color has to match the product reality."
+    }
+  },
+  {
+    "persona_id": "alexander",
+    "persona_type": "Cross-Entertainment",
+    "profile": "Alexander, 24, Odense, Twitch streamer, Enthusiastic/Emotional style",
+    "interview": {
+      "q1_first_reaction": "GREEN! That's fresh! Different! I like it!",
+      "q2_feeling": "Green feels like MONEY! Like winning across everything! Sports, casino, all of it! Plus it's different from the usual red and gold! Content-worthy!",
+      "q3_recognition": "For sure! Green pops! Easy to find when I'm streaming!",
+      "q4_associations": "MONEY! Winning! GO! Also that all-in-one vibe! Everything's there!",
+      "q5_rating": 4,
+      "q6_other_thoughts": "Love it! Fresh take! Different from everyone else! Would look good on stream!"
+    }
+  },
+  {
+    "persona_id": "ida",
+    "persona_type": "Cross-Entertainment",
+    "profile": "Ida, 30, Copenhagen, Business analyst, Analytical/Comparative style",
+    "interview": {
+      "q1_first_reaction": "Compared to separate apps for sports and casino, a unified platform with green branding signals integration value proposition. The analysis shows consolidation platforms outperform single-vertical platforms when they deliver genuine integration - green supports that positioning.",
+      "q2_feeling": "Integration metrics show users value platforms that reduce app clutter and unify account management. Green communicates that value: permission to use all features, money flows in one ecosystem, trust in consolidated platform. The value analysis indicates green aligns with the integration promise.",
+      "q3_recognition": "Visibility data supports strong recognition. But more importantly, unified recognition - one icon for all entertainment needs rather than multiple apps. The value proposition is consolidation, which green symbolizes effectively.",
+      "q4_associations": "Compared to separate apps: green = unified account, consolidated bankroll, integrated experience, permission across all verticals, trusted ecosystem. The metrics show users prioritize convenience and trust in cross-entertainment platforms - green delivers both associations.",
+      "q5_rating": 4,
+      "q6_other_thoughts": "Value analysis indicates green optimizes for the unified platform proposition. Compared to using red (casino-focused) or sports-traditional colors, green works across verticals while building trust. If your competitive advantage is integration, the metrics support green as the strategic color choice."
+    }
+  }
+]

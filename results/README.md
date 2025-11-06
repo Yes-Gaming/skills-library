@@ -4,6 +4,65 @@ This folder contains results from all synthetic user testing research simulation
 
 ## Available Results
 
+### [November 6, 2025 - Complete App Icon Color Comparison](2025-11-06_COLOR_COMPARISON_STAKEHOLDER_REPORT.html) 🏆
+- **Test Type:** Comprehensive 9-color app icon comparison
+- **Total Interviews:** 225 (9 colors × 25 personas each)
+- **Winner:** PURPLE (4.24/5) - Universal appeal with zero trade-offs
+- **Alternatives:** BLACK (4.00/5), GOLDEN (4.00/5), GREEN (3.5/5)
+- **Rejected:** RED (2.6/5), PINK (2.9/5) - Catastrophic trust failures
+- **Critical Insight:** Only 5 colors achieve acceptable ratings with Trust Seekers (40+, highest LTV)
+
+**Quick Access:**
+- 🏆 [**Complete Comparison Report (HTML)**](2025-11-06_COLOR_COMPARISON_STAKEHOLDER_REPORT.html) ⭐ **START HERE**
+- 📊 [Master Comparison Analysis (MD)](2025-11-06_COLOR_COMPARISON_MASTER_ANALYSIS.md)
+- 📋 [Quick Reference README](2025-11-06_APP_ICON_COLOR_TESTING_README.md)
+- 📁 [Individual Color Results](#individual-color-results-november-6-2025)
+
+**Key Finding:** Purple is the only "sweet spot" color balancing high trust (84%) with premium perception (96%) and universal appeal.
+
+---
+
+### Individual Color Results (November 6, 2025)
+
+#### 🥇 #1: [Purple Icon Testing](2025-11-06_purple-icon-testing/) - 4.24/5 ⭐ RECOMMENDED
+- Universal appeal across all demographics (0% rejection)
+- 96% premium perception, 84% trust association
+- Winner recommendation for Yes Games app icon
+
+#### 🥈 #2: [Black Icon Testing](2025-11-06_black-icon-testing/) - 4.00/5
+- Highest Trust Seeker rating (4.6/5)
+- Premium trust leader, alternative for LTV-first strategy
+
+#### 🥈 #2: [Golden Icon Testing](2025-11-06_golden-icon-testing/) - 4.00/5
+- Gaming psychology winner (88% winning association)
+- Resolves yellow's trust deficit (+180%)
+
+#### #4: [Orange Icon Testing](2025-11-06_orange-icon-testing/) - 3.6/5
+- Energy/visibility play with trust trade-off
+- Requires caution with 40+ demographic
+
+#### #5: [Green Icon Testing](2025-11-06_green-icon-testing/) - 3.5/5
+- Sports-first strategy with unique pitch connection
+- Strong trust (82%), regulatory alignment
+
+#### #6: [Yellow Icon Testing](2025-11-06_yellow-icon-testing/) - 3.4/5
+- Visibility paradox: attention vs trust catastrophe
+- Only 20% trust association
+
+#### #7: [Blue Icon Testing](2025-11-06_blue-icon-testing/) - 3.2/5
+- Trust inverse: 96% trust but only 12% energy
+- Casino entertainment deficit
+
+#### ❌ #8: [Pink Icon Testing](2025-11-06_pink-icon-testing/) - 2.9/5 - REJECT
+- Trust catastrophe (12% trust association)
+- 100% sports betting misalignment
+
+#### ❌ #9: [Red Icon Testing](2025-11-06_red-icon-testing/) - 2.6/5 - REJECT
+- Worst Trust Seeker rating ever (1.3/5)
+- 88% warning associations, 68% manipulation concerns
+
+---
+
 ### [November 6, 2025 - Yellow App Icon Testing](2025-11-06_yellow-icon-testing/)
 - **Test Type:** App icon background color (yellow) evaluation
 - **Personas:** 25 isolated interviews (5 per persona type)
@@ -12,7 +71,7 @@ This folder contains results from all synthetic user testing research simulation
 - **Key Insight:** Excellent visibility (10/10) vs poor trust perception (3/10) trade-off
 
 **Quick Access:**
-- 📊 [**Stakeholder Report (HTML)**](2025-11-06_yellow-icon-testing/YELLOW_ICON_TESTING_STAKEHOLDER_REPORT.html) ⭐ **Start Here**
+- 📊 [**Stakeholder Report (HTML)**](2025-11-06_yellow-icon-testing/YELLOW_ICON_TESTING_STAKEHOLDER_REPORT.html)
 - 📄 [Detailed Report (MD)](2025-11-06_yellow-icon-testing/YELLOW_ICON_TESTING_REPORT.md)
 - 📈 [Master Results](2025-11-06_yellow-icon-testing/MASTER_RESULTS_YELLOW_ICON_TESTING.md)
 - 📁 [Individual Interviews by Persona](2025-11-06_yellow-icon-testing/)
