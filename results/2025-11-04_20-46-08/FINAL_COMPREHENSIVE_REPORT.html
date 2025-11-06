@@ -634,6 +634,96 @@
             font-weight: bold;
             margin: 10px 0;
         }
+
+        /* Logo Gallery */
+        .logo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .logo-gallery-item {
+            background: white;
+            border: 3px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .logo-gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .logo-gallery-item.winner {
+            border-color: #2ecc71;
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+        }
+
+        .logo-gallery-item.finalist {
+            border-color: #3498db;
+            background: linear-gradient(135deg, #e8f4fd 0%, #d6eaf8 100%);
+        }
+
+        .logo-gallery-item.eliminated {
+            opacity: 0.65;
+            border-color: #e74c3c;
+            background: linear-gradient(135deg, #fadbd8 0%, #f5b7b1 100%);
+        }
+
+        .logo-gallery-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 6px;
+        }
+
+        .logo-gallery-item .logo-label {
+            font-size: 1.15em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .logo-gallery-item .logo-status {
+            font-size: 0.9em;
+            padding: 6px 14px;
+            border-radius: 15px;
+            display: inline-block;
+            font-weight: 700;
+        }
+
+        .logo-gallery-item.winner .logo-status {
+            background: #2ecc71;
+            color: white;
+        }
+
+        .logo-gallery-item.finalist .logo-status {
+            background: #3498db;
+            color: white;
+        }
+
+        .logo-gallery-item.eliminated .logo-status {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .hero-logo-image {
+            margin: 30px auto;
+            max-width: 500px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+        }
+
+        .hero-logo-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -642,6 +732,11 @@
         <div class="hero">
             <h1>Yes Games Logo Testing</h1>
             <div class="winner-badge">Final Winner: Logo 2</div>
+
+            <div class="hero-logo-image">
+                <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" alt="Logo 2 - Refined Lowercase yes">
+            </div>
+
             <p style="font-size: 1.3em; margin-top: 15px;">Refined lowercase "yes" - Clean, Modern, Trustworthy</p>
             <div class="stats">
                 <div class="stat">
@@ -709,6 +804,58 @@
                     (62%) and premium positioning (84%), makes it the clear strategic choice for building a modern, scalable brand identity
                     that embodies "Play Made Easy."
                 </p>
+            </div>
+        </div>
+
+        <!-- Logo Gallery -->
+        <div class="section" style="background: #fafafa;">
+            <h2 class="section-title">All 7 Logo Candidates</h2>
+            <p style="font-size: 1.1em; margin-bottom: 30px;">
+                Visual comparison of all tested logos showing the winner, finalists, and eliminated candidates.
+            </p>
+
+            <div class="logo-gallery">
+                <div class="logo-gallery-item winner">
+                    <img src="https://yescdn.site/api/file/f82d892f-ffc8-4b09-95c6-643c8ee7d441.png" alt="Logo 2">
+                    <div class="logo-label">Logo 2: Refined Lowercase</div>
+                    <div class="logo-status">WINNER - 72%</div>
+                </div>
+
+                <div class="logo-gallery-item finalist">
+                    <img src="https://yescdn.site/api/file/c094af0d-159a-4d65-b558-3e8fdba80c8e.png" alt="Logo 4">
+                    <div class="logo-label">Logo 4: Bold Shadow</div>
+                    <div class="logo-status">Runner-Up - 22%</div>
+                </div>
+
+                <div class="logo-gallery-item finalist">
+                    <img src="https://yescdn.site/api/file/68828273-cf5e-455c-97e0-464ea5c1224d.png" alt="Logo 1">
+                    <div class="logo-label">Logo 1: Tilted Stamp</div>
+                    <div class="logo-status">Third Place - 6%</div>
+                </div>
+
+                <div class="logo-gallery-item eliminated">
+                    <img src="https://yescdn.site/api/file/d627e632-59bd-4ace-abd3-ff75167ffe2b.png" alt="Logo 5">
+                    <div class="logo-label">Logo 5: Bold Outline</div>
+                    <div class="logo-status">Eliminated Phase 2A</div>
+                </div>
+
+                <div class="logo-gallery-item eliminated">
+                    <img src="https://yescdn.site/api/file/2e6768e9-d31e-4037-a17c-4926bbea53c9.png" alt="Logo 7">
+                    <div class="logo-label">Logo 7: Y Monogram</div>
+                    <div class="logo-status">Eliminated Phase 2A</div>
+                </div>
+
+                <div class="logo-gallery-item eliminated">
+                    <img src="https://yescdn.site/api/file/a75f202f-ee19-4b65-aa57-8ab1329302e2.png" alt="Logo 3">
+                    <div class="logo-label">Logo 3: Script</div>
+                    <div class="logo-status">Eliminated Phase 2A</div>
+                </div>
+
+                <div class="logo-gallery-item eliminated">
+                    <img src="https://yescdn.site/api/file/c10a689e-277b-44f6-94c2-4f1ee7dd64bc.png" alt="Logo 6">
+                    <div class="logo-label">Logo 6: Rounded Script</div>
+                    <div class="logo-status">Eliminated Phase 2A</div>
+                </div>
             </div>
         </div>
 
@@ -844,7 +991,7 @@
                     </tr>
                     <tr class="eliminated-row">
                         <td>5</td>
-                        <td>Logo 7: YS monogram</td>
+                        <td>Logo 7: Y monogram</td>
                         <td>2.0/5</td>
                         <td>4.1/5</td>
                         <td>1.7/5</td>
@@ -1319,7 +1466,7 @@
 
                 <div class="logo-card eliminated">
                     <div class="logo-number">ELIMINATED</div>
-                    <h3>Logo 7: YS Monogram</h3>
+                    <h3>Logo 7: Y Monogram</h3>
 
                     <div class="performance-indicators">
                         <div class="indicator">
