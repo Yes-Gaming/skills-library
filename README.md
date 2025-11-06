@@ -243,6 +243,13 @@ results/YYYY-MM-DD_HH-MM-SS/
   - Final winner: Logo 2 (72% final vote, 9/10 confidence)
   - Trust Seeker anomaly identified and mitigation strategy provided
   - Interactive HTML reports and comprehensive markdown analysis
+- `results/2025-11-06_yellow-icon-testing/` - Yellow app icon background testing with 25 personas
+  - Isolated interviews across all 5 persona types (5 each)
+  - Overall rating: 3.4/5 with significant demographic variation
+  - Critical finding: Trust Seekers (40+) rated yellow only 2.5/5
+  - Excellent visibility (10/10) vs poor trust perception (3/10) trade-off
+  - Strategic recommendations for young vs high-value demographics
+  - Complete HTML stakeholder report with visualizations
 
 ### Testing Methodology Skills
 
