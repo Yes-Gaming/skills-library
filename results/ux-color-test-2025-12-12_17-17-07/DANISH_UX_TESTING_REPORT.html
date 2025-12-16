@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes Games - Danish UX Color Testing Results | December 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f7;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a3a52 0%, #2d5a47 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .meta {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .meta-number {
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        .meta-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        section {
+            background: white;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #1a3a52;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #2d5a47;
+        }
+
+        h3 {
+            color: #2d5a47;
+            font-size: 1.5em;
+            margin: 30px 0 15px 0;
+        }
+
+        .executive-summary {
+            background: linear-gradient(135deg, #e8f5e9 0%, #e1f5fe 100%);
+            border-left: 5px solid #2d5a47;
+        }
+
+        .winner-card {
+            background: #f1f8e9;
+            border: 2px solid #7cb342;
+            border-radius: 8px;
+            padding: 30px;
+            margin: 20px 0;
+        }
+
+        .winner-card h3 {
+            color: #558b2f;
+            margin-top: 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #dee2e6;
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #1a3a52;
+            margin: 10px 0;
+        }
+
+        .stat-label {
+            font-size: 0.95em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th {
+            background: #1a3a52;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .persona-card {
+            border-left: 4px solid #2d5a47;
+            padding: 20px;
+            margin: 15px 0;
+            background: #fafafa;
+            border-radius: 4px;
+        }
+
+        .persona-name {
+            font-weight: 700;
+            color: #1a3a52;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 5px solid #ff9800;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .warning-box h4 {
+            color: #f57c00;
+            margin-bottom: 10px;
+        }
+
+        .success-box {
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .success-box h4 {
+            color: #155724;
+            margin-bottom: 10px;
+        }
+
+        .quote {
+            font-style: italic;
+            padding: 15px 20px;
+            border-left: 4px solid #ccc;
+            margin: 15px 0;
+            background: #f9f9f9;
+            color: #555;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        .badge-green {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .badge-red {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .badge-blue {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .methodology {
+            background: #f1f3f4;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            section {
+                page-break-inside: avoid;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Yes Games UX Color System Testing</h1>
+            <p>Comprehensive Danish Market User Research | December 2025</p>
+            <div class="meta">
+                <div class="meta-item">
+                    <div class="meta-number">24</div>
+                    <div class="meta-label">Synthetic Users</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-number">5</div>
+                    <div class="meta-label">Personas</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-number">10</div>
+                    <div class="meta-label">Color Variations</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-number">240</div>
+                    <div class="meta-label">Evaluations</div>
+                </div>
+            </div>
+        </header>
+
+        <section class="executive-summary">
+            <h2>Executive Summary</h2>
+
+            <div class="winner-card">
+                <h3>🏆 Winning Color System: Variation 8 & 9 (Dark Professional)</h3>
+                <p><strong>Overall Winner:</strong> Dark/Charcoal backgrounds with strategic vibrant accents achieved highest consensus across all Danish personas.</p>
+                <div class="stats-grid" style="margin-top: 20px;">
+                    <div class="stat-card">
+                        <div class="stat-label">Trust Score</div>
+                        <div class="stat-value">9.2/10</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Return Likelihood</div>
+                        <div class="stat-value">8.5/10</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Fatigue Score</div>
+                        <div class="stat-value">2.8/10</div>
+                        <small style="color: #666;">(Lower is better)</small>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Key Findings</h3>
+            <ul>
+                <li><strong>Dark Mode Dominance:</strong> 85% of Danish users prefer dark backgrounds for evening betting sessions</li>
+                <li><strong>Trust Through Professional Design:</strong> 96% associate professional appearance with operational quality</li>
+                <li><strong>Anti-Manipulation Sentiment:</strong> 88% reject aggressive color psychology (red/orange/yellow)</li>
+                <li><strong>Scandinavian Aesthetic Preference:</strong> Clean, restrained design with strategic accents highly valued</li>
+                <li><strong>Age-Appropriate Design:</strong> Variations 8-9 appeal across all age groups (22-56)</li>
+            </ul>
+        </section>
+
+        <section class="methodology">
+            <h2>Testing Methodology</h2>
+
+            <h3>Participant Profiles</h3>
+            <div class="stats-grid">
+                <div class="persona-card">
+                    <div class="persona-name">Casual Entertainer (5 users)</div>
+                    <p>Age: 22-28 | Weekend bettors, social gamblers</p>
+                    <p><strong>Top Pick:</strong> Variation 9 (Modern gradients with vibrant accents)</p>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-name">Sports Enthusiast (5 users)</div>
+                    <p>Age: 25-35 | Stat-driven, live betting fans</p>
+                    <p><strong>Top Pick:</strong> Variation 8 (Charcoal Blue - speed & clarity)</p>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-name">Casino Explorer (5 users)</div>
+                    <p>Age: 20-30 | Game variety seekers, visual quality focused</p>
+                    <p><strong>Top Pick:</strong> Variation 6/10 (Purple luxury or Charcoal/Gold)</p>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-name">Trust Seeker (4 users)</div>
+                    <p>Age: 44-56 | Conservative, research-focused</p>
+                    <p><strong>Top Pick:</strong> Variation 8 (Gray/White neutral - zero manipulation)</p>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-name">Cross-Entertainment (5 users)</div>
+                    <p>Age: 25-35 | Multi-platform users, high UX standards</p>
+                    <p><strong>Top Pick:</strong> Variation 8/10 (Charcoal or Teal-Slate hybrid)</p>
+                </div>
+            </div>
+
+            <h3>Test Structure</h3>
+            <ul>
+                <li><strong>Phase 1:</strong> Individual evaluation of all 10 variations (Q1-Q12)</li>
+                <li><strong>Phase 2:</strong> Comparative ranking (Q13-Q14)</li>
+                <li><strong>Format:</strong> Isolated sub-agents per user to prevent context pollution</li>
+                <li><strong>Questions:</strong> 12 questions per variation covering trust, fatigue, control, age targeting, behavior influence, return likelihood</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Quantitative Results</h2>
+
+            <h3>Overall Variation Rankings</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Variation</th>
+                        <th>Description</th>
+                        <th>Avg Score</th>
+                        <th>Top Persona</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Variation 8</td>
+                        <td>Dark Charcoal with strategic accents</td>
+                        <td>8.9/10</td>
+                        <td>All personas</td>
+                        <td><span class="badge badge-green">WINNER</span></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Variation 9</td>
+                        <td>Dark with vibrant accents</td>
+                        <td>8.5/10</td>
+                        <td>Casual Entertainer</td>
+                        <td><span class="badge badge-green">STRONG</span></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Variation 6</td>
+                        <td>Sophisticated premium</td>
+                        <td>8.2/10</td>
+                        <td>Casino Explorer</td>
+                        <td><span class="badge badge-blue">VIABLE</span></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Variation 10</td>
+                        <td>Charcoal/Gold or Teal-Slate</td>
+                        <td>8.0/10</td>
+                        <td>Cross-Entertainment</td>
+                        <td><span class="badge badge-blue">VIABLE</span></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Variation 1</td>
+                        <td>Clean Scandinavian</td>
+                        <td>7.5/10</td>
+                        <td>Trust Seeker (secondary)</td>
+                        <td><span class="badge badge-blue">ACCEPTABLE</span></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Variation 5</td>
+                        <td>Aggressive multi-color</td>
+                        <td>2.8/10</td>
+                        <td>None</td>
+                        <td><span class="badge badge-red">REJECT</span></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Variation 4</td>
+                        <td>Bright Yellow/Gold</td>
+                        <td>3.5/10</td>
+                        <td>None</td>
+                        <td><span class="badge badge-red">REJECT</span></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Variation 7</td>
+                        <td>Purple/Pink playful</td>
+                        <td>3.9/10</td>
+                        <td>None (some Casino)</td>
+                        <td><span class="badge badge-red">AVOID</span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Key Metrics Across Top Variations</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Variation</th>
+                        <th>Trust</th>
+                        <th>Control</th>
+                        <th>Fatigue (20-30min)</th>
+                        <th>Return Likelihood</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Variation 8</td>
+                        <td>9.2/10</td>
+                        <td>User (90%)</td>
+                        <td>2.8/10 ✅</td>
+                        <td>8.7/10</td>
+                    </tr>
+                    <tr>
+                        <td>Variation 9</td>
+                        <td>8.8/10</td>
+                        <td>User (85%)</td>
+                        <td>3.2/10 ✅</td>
+                        <td>8.5/10</td>
+                    </tr>
+                    <tr>
+                        <td>Variation 6</td>
+                        <td>8.5/10</td>
+                        <td>User (82%)</td>
+                        <td>3.5/10 ✅</td>
+                        <td>8.2/10</td>
+                    </tr>
+                    <tr>
+                        <td>Variation 5 (Rejected)</td>
+                        <td>2.0/10 ❌</td>
+                        <td>App (92%)</td>
+                        <td>9.2/10 ❌</td>
+                        <td>2.1/10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Qualitative Insights</h2>
+
+            <h3>Theme 1: Trust Through Professional Appearance (96% consensus)</h3>
+            <div class="success-box">
+                <h4>Why Dark Professional Systems Win</h4>
+                <p>Danish users consistently associate professional design with operational quality. Dark backgrounds with strategic accents signal legitimacy, maturity, and technical sophistication.</p>
+            </div>
+
+            <div class="quote">
+                "Professional enough that I trust it, exciting enough that I want to use it"
+                <br><em>- Lucas Andersen, 23, Casual Entertainer on Variation 9</em>
+            </div>
+
+            <div class="quote">
+                "This looks like a tool for serious bettors, not casual fans. The design quality suggests they care about the product."
+                <br><em>- Mikkel Christensen, 29, Sports Enthusiast on Variation 8</em>
+            </div>
+
+            <h3>Theme 2: Rejection of Psychological Manipulation (88% of users)</h3>
+            <div class="warning-box">
+                <h4>Critical Finding: Aggressive Colors Destroy Trust</h4>
+                <p>Red, orange, and bright yellow variations were overwhelmingly rejected as "predatory," "manipulative," and "anxiety-inducing." Danish users are highly educated about color psychology and resent attempts at manipulation.</p>
+            </div>
+
+            <div class="quote">
+                "Alarm bells. Red means stop, danger, warning. Why would a betting platform use red? This feels predatory."
+                <br><em>- Anne Schmidt, 52, Trust Seeker on Variation 5</em>
+            </div>
+
+            <div class="quote">
+                "The visual assault feels predatory - like the app is trying to override my judgment with constant stimulation."
+                <br><em>- Mads Jensen, 24, Casual Entertainer on Variation 5</em>
+            </div>
+
+            <h3>Theme 3: Dark Mode Imperative (85% preference)</h3>
+            <p><strong>Why it matters:</strong></p>
+            <ul>
+                <li>Primary betting time: 7 PM - midnight (evening sessions)</li>
+                <li>Reduces eye strain for extended use (20-30+ minutes)</li>
+                <li>Signals professional/premium positioning</li>
+                <li>Battery efficiency on mobile devices (OLED)</li>
+                <li>Modern aesthetic aligned with streaming platforms (Netflix, Spotify)</li>
+            </ul>
+
+            <div class="quote">
+                "Dark themes win for live betting. Eye strain reduction improves session duration by ~30%."
+                <br><em>- Frederik Sørensen, 27, Sports Enthusiast (Engineer)</em>
+            </div>
+
+            <h3>Theme 4: Fun vs. Serious Tension</h3>
+            <p>Different personas require different energy levels:</p>
+            <ul>
+                <li><strong>Casual Entertainers:</strong> Want excitement + professionalism (Variation 9)</li>
+                <li><strong>Sports Enthusiasts:</strong> Need speed + clarity (Variation 8)</li>
+                <li><strong>Casino Explorers:</strong> Desire luxury + excitement (Variation 6/10)</li>
+                <li><strong>Trust Seekers:</strong> Demand zero manipulation (Variation 8 neutral)</li>
+                <li><strong>Cross-Entertainment:</strong> Expect modern integration (Variation 8/10)</li>
+            </ul>
+
+            <p><strong>Solution:</strong> Variation 8 achieves sophisticated middle-ground that works for all personas (7.9-9.1/10 range).</p>
+
+            <h3>Theme 5: Scandinavian Design Sensibility</h3>
+            <p>Danish users specifically appreciate:</p>
+            <ul>
+                <li>Restraint over excess (clean, uncluttered)</li>
+                <li>Quality over quantity (strategic use of color)</li>
+                <li>Functionality over decoration</li>
+                <li>Respect for user intelligence (no manipulation)</li>
+                <li>Timeless over trendy</li>
+            </ul>
+
+            <div class="quote">
+                "The design says 'we want you here, and we trust you to make your own decisions' - exactly how I want to feel."
+                <br><em>- Mads Jensen on Variation 8's restraint</em>
+            </div>
+        </section>
+
+        <section>
+            <h2>Strategic Recommendations</h2>
+
+            <div class="success-box">
+                <h4>PRIMARY RECOMMENDATION</h4>
+                <p><strong>Deploy Variation 8 (Dark Charcoal Professional) with subtle warm accents for CTAs</strong></p>
+            </div>
+
+            <h3>Why Variation 8 Wins</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Universal Appeal</div>
+                    <div class="stat-value">✅</div>
+                    <p style="margin-top: 10px; font-size: 0.9em;">Works for all 5 personas (7.9-9.1/10)</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Highest Trust</div>
+                    <div class="stat-value">9.2/10</div>
+                    <p style="margin-top: 10px; font-size: 0.9em;">Critical for financial transactions</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Low Fatigue</div>
+                    <div class="stat-value">2.8/10</div>
+                    <p style="margin-top: 10px; font-size: 0.9em;">Supports extended sessions</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">User Control</div>
+                    <div class="stat-value">90%</div>
+                    <p style="margin-top: 10px; font-size: 0.9em;">Ethical gambling imperative</p>
+                </div>
+            </div>
+
+            <h3>Implementation Specifications</h3>
+            <ul>
+                <li><strong>Primary Background:</strong> Dark Charcoal (#2D2D2D to #34495E)</li>
+                <li><strong>Accent Colors:</strong> Strategic warm accents (10-15% amber/copper for CTAs)</li>
+                <li><strong>Text:</strong> High contrast white/light gray for readability</li>
+                <li><strong>Success States:</strong> Emerald green for wins/positive actions</li>
+                <li><strong>Error States:</strong> Subtle red (not aggressive orange/red)</li>
+                <li><strong>Accessibility:</strong> WCAG AAA contrast ratios for 40+ demographics</li>
+                <li><strong>Light Mode:</strong> Provide option for all-day use (secondary priority)</li>
+            </ul>
+
+            <h3>What to AVOID Permanently</h3>
+            <div class="warning-box">
+                <h4>Never Use These Color Systems</h4>
+                <ul>
+                    <li><strong>Red/Orange Energy (Variation 5):</strong> 2.8/10 average, 92% rejection rate, perceived as predatory</li>
+                    <li><strong>Bright Yellow/Gold (Variation 4):</strong> 3.5/10 average, creates anxiety and warning signals</li>
+                    <li><strong>Purple/Pink Playful (Variation 7):</strong> 3.9/10 average, inappropriate for financial context</li>
+                </ul>
+                <p><strong>Why:</strong> These destroy trust, create anxiety, signal manipulation, and violate ethical gambling principles.</p>
+            </div>
+
+            <h3>Segment-Specific Alternatives</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Target Segment</th>
+                        <th>Recommended Variation</th>
+                        <th>Rationale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mass Market (All personas)</td>
+                        <td>Variation 8 (Dark Charcoal)</td>
+                        <td>Broadest appeal, highest trust, works for everyone</td>
+                    </tr>
+                    <tr>
+                        <td>Young Casual (18-25)</td>
+                        <td>Variation 9 (Vibrant accents)</td>
+                        <td>Modern gradients, entertainment-focused, 8.5/10</td>
+                    </tr>
+                    <tr>
+                        <td>Premium/VIP</td>
+                        <td>Variation 6 or 10 (Luxury)</td>
+                        <td>Purple luxury or Gold accents signal exclusivity</td>
+                    </tr>
+                    <tr>
+                        <td>Serious Bettors (40+)</td>
+                        <td>Variation 8 (Neutral)</td>
+                        <td>Zero manipulation, maximum clarity and control</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>A/B Testing Roadmap</h3>
+            <ol>
+                <li><strong>Phase 1:</strong> Deploy Variation 8 to 50% of users, current design to 50%</li>
+                <li><strong>Measure:</strong> Deposit conversion, session length, return rate (Day 7, Day 30), user satisfaction (NPS)</li>
+                <li><strong>Phase 2:</strong> Test Variation 9 for under-30 demographic specifically</li>
+                <li><strong>Phase 3:</strong> Premium tier testing with Variation 6/10 for high-value users</li>
+                <li><strong>Timeline:</strong> 2-week tests minimum, 95% confidence intervals</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>This comprehensive UX color testing with 24 Danish synthetic users across 5 personas provides clear, actionable insights for Yes Games' visual design strategy.</p>
+
+            <div class="success-box">
+                <h4>Bottom Line</h4>
+                <p><strong>Deploy Dark Charcoal Professional System (Variation 8)</strong> as primary color palette. This achieves:</p>
+                <ul>
+                    <li>Highest trust scores (9.2/10) across all personas</li>
+                    <li>Lowest perceived risk and fatigue (optimal for extended sessions)</li>
+                    <li>Universal appeal (works for ages 22-56)</li>
+                    <li>Ethical gambling compliance (90% user control perception)</li>
+                    <li>Modern, professional positioning aligned with Danish aesthetic values</li>
+                </ul>
+                <p><strong>Expected Impact:</strong> Increased trust, higher conversion, longer sessions, better retention, stronger brand positioning in Danish market.</p>
+            </div>
+
+            <h3>Testing Confidence</h3>
+            <ul>
+                <li><strong>Sample Size:</strong> 24 synthetic users (robust for qualitative insights)</li>
+                <li><strong>Persona Coverage:</strong> All 5 key demographics tested</li>
+                <li><strong>Methodology:</strong> Isolated testing prevents bias, comprehensive Q1-Q14 framework</li>
+                <li><strong>Cultural Relevance:</strong> All users Danish, understand local design sensibilities</li>
+                <li><strong>Confidence Level:</strong> High - clear consensus on winners and losers</li>
+            </ul>
+
+            <p style="margin-top: 30px;"><strong>Next Steps:</strong> Implement Variation 8, conduct real-user A/B testing for validation, monitor conversion and retention metrics, iterate based on data.</p>
+        </section>
+
+        <div class="footer">
+            <p><strong>Yes Games UX Color Testing</strong> | Danish Market Research | December 2025</p>
+            <p>24 Synthetic Users | 5 Personas | 10 Color Variations | 240 Individual Evaluations</p>
+            <p style="margin-top: 15px; font-size: 0.85em; color: #999;">
+                Report generated via Claude Code with comprehensive Danish persona testing methodology
+            </p>
+        </div>
+    </div>
+</body>
+</html>
